@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapping-table>
+  <!-- Mappings for DDI (particularly version 1.2.2) metadata. -->
+  <namespaces>
+  </namespaces>
+  <mappings>
+    <field name="Creator">
+    </field>
+    <field name="Contributor">
+    </field>
+    <field name="Language">
+    </field>
+
+    <!-- The date field is unstructured. A date unifying function will be implemented later. -->
+    <field name="CreationDate">
+      <xpath>//codeBook/docDscr/citation/prodStmt/prodDate/@date</xpath>
+      <xpath>//codeBook/docDscr/citation/prodStmt/prodDate/text()</xpath>
+    </field>
+    <field name="Format">
+      <xpath>//codeBook/fileDscr//fileType//text()</xpath>
+    </field>
+    <field name="Discipline">
+    </field>
+    <field name="Collection">
+    </field>
+    <field name="Country">
+      <xpath>//codeBook/stdyDscr/stdyInfo/sumDscr/nation/text()</xpath>
+    </field>
+
+    <field name="title">
+      <xpath>//codeBook/docDscr/citation/titlStmt/titl/text()</xpath>
+      <string>(untitled)</string>
+    </field>
+    <field name="notes">
+      <xpath>//codeBook/stdyDscr/stdyInfo/abstract/text()</xpath>
+    </field>
+
+    <field name="url">
+    </field> 
+
+    <field name="fulltext">
+      <xpath>normalize-space(string(/))</xpath>
+    </field>
+  </mappings>
+</mapping-table>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapping-table>
+  <!--
+      Mappings for Dublin Core. (This is the "dumb" Dublin Core, as
+      required by the OAI-PMH standard, and not the "qualified"
+      expansion.)
+  -->
+  <namespaces>
+    <namespace ns="dc" uri="http://purl.org/dc/elements/1.1/"/>
+  </namespaces>
+  <mappings>
+    <field name="Creator">
+      <xpath>string-join(distinct-values(//dc:creator/text()), '; ')</xpath>
+    </field>
+    <field name="Contributor">
+      <xpath>string-join(distinct-values(//dc:contributor/text()), '; ')</xpath>
+    </field>
+    <field name="Language">
+      <xpath>string-join(distinct-values(//dc:language/text()), '; ')</xpath>
+    </field>
+    <field name="CreationDate">
+      <xpath>string-join(distinct-values(//dc:date/text()), '; ')</xpath>
+    </field>
+    <field name="Subject">
+      <xpath>string-join(distinct-values(//dc:subject/text()), '; ')</xpath>
+    </field>
+    <field name="Format">
+      <xpath>string-join(distinct-values(//dc:format[not(contains(text(), 'Bytes'))]), '; ')</xpath>
+    </field>
+
+    <field name="title">
+      <xpath>//dc:title/text()</xpath>
+      <xpath>//dc:identifier/text()</xpath>
+      <string>(untitled)</string>
+    </field>
+    <field name="notes">
+      <xpath>string-join(distinct-values(//dc:description/text()), '; ')</xpath>
+    </field>
+
+    <field name="url">
+      <xpath>if (contains (//dc:identifier[1]/text(),'doi:')) then concat('http://dx.doi.org/',substring-after(//dc:identifier[1]/text(),'doi:')) else //dc:identifier/text()</xpath>
+      <xpath>if (contains(//dc:source/text(),     '[doi:')) then concat('http://dx.doi.org/',substring-before(substring-after(//dc:source/text(), '[doi: '), ']')) else //dc:source/text()</xpath>
+    </field>
+
+    <field name="fulltext">
+      <xpath>normalize-space(string(/))</xpath>
+    </field>
+  </mappings>
+</mapping-table>
