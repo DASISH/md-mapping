@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapping-table>
+  <!-- Mappings for DDI metadata version 3.x, especially 3.1. -->
+  <namespaces>
+    <namespace ns="ddi" uri="ddi:instance:3_1"/>
+    <namespace ns="g" uri="ddi:group:3_1"/>
+    <namespace ns="d" uri="ddi:datacollection:3_1"/>
+    <namespace ns="s" uri="ddi:studyunit:3_1"/>
+    <namespace ns="dc2" uri="http://purl.org/dc/elements/1.1/"/>
+    <namespace ns="r" uri="ddi:reusable:3_1"/>
+    <namespace ns="c" uri="ddi:conceptualcomponent:3_1"/>
+    <namespace ns="p" uri="ddi:physicaldataproduct:3_1"/>
+    <namespace ns="a" uri="ddi:archive:3_1"/>
+    <namespace ns="l" uri="ddi:logicalproduct:3_1"/>
+    <namespace ns="pi" uri="ddi:physicalinstance:3_1"/>
+  </namespaces>
+  <mappings>
+    <field name="Creator">
+    </field>
+    <field name="Contributor">
+    </field>
+    <field name="Language">
+    </field>
+
+    <!-- The date field is unstructured. A date unifying function will be implemented later. -->
+    <field name="CreationDate">
+    </field>
+    <field name="Format">
+    </field>
+    <field name="Discipline">
+    </field>
+    <field name="Collection">
+    </field>
+    <field name="Country">
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage[./r:LowestLevelReference/r:LevelName/text() = 'Country']/r:Description[@xml:lang = 'en']/text()</xpath>
+    </field>
+
+    <field name="title">
+    </field>
+    <field name="notes">
+      <xpath>/ddi:DDIInstance/s:StudyUnit/s:Abstract/r:Content[@xml:lang = 'en']/text()</xpath>
+    </field>
+
+    <field name="url">
+    </field> 
+
+    <field name="fulltext">
+      <xpath>normalize-space(string(/))</xpath>
+    </field>
+  </mappings>
+</mapping-table>

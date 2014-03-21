@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <mapping-table>
-  <!-- Mappings for DDI (particularly version 1.2.2) metadata. -->
+  <!-- Mappings for DDI metadata version 1.2.2. -->
   <namespaces>
   </namespaces>
   <mappings>

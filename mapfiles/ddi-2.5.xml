@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapping-table>
+  <!-- Mappings for DDI metadata version 2.5. -->
+  <namespaces>
+    <namespace ns="d" uri="ddi:codebook:2_5"/>
+  </namespaces>
+  <mappings>
+    <field name="Creator">
+    </field>
+    <field name="Contributor">
+    </field>
+    <field name="Language">
+    </field>
+
+    <!-- The date field is unstructured. A date unifying function will be implemented later. -->
+    <field name="CreationDate">
+      <xpath>//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:prodDate/@date</xpath>
+      <xpath>//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:prodDate/text()</xpath>
+    </field>
+    <field name="Discipline">
+    </field>
+    <field name="Collection">
+    </field>
+    <field name="Country">
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:nation/text()</xpath>
+    </field>
+
+    <field name="title">
+      <xpath>//d:codeBook/d:docDscr/d:citation/d:titlStmt/d:titl/text()</xpath>
+      <string>(untitled)</string>
+    </field>
+    <field name="notes">
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:abstract/text()</xpath>
+    </field>
+
+    <field name="url">
+      <xpath>//d:codeBook/d:stdyDscr/d:holdings/@URI</xpath>
+    </field> 
+
+    <field name="fulltext">
+      <xpath>normalize-space(string(/))</xpath>
+    </field>
+  </mappings>
+</mapping-table>
