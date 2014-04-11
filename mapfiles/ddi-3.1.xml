@@ -43,6 +43,9 @@
 
     <field name="url">
     </field> 
+    <field name="MetadataSource">
+      <string expand="true">${filename}</string>
+    </field>
 
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>

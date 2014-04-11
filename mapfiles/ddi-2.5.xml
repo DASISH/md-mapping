@@ -36,6 +36,9 @@
     <field name="url">
       <xpath>//d:codeBook/d:stdyDscr/d:holdings/@URI</xpath>
     </field> 
+    <field name="MetadataSource">
+      <string expand="true">${filename}</string>
+    </field>
 
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>

@@ -55,6 +55,9 @@
       <xpath>if (contains(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(), 'hdl:')) then concat('http://hdl.handle.net/',replace(substring-after(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(), 'hdl:'),'@format=cmdi',''),'@view') else ''</xpath>
       <xpath>concat('http://hdl.handle.net/', replace(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(),'@format=cmdi',''),'@view')</xpath>
     </field> 
+    <field name="MetadataSource">
+      <string expand="true">${filename}</string>
+    </field>
 
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
