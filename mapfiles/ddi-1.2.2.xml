@@ -5,8 +5,10 @@
   </namespaces>
   <mappings>
     <field name="Creator">
+		 <xpath>//codeBook/stdyDscr/citation/prodStmt/producer/text()</xpath>
     </field>
     <field name="Contributor">
+		<xpath>//codeBook/stdyDscr/citation/prodStmt/producer[@role = 'contributor']/text()</xpath>
     </field>
     <field name="Language">
     </field>
@@ -18,10 +20,12 @@
     </field>
     <field name="Format">
       <xpath>//codeBook/fileDscr//fileType//text()</xpath>
+	  <xpath>//codeBook/fileDscr//format//text()</xpath>
     </field>
     <field name="Discipline">
     </field>
     <field name="Collection">
+		<xpath>//codeBook/stdyDscr/citation/serStmt/serName/text()</xpath>
     </field>
     <field name="Country">
       <xpath>//codeBook/stdyDscr/stdyInfo/sumDscr/nation/text()</xpath>
