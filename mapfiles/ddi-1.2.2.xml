@@ -33,6 +33,7 @@
 
     <field name="title">
       <xpath>//codeBook/docDscr/citation/titlStmt/titl/text()</xpath>
+	  <xpath>//codeBook/stdyDscr/citation/titlStmt/titl/text()</xpath>
       <string>(untitled)</string>
     </field>
     <field name="notes">
