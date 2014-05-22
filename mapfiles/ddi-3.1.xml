@@ -16,37 +16,44 @@
   </namespaces>
   <mappings>
     <field name="Creator">
+      <xpath> //ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator[@xml:lang='en']/text() </xpath>
     </field>
     <field name="Contributor">
     </field>
     <field name="Language">
+      <xpath> English </xpath>
+      <xpath> //ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:Citation/r:Language[1]/text() </xpath>
     </field>
 
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
     <field name="CreationDate">
+      <xpath>//s:StudyUnit/@versionDate  </xpath>
     </field>
     <field name="Format">
+	<xpath>//ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:MIMEType[1]/text() </xpath>
     </field>
     <field name="Discipline">
+       <xpath> //ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@codeListID="CESSDA topical classification"][@xml:lang='en']/text() </xpath>
     </field>
     <field name="Collection">
     </field>
     <field name="Country">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage[./r:LowestLevelReference/r:LevelName/text() = 'Country']/r:Description[@xml:lang = 'en']/text()</xpath>
+      <xpath>//ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage[./r:LowestLevelReference/r:LevelName/text() = 'Country']/r:Description[@xml:lang = 'en']/text()</xpath>
     </field>
 
     <field name="title">
+	<xpath> //ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator[@xml:lang='en']/text() </xpath>
     </field>
     <field name="notes">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/s:Abstract/r:Content[@xml:lang = 'en']/text()</xpath>
+      <xpath>//ddi:DDIInstance/s:StudyUnit/s:Abstract/r:Content[@xml:lang = 'en']/text()</xpath>
     </field>
 
     <field name="url">
+	<xpath> //ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:ExternalURLReference[1]/text() </xpath>
     </field> 
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
     </field>
-
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
     </field>
