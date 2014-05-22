@@ -2,50 +2,49 @@
 <mapping-table>
   <!-- Mappings for DDI metadata version 1.2.2. -->
   <namespaces>
+	 <namespace ns="d" uri="http://www.openarchives.org/OAI/2.0/"/>
   </namespaces>
   <mappings>
     <field name="Creator">
-		 <xpath>//codeBook/stdyDscr/citation/prodStmt/producer/text()</xpath>
+	<xpath> //d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text() </xpath>
     </field>
     <field name="Contributor">
-		<xpath>//codeBook/stdyDscr/citation/prodStmt/producer[@role = 'contributor']/text()</xpath>
+	<xpath> //d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text() </xpath>
     </field>
     <field name="Language">
+    <string> lithuanian </string>
     </field>
 
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
     <field name="CreationDate">
-      <xpath>//codeBook/docDscr/citation/prodStmt/prodDate/@date</xpath>
-      <xpath>//codeBook/docDscr/citation/prodStmt/prodDate/text()</xpath>
+      <xpath>//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:prodDate/@date</xpath>
+      <xpath>//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:prodDate/text()</xpath>
     </field>
     <field name="Format">
-      <xpath>//codeBook/fileDscr//fileType//text()</xpath>
-	  <xpath>//codeBook/fileDscr//format//text()</xpath>
+      <xpath>//d:codeBook/d:fileDscr//d:fileType/text()</xpath>
     </field>
     <field name="Discipline">
     </field>
     <field name="Collection">
-		<xpath>//codeBook/stdyDscr/citation/serStmt/serName/text()</xpath>
     </field>
     <field name="Country">
-      <xpath>//codeBook/stdyDscr/stdyInfo/sumDscr/nation/text()</xpath>
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:nation/text()</xpath>
     </field>
 
     <field name="title">
-      <xpath>//codeBook/docDscr/citation/titlStmt/titl/text()</xpath>
-	  <xpath>//codeBook/stdyDscr/citation/titlStmt/titl/text()</xpath>
+      <xpath>//d:codeBook/d:docDscr/d:citation/d:titlStmt/d:titl/text()</xpath>
       <string>(untitled)</string>
     </field>
     <field name="notes">
-      <xpath>//codeBook/stdyDscr/stdyInfo/abstract/text()</xpath>
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:abstract/text()</xpath>
     </field>
 
     <field name="url">
+    <xpath> //d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/@URI </xpath>
     </field> 
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
     </field>
-
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
     </field>
