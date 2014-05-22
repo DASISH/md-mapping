@@ -2,14 +2,14 @@
 <mapping-table>
   <!-- Mappings for DDI metadata version 1.2.2. -->
   <namespaces>
-	 <namespace ns="d" uri="http://www.openarchives.org/OAI/2.0/"/>
+     <namespace ns="d" uri="http://www.openarchives.org/OAI/2.0/"/>
   </namespaces>
   <mappings>
     <field name="Creator">
-	<xpath> //d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text() </xpath>
+    <xpath> //d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text() </xpath>
     </field>
     <field name="Contributor">
-	<xpath> //d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text() </xpath>
+    <xpath> //d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text() </xpath>
     </field>
     <field name="Language">
     <string> lithuanian </string>
@@ -41,7 +41,7 @@
 
     <field name="url">
     <xpath> //d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/@URI </xpath>
-    </field> 
+    </field>
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
     </field>
@@ -50,3 +50,5 @@
     </field>
   </mappings>
 </mapping-table>
+
+
