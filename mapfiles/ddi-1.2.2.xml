@@ -2,17 +2,17 @@
 <mapping-table>
   <!-- Mappings for DDI metadata version 1.2.2. -->
   <namespaces>
-     <namespace ns="d" uri="http://www.openarchives.org/OAI/2.0/"/>
+    <namespace ns="d" uri="http://www.openarchives.org/OAI/2.0/"/>
   </namespaces>
   <mappings>
     <field name="Creator">
-    <xpath> //d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text() </xpath>
+      <xpath> //d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text() </xpath>
     </field>
     <field name="Contributor">
-    <xpath> //d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text() </xpath>
+      <xpath> //d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text() </xpath>
     </field>
     <field name="Language">
-    <string> lithuanian </string>
+      <string> lithuanian </string>
     </field>
 
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
@@ -23,10 +23,8 @@
     <field name="Format">
       <xpath>//d:codeBook/d:fileDscr//d:fileType/text()</xpath>
     </field>
-    <field name="Discipline">
-    </field>
-    <field name="Collection">
-    </field>
+    <field name="Discipline"> </field>
+    <field name="Collection"> </field>
     <field name="Country">
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:nation/text()</xpath>
     </field>
@@ -40,7 +38,7 @@
     </field>
 
     <field name="url">
-    <xpath> //d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/@URI </xpath>
+      <xpath> //d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/@URI </xpath>
     </field>
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
@@ -50,5 +48,3 @@
     </field>
   </mappings>
 </mapping-table>
-
-
