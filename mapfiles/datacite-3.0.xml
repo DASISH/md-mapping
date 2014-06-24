@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <mapping-table>
-    <!-- Mappings for DataCite -->
+    <!-- Mappings for DataCite version 3.0 -->
     <namespaces>
         <namespace ns="d" uri="http://datacite.org/schema/kernel-3"/>
     </namespaces>
     <mappings>
         <field name="Creator">
-            <xpath></xpath>
+            <xpath>/d:resource/d:creators/d:creator/d:creatorName/text()</xpath>
         </field>
         <field name="Contributor">
+            <xpath>/d:resource/d:contributors/d:contributor/d:contributorName/text()</xpath>
         </field>
         <field name="Language">
-            <xpath>/d:resource/d:language</xpath>
+            <xpath>/d:resource/d:language/text()</xpath>
         </field>
         <field name="CreationDate">
         </field>
         <field name="Format">
-            <xpath>/d:resource/d:formats/d:format</xpath>
+            <xpath>/d:resource/d:formats/d:format/text()</xpath>
         </field>
         <field name="Discipline">
         </field>
@@ -25,12 +26,13 @@
         <field name="Country">
         </field>
         <field name="title">
-            <xpath>/d:resource/d:titles/d:title</xpath>
+            <xpath>/d:resource/d:titles/d:title[not(@titleType)]/text()</xpath>
+            <xpath>/d:resource/d:titles/d:title/text()</xpath>
         </field>
         <field name="notes">
         </field>
         <field name="url">
-            <xpath>concat("http://doi.org/", /d:resource/d:identifier[@identifierType="DOI"])</xpath>
+            <xpath>concat("http://doi.org/", /d:resource/d:identifier[@identifierType="DOI"/text()])</xpath>
         </field>
         <field name="MetadataSource">
             <string expand="true">${filename}</string>
