@@ -36,7 +36,7 @@
             <xpath>/d:resource/d:subjects/d:subject/text()</xpath>
         </field>        
         <field name="url">
-            <xpath>concat("http://doi.org/", /d:resource/d:identifier[@identifierType="DOI"/text()])</xpath>
+            <xpath>concat("http://doi.org/", /d:resource/d:identifier[@identifierType="DOI"]/text())</xpath>
         </field>
         <field name="MetadataSource">
             <string expand="true">${filename}</string>
