@@ -12,7 +12,8 @@
       <xpath> //d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text() </xpath>
     </field>
     <field name="Language">
-      <string> lithuanian </string>
+      <!-- There is no language element in DDI version 2.1. So "English" needs to be hard-coded as default language. -->
+      <string>English</string>
     </field>
 
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
