@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <mapping-table>
   <!-- Mappings for DDI metadata version 3.x, more specifically 3.2. -->
+  <!-- Will currently not be used in production, because the number of existing 3.2 instances is still very small. -->
   <namespaces>
     <namespace ns="ddi" uri="ddi:instance:3_2"/>
     <namespace ns="g" uri="ddi:group:3_2"/>
