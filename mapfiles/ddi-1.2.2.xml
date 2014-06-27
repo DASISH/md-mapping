@@ -6,7 +6,8 @@
   </namespaces>
   <mappings>
     <field name="Creator">
-      <xpath> //d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text() </xpath>
+      <!-- Concatenate attribute value of att "affiliation" to value of "Authoring Entity/Primary Investigator" element if applicable.  -->
+      <xpath>if (/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/@d:affiliation) then ( concat(/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text(), '(',/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/@d:affiliation,')') ) else (/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text())</xpath>
     </field>
     <field name="Contributor">
       <xpath> //d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text() </xpath>
