@@ -2,7 +2,7 @@
 <mapping-table>
   <!-- Mappings for DDI metadata version 1.2.2. -->
   <namespaces>
-    <namespace ns="d" uri="http://www.openarchives.org/OAI/2.0/"/>
+    <namespace ns="d" uri="http://www.icpsr.umich.edu/DDI"/>
   </namespaces>
   <mappings>
     <field name="Creator">
