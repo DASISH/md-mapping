@@ -30,7 +30,11 @@
             <xpath>/d:resource/d:titles/d:title/text()</xpath>
         </field>
         <field name="notes">
+            <xpath>/d:resource/d:descriptions/d:description/text()</xpath>
         </field>
+        <field name="Subject">
+            <xpath>/d:resource/d:subjects/d:subject/text()</xpath>
+        </field>        
         <field name="url">
             <xpath>concat("http://doi.org/", /d:resource/d:identifier[@identifierType="DOI"/text()])</xpath>
         </field>
