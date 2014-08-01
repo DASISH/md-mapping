@@ -16,7 +16,9 @@
   </namespaces>
   <mappings>
     <field name="Creator">
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Creator[@xml:lang='en']/text()</xpath>
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator[@xml:lang='en']/text()</xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Creator/text()</xpath>
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator/text()</xpath>
     </field>
     <field name="Contributor"> </field>
@@ -37,6 +39,9 @@
         /ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@codeListID="CESSDA
         topical classification"][@xml:lang='en']/text() </xpath>
     </field>
+    <field name="Subject">
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text()</xpath>
+    </field>    
     <field name="Collection"> </field>
     <field name="Country">
       <xpath>/ddi:DDIInstance/s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation[r:Values/r:GeographyValue/r:GeographyCode/r:Value/@codeListID="ISO3166-1"]/r:Values/r:GeographyValue/r:GeographyName[@xml:lang="en"]/text()</xpath>
