@@ -1,0 +1,26 @@
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   <dc:title>On an application of extended Kalman filtering to activated sludge processes: A benchmark study</dc:title>
+   <dc:creator>Benazzi, F.</dc:creator>
+   <dc:creator>Jeppsson, U.</dc:creator>
+   <dc:creator>Katebi, R.</dc:creator>
+   <dc:publisher>DTU Library, Technical University of Denmark (DTU)</dc:publisher>
+   <dc:date>2005</dc:date>
+   <dc:identifier>doi:10.4122/1.1000001532</dc:identifier>
+   <dc:relation>doi:10.4122/1.1000001531</dc:relation>
+   <dc:subject>Activated sludge</dc:subject>
+   <dc:subject>extended Kalman filter</dc:subject>
+   <dc:subject>observability</dc:subject>
+   <dc:subject>software sensorX</dc:subject>
+   <dc:subject>wastewater treatment </dc:subject>
+   <dc:description>Abstract</dc:description>
+   <dc:description>The growing demand for performance improvements of urban wastewater system operation coupled with the lack of instrumentation in most wastewater treatment plants motivates the need for non-linear observers to be used as virtual sensors for estimation and control of effluent quality. This paper is focused on the development of a general procedure for on-line monitoring of activated sludge processes, using an extended Kalman filter (EKF) approach. The Activated Sludge Model no.1 (ASM1) is selected to describe the biological processes in the reactor. On-line measurements are corrupted by additive white noise and unknown inputs are modelled using fast Fourier transform (FFT) and spectrum analyses. The given procedure aims at reducing the original ASM1 model to an observable and identifiable model, which can be used for joint non-linear state and parameter estimations. Simulation results are presented to demonstrate the effectiveness of the proposed methods and show that on-line monitoring of SND and XND concentrations is achieved when dynamic input data are used to characterize the influent wastewater for the model.</dc:description>
+   <dc:contributor>University of Strathclyde, Department of Electronic and Electrical Engineering</dc:contributor>
+   <dc:contributor>Lund University,  Industrial Electrical Engineering and Automation</dc:contributor>
+   <dc:language>en</dc:language>
+   <dc:type>Text</dc:type>
+   <dc:type>Conference full text</dc:type>
+   <dc:format>application/pdf</dc:format>
+</oai_dc:dc>

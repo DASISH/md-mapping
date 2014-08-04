@@ -1,0 +1,918 @@
+<ddi:DDIInstance xmlns:dc="ddi:dcelements:3_1" xmlns:g="ddi:group:3_1" xmlns:d="ddi:datacollection:3_1" xmlns:c="ddi:conceptualcomponent:3_1" xmlns:a="ddi:archive:3_1" xmlns:ddi="ddi:instance:3_1" xmlns:l="ddi:logicalproduct:3_1" xmlns:dc2="http://purl.org/dc/elements/1.1/" xmlns:s="ddi:studyunit:3_1" xmlns:r="ddi:reusable:3_1" xmlns:p="ddi:physicaldataproduct:3_1" xmlns:pi="ddi:physicalinstance:3_1" xmlns:pr="ddi:ddiprofile:3_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:instance:3_1 http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd" id="526ec411-944d-461a-a539-a4a9b25f90ff" isMaintainable="true" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+    <s:StudyUnit id="1db1ec9b-99ba-445d-9f56-142b269a7795" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+        <r:UserID type="study_id">2137</r:UserID>
+        <r:Citation>
+            <r:Title xml:lang="sv">Riks-SOM 2012</r:Title>
+            <r:Title xml:lang="en">National SOM 2012</r:Title>
+            <r:AlternateTitle>SOM-undersökningen 2012</r:AlternateTitle>
+            <r:Creator xml:lang="sv">Göteborgs universitet, SOM-institutet</r:Creator>
+            <r:Creator xml:lang="en">University of Gothenburg, SOM Institute</r:Creator>
+            <r:Publisher xml:lang="sv">Göteborgs universitet, SOM-institutet</r:Publisher>
+            <r:Publisher xml:lang="en">University of Gothenburg, SOM Institute</r:Publisher>
+            <r:Contributor role="Distributör" xml:lang="sv">Svensk nationell datatjänst</r:Contributor>
+            <r:Contributor role="Distributor" xml:lang="en">Swedish National Data Service</r:Contributor>
+            <r:PublicationDate>
+                <r:SimpleDate>2014-04-01 08:43:45</r:SimpleDate>
+            </r:PublicationDate>
+            <dc:DCElements>
+                <dc2:title xml:lang="sv">Riks-SOM 2012</dc2:title>
+                <dc2:title xml:lang="en">National SOM 2012</dc2:title>
+                <dc2:creator xml:lang="sv">Göteborgs universitet, SOM-institutet</dc2:creator>
+                <dc2:creator xml:lang="en">University of Gothenburg, SOM Institute</dc2:creator>
+                <dc2:description xml:lang="sv">För att kunna förstå hur samhällsutvecklingen påverkar svenska folkets attityder och beteenden, har SOM-institutet sedan 1986 genomfört Riks-SOM. Första mätningen skedde genom samverkan mellan ett par forskningsprojekt vid Göteborgs universitet, men intresset för resultaten blev stort och SOM-institutet etablerades med ansvar att göra en ny undersökning varje höst. Riks-SOM fokuserar på tre teman - samhälle, opinion och massmedier.
+
+2012 genomfördes Riks-SOM som fyra parallella undersökningar:
+Riks-1: Med fokus på politik och samhälle.
+Riks-2: Med fokus på medier och kultur.
+Riks-3: Med fokus på livsstil och hälsa.
+Riks-4: Med fokus på ekonomi och välfärd.
+
+Datainsamlingen genomförs parallellt och under identiska förhållanden.</dc2:description>
+                <dc2:description xml:lang="en">Since 1986 the SOM-institute has been carrying out an annual nation-wide survey - the National SOM - in order to identify the Swedish public's habits and attitudes on the topics of society, politics and media. National SOM 2012 is accordingly the twenty seventh survey in this series.</dc2:description>
+                <dc2:date>2014-04-01 08:43:45</dc2:date>
+                <dc2:type>Dataset</dc2:type>
+                <dc2:identifier>SND 0937</dc2:identifier>
+            </dc:DCElements>
+        </r:Citation>
+        <s:Abstract id="e871d448-0066-4ca2-be21-ea141397bfdb">
+            <r:Content xml:lang="sv">För att kunna förstå hur samhällsutvecklingen påverkar svenska folkets attityder och beteenden, har SOM-institutet sedan 1986 genomfört Riks-SOM. Första mätningen skedde genom samverkan mellan ett par forskningsprojekt vid Göteborgs universitet, men intresset för resultaten blev stort och SOM-institutet etablerades med ansvar att göra en ny undersökning varje höst. Riks-SOM fokuserar på tre teman - samhälle, opinion och massmedier.
+
+2012 genomfördes Riks-SOM som fyra parallella undersökningar:
+Riks-1: Med fokus på politik och samhälle.
+Riks-2: Med fokus på medier och kultur.
+Riks-3: Med fokus på livsstil och hälsa.
+Riks-4: Med fokus på ekonomi och välfärd.
+
+Datainsamlingen genomförs parallellt och under identiska förhållanden.</r:Content>
+        </s:Abstract>
+        <s:Abstract id="3cde30c0-1440-456c-bb9c-a98c457c8460">
+            <r:Content xml:lang="en">Since 1986 the SOM-institute has been carrying out an annual nation-wide survey - the National SOM - in order to identify the Swedish public's habits and attitudes on the topics of society, politics and media. National SOM 2012 is accordingly the twenty seventh survey in this series.</r:Content>
+        </s:Abstract>
+        <r:UniverseReference>
+            <r:Scheme>
+                <r:ID>7475aaf3-c317-4562-833a-02e80f1a96a0</r:ID>
+                <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                <r:Version>1.0.0</r:Version>
+            </r:Scheme>
+            <r:ID>11e72439-520c-4418-83d3-355cb539c1d7</r:ID>
+            <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+            <r:Version>1.0.0</r:Version>
+        </r:UniverseReference>
+        <r:SeriesStatement>
+            <r:SeriesRepositoryLocation>http://www.snd.gu.se/catalogue/series/74</r:SeriesRepositoryLocation>
+            <r:SeriesName xml:lang="sv">Riks-SOM</r:SeriesName>
+            <r:SeriesName xml:lang="en">National SOM</r:SeriesName>
+            <r:SeriesDescription xml:lang="sv">För att kunna förstå hur samhällsutvecklingen påverkar svenska folkets attityder och beteenden, har SOM-institutet sedan 1986 genomfört Riks-SOM.
+
+Första mätningen skedde genom samverkan mellan ett par forskningsprojekt vid Göteborgs universitet, men intresset för resultaten blev stort och SOM-institutet etablerades med ansvar att göra en ny undersökning varje höst. Idag är tidsserien unik i sitt slag.
+
+Riks-SOM fokuserar på tre teman - samhälle, opinion och massmedier - och består sedan 2009 av tre parallella delundersökningar. Ett stort antal frågor om politik, samhälle och medier samt social bakgrund finns med i alla undersökningar, men frågeformulären har något olika inriktningar.</r:SeriesDescription>
+        </r:SeriesStatement>
+        <s:Purpose id="ec759ffc-6893-458a-a9d2-7350cb558e16">
+            <r:Content xml:lang="sv">Huvudsyftet är att etablera tidsserier som gör det möjligt att analysera hur olika samhällsförändringar påverkar människors attityder och beteenden.</r:Content>
+        </s:Purpose>
+        <s:Purpose id="47b2d430-b10f-45d5-a309-5408c870d376">
+            <r:Content xml:lang="en">The main purpose is to establish time series that enable researchers to analyse how various changes in society affect people's attitudes and behaviour.</r:Content>
+        </s:Purpose>
+        <r:Coverage>
+            <r:TopicalCoverage id="c50c2e01-3db7-45ba-86a1-2070a8d271a1">
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="sv">inrikespolitiska frågor</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="en">domestic political issues</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="sv">politiskt beteende, attityder/åsikter</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="en">mass political behaviour, attitudes/opinion</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="sv">internationell politik och organisationer</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="en">international politics and organisations</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="sv">fritid, turism och sport</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="en">leisure, tourism and sport</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="sv">kulturaktiviteter och deltagande</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="en">cultural activities and participation</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="sv">naturresurser och energi</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="en">natural resources and energy</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="sv">miljöförstörelse/förorening och miljöskydd</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="en">environmental degradation/pollution and environmental protection</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="sv">massmedia</r:Subject>
+                <r:Subject codeListID="CESSDA topical classification" xml:lang="en">mass media</r:Subject>
+                <r:Subject codeListID="Standard för svensk indelning av forskningsämnen 2011" xml:lang="sv">Folkhälsovetenskap, global hälsa, socialmedicin och epidemiologi</r:Subject>
+                <r:Subject codeListID="Standard för svensk indelning av forskningsämnen 2011" xml:lang="en">Public Health, Global Health, Social Medicine and Epidemiology</r:Subject>
+                <r:Subject codeListID="Standard för svensk indelning av forskningsämnen 2011" xml:lang="sv">Medie- och kommunikationsvetenskap</r:Subject>
+                <r:Subject codeListID="Standard för svensk indelning av forskningsämnen 2011" xml:lang="en">Media and Communications</r:Subject>
+                <r:Subject codeListID="Standard för svensk indelning av forskningsämnen 2011" xml:lang="sv">Statsvetenskap</r:Subject>
+                <r:Subject codeListID="Standard för svensk indelning av forskningsämnen 2011" xml:lang="en">Political Science</r:Subject>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">allmän opinion</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">public opinion</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">medborgardeltagande</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">citizen participation</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">politiskt deltagande</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">political participation</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">nyheter</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">news</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">partiidentifikation</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">party identification</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">politisk anhängare</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">political allegiance</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">politisk anhängare</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">political allegiance</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">politiskt intresse</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">political interest</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">politiska partier</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">political parties</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">internetanvändning</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">internet use</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">europeiska unionen</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">european union</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">försvars- och säkerhetspolitik</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">defence and state security policy</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">miljö</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">environment</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">energi</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">energy</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">kärnkraft</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">nuclear energy</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">förnyelsebar energi</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">renewable energy</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">informationskälla</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">information sources</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">fritidsaktivitet</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">leisure time activities</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">alkoholvanor</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">drinking behaviour</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">förtroende</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">trust</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">välfärd</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">welfare</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">demokrati</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">democracy</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">privatisering</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">privatization</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">offentlig sektor</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">public sector</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">offentlig service</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">public services</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">korruption</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">corruption</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">inköp</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">shopping</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">konsumtion</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">consumption</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">intresse</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">interest</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">värdering (grundsats)</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">values</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">religion</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">religion</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">hälsa</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">health</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">ohälsa</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">ill health</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">känsloläge</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">emotional states</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">tv-tittande</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">television viewing</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">radiolyssnande</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">listening to the radio</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">mediaanvändning</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">mass media use</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="sv">massmediaexponering</r:Keyword>
+                <r:Keyword codeListID="ELSST" xml:lang="en">mass media exposure</r:Keyword>
+            </r:TopicalCoverage>
+            <r:SpatialCoverage id="c919d4e9-a6f1-4061-bcab-b2bcffc4720a">
+                <r:GeographicStructureReference>
+                    <r:ID>f6ace514-7925-47ae-a9f6-f27eb29e9295</r:ID>
+                    <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                    <r:Version>1.0.0</r:Version>
+                </r:GeographicStructureReference>
+                <r:GeographicLocationReference>
+                    <r:ID>b842bba8-81bc-4777-88b9-d037e89d1982</r:ID>
+                    <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                    <r:Version>1.0.0</r:Version>
+                </r:GeographicLocationReference>
+                <r:TopLevelReference>
+                    <r:LevelReference>
+                        <r:ID>b9a0669f-0ab0-473e-a16c-62935e37b6c1</r:ID>
+                        <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                        <r:Version>1.0.0</r:Version>
+                    </r:LevelReference>
+                    <r:LevelName>Country</r:LevelName>
+                </r:TopLevelReference>
+                <r:LowestLevelReference>
+                    <r:LevelReference>
+                        <r:ID>225ffbba-470a-4e80-81d1-c1e5fff56b8f</r:ID>
+                        <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                        <r:Version>1.0.0</r:Version>
+                    </r:LevelReference>
+                    <r:LevelName>Municipality</r:LevelName>
+                </r:LowestLevelReference>
+            </r:SpatialCoverage>
+            <r:TemporalCoverage id="0357e443-fee5-4c0e-a8c9-b66fcc5bb108">
+                <r:ReferenceDate>
+                    <r:StartDate>2012-09-26</r:StartDate>
+                    <r:EndDate>2013-02-21</r:EndDate>
+                </r:ReferenceDate>
+            </r:TemporalCoverage>
+        </r:Coverage>
+        <r:AnalysisUnit>Individual</r:AnalysisUnit>
+        <s:KindOfData>Survey data: Independent surveys</s:KindOfData>
+        <r:OtherMaterial id="d1771317-94f2-461f-8d90-2525dfb3ef21" type="file">
+            <r:UserID type="upload_id">3542</r:UserID>
+            <r:Citation>
+                <r:Title xml:lang="sv">Riks-1: Politik och samhälle</r:Title>
+                <r:Title xml:lang="en">National-1: Politics and Society</r:Title>
+                <r:Language>sv</r:Language>
+                <dc:DCElements>
+                    <dc2:title xml:lang="sv">Riks-1: Politik och samhälle</dc2:title>
+                    <dc2:title xml:lang="en">National-1: Politics and Society</dc2:title>
+                    <dc2:type>file</dc2:type>
+                </dc:DCElements>
+            </r:Citation>
+            <r:ExternalURLReference>http://www.snd.gu.se/catalogue/file/3542</r:ExternalURLReference>
+            <r:Relationship>
+                <r:RelatedToReference>
+                    <r:ID>dd3903b6-9bbd-4d6f-85a4-381692878791</r:ID>
+                    <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                    <r:Version>1.0.0</r:Version>
+                </r:RelatedToReference>
+                <r:RelationshipDescription>Frågeformulär</r:RelationshipDescription>
+            </r:Relationship>
+            <r:MIMEType>application/pdf</r:MIMEType>
+        </r:OtherMaterial>
+        <r:OtherMaterial id="cafff54f-c738-4a5e-ba7a-eb53dc3bcd6d" type="file">
+            <r:UserID type="upload_id">3543</r:UserID>
+            <r:Citation>
+                <r:Title xml:lang="sv">Riks-2: Medier och kultur</r:Title>
+                <r:Title xml:lang="en">National-2: Media and Culture</r:Title>
+                <r:Language>sv</r:Language>
+                <dc:DCElements>
+                    <dc2:title xml:lang="sv">Riks-2: Medier och kultur</dc2:title>
+                    <dc2:title xml:lang="en">National-2: Media and Culture</dc2:title>
+                    <dc2:type>file</dc2:type>
+                </dc:DCElements>
+            </r:Citation>
+            <r:ExternalURLReference>http://www.snd.gu.se/catalogue/file/3543</r:ExternalURLReference>
+            <r:Relationship>
+                <r:RelatedToReference>
+                    <r:ID>591bbcd0-d061-4a6f-8244-33182ad93876</r:ID>
+                    <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                    <r:Version>1.0.0</r:Version>
+                </r:RelatedToReference>
+                <r:RelationshipDescription>Frågeformulär</r:RelationshipDescription>
+            </r:Relationship>
+            <r:MIMEType>application/pdf</r:MIMEType>
+        </r:OtherMaterial>
+        <r:OtherMaterial id="36ff4b38-c597-4f6b-854d-0d0200d6c508" type="file">
+            <r:UserID type="upload_id">3544</r:UserID>
+            <r:Citation>
+                <r:Title xml:lang="sv">Riks-3: Livsstil och hälsa</r:Title>
+                <r:Title xml:lang="en">National 3: Life style and Health</r:Title>
+                <r:Language>sv</r:Language>
+                <dc:DCElements>
+                    <dc2:title xml:lang="sv">Riks-3: Livsstil och hälsa</dc2:title>
+                    <dc2:title xml:lang="en">National 3: Life style and Health</dc2:title>
+                    <dc2:type>file</dc2:type>
+                </dc:DCElements>
+            </r:Citation>
+            <r:ExternalURLReference>http://www.snd.gu.se/catalogue/file/3544</r:ExternalURLReference>
+            <r:Relationship>
+                <r:RelatedToReference>
+                    <r:ID>3e20c0d3-feb5-4d1e-9338-bda1732be30c</r:ID>
+                    <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                    <r:Version>1.0.0</r:Version>
+                </r:RelatedToReference>
+                <r:RelationshipDescription>Frågeformulär</r:RelationshipDescription>
+            </r:Relationship>
+            <r:MIMEType>application/pdf</r:MIMEType>
+        </r:OtherMaterial>
+        <r:OtherMaterial id="20ca09ee-a315-4bf2-ba72-65a1ea93ce26" type="file">
+            <r:UserID type="upload_id">3545</r:UserID>
+            <r:Citation>
+                <r:Title xml:lang="sv">Riks-4: Ekonomi och välfärd</r:Title>
+                <r:Title xml:lang="en">National-4: Economy and Welfare</r:Title>
+                <r:Language>sv</r:Language>
+                <dc:DCElements>
+                    <dc2:title xml:lang="sv">Riks-4: Ekonomi och välfärd</dc2:title>
+                    <dc2:title xml:lang="en">National-4: Economy and Welfare</dc2:title>
+                    <dc2:type>file</dc2:type>
+                </dc:DCElements>
+            </r:Citation>
+            <r:ExternalURLReference>http://www.snd.gu.se/catalogue/file/3545</r:ExternalURLReference>
+            <r:Relationship>
+                <r:RelatedToReference>
+                    <r:ID>61e92a93-733a-40d2-b8cc-f66f993f1322</r:ID>
+                    <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                    <r:Version>1.0.0</r:Version>
+                </r:RelatedToReference>
+                <r:RelationshipDescription>Frågeformulär</r:RelationshipDescription>
+            </r:Relationship>
+            <r:MIMEType>application/pdf</r:MIMEType>
+        </r:OtherMaterial>
+        <r:OtherMaterial id="0830f138-2789-4a37-b380-4855f5aa0ed9" type="publication">
+            <r:UserID type="url_Libris">http://libris.kb.se/bib/14661518</r:UserID>
+            <r:UserID type="url_Swepub">http://swepub.kb.se/bib/swepub:oai:services.scigloo.org:185088</r:UserID>
+            <r:UserID type="url_sv_SOM-institutets bokserie">http://www.som.gu.se/publicerat/B%C3%B6cker/59.-vagskal/</r:UserID>
+            <r:UserID type="url_en_SOM-institutets bokserie">http://www.som.gu.se/publicerat/B%C3%B6cker/59.-vagskal/</r:UserID>
+            <r:UserID type="url_sv_Lärosätets databas">http://gup.ub.gu.se/publication/185088-vagskal</r:UserID>
+            <r:UserID type="url_en_Lärosätets databas">http://gup.ub.gu.se/publication/185088-vagskal</r:UserID>
+            <r:Citation>
+                <r:Title>Vägskäl : fyrtiotre kapitel om politik, medier och samhälle : SOM-undersökningen 2012</r:Title>
+                <r:Creator xml:lang="sv">Weibull, Lennart</r:Creator>
+                <r:Creator xml:lang="en">Weibull, Lennart</r:Creator>
+                <r:Creator xml:lang="sv">Oscarsson, Henrik</r:Creator>
+                <r:Creator xml:lang="en">Oscarsson, Henrik</r:Creator>
+                <r:Creator xml:lang="sv">Bergström, Annika</r:Creator>
+                <r:Creator xml:lang="en">Bergström, Annika</r:Creator>
+                <r:Publisher>Göteborgs universitet</r:Publisher>
+                <r:InternationalIdentifier type="isbn13">9789189673274</r:InternationalIdentifier>
+                <dc:DCElements>
+                    <dc2:title>Vägskäl : fyrtiotre kapitel om politik, medier och samhälle : SOM-undersökningen 2012</dc2:title>
+                    <dc2:creator xml:lang="sv">Weibull, Lennart</dc2:creator>
+                    <dc2:creator xml:lang="en">Weibull, Lennart</dc2:creator>
+                    <dc2:creator xml:lang="sv">Oscarsson, Henrik</dc2:creator>
+                    <dc2:creator xml:lang="en">Oscarsson, Henrik</dc2:creator>
+                    <dc2:creator xml:lang="sv">Bergström, Annika</dc2:creator>
+                    <dc2:creator xml:lang="en">Bergström, Annika</dc2:creator>
+                    <dc2:type>publication</dc2:type>
+                </dc:DCElements>
+            </r:Citation>
+        </r:OtherMaterial>
+        <r:OtherMaterial id="c2be6b93-1809-4b19-891b-f38595c1f535" type="study">
+            <r:Citation>
+                <r:Title xml:lang="sv">Super-Riks-SOM 1986-2011</r:Title>
+                <r:Title xml:lang="en">The SOM Institute Cumulative Dataset 1986-2011</r:Title>
+                <dc:DCElements>
+                    <dc2:title xml:lang="sv">Super-Riks-SOM 1986-2011</dc2:title>
+                    <dc2:title xml:lang="en">The SOM Institute Cumulative Dataset 1986-2011</dc2:title>
+                    <dc2:type>study</dc2:type>
+                </dc:DCElements>
+            </r:Citation>
+            <r:ExternalURLReference>http://www.snd.gu.se/catalogue/study/688</r:ExternalURLReference>
+        </r:OtherMaterial>
+        <c:ConceptualComponent id="323d3609-456b-471d-8bcc-648debe91a8a" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+            <c:ConceptScheme id="72eac308-f574-40d1-866f-5980a59d16e3" version="1.0.0" versionDate="2014-04-22" agency="se.snd"/>
+            <c:UniverseScheme id="7475aaf3-c317-4562-833a-02e80f1a96a0" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+                <c:Universe id="11e72439-520c-4418-83d3-355cb539c1d7" version="1.0.0" versionDate="2014-04-22">
+                    <c:UniverseName xml:lang="sv">Personer i åldrarna 16-85 år och bosatta i Sverige</c:UniverseName>
+                    <c:UniverseName xml:lang="en">Individuals aged 16-85 years and residing in Sweden</c:UniverseName>
+                    <r:Label xml:lang="sv">Personer i åldrarna 16-85 år och bosatta i Sverige</r:Label>
+                    <r:Label xml:lang="en">Individuals aged 16-85 years and residing in Sweden</r:Label>
+                    <c:HumanReadable xml:lang="sv">Personer i åldrarna 16-85 år och bosatta i Sverige</c:HumanReadable>
+                    <c:HumanReadable xml:lang="en">Individuals aged 16-85 years and residing in Sweden</c:HumanReadable>
+                </c:Universe>
+            </c:UniverseScheme>
+            <c:GeographicStructureScheme id="b99cba7e-a588-4546-8e74-7270415df18e" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+                <r:GeographicStructure id="f6ace514-7925-47ae-a9f6-f27eb29e9295" version="1.0.0" versionDate="2014-04-22">
+                    <r:Geography id="b9a0669f-0ab0-473e-a16c-62935e37b6c1">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Land</r:Name>
+                            <r:Name xml:lang="en">Country</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="b9692f6d-42e4-47b6-b71e-fd52bfdac6f3">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Region</r:Name>
+                            <r:Name xml:lang="en">Region</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="989700cb-7c31-4261-a8ab-f5bf607e0649">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Län</r:Name>
+                            <r:Name xml:lang="en">County</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="225ffbba-470a-4e80-81d1-c1e5fff56b8f">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Kommun</r:Name>
+                            <r:Name xml:lang="en">Municipality</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="be961de6-6c1e-4b11-8ceb-caa5ccf4f094">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Församling</r:Name>
+                            <r:Name xml:lang="en">Parish</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="d04be7a5-7def-49e3-ad3e-2f442c21bab3">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Stadsdel</r:Name>
+                            <r:Name xml:lang="en">Town district</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="8b65f97d-7e60-439e-9891-04f057e87aeb">
+                        <r:Level>
+                            <r:Name xml:lang="sv">A-region</r:Name>
+                            <r:Name xml:lang="en">A-region</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="8a22cb4e-ecda-415e-a55d-4b54dc519f08">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Valkrets</r:Name>
+                            <r:Name xml:lang="en">Constituency</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="b32a4450-6488-41c3-bc89-9ee1d1a191ec">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Valdistrikt</r:Name>
+                            <r:Name xml:lang="en">Electoral area</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="24367c2d-e752-459c-87b0-ffdd6f1585d2">
+                        <r:Level>
+                            <r:Name xml:lang="sv">H-region</r:Name>
+                            <r:Name xml:lang="en">H-region</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="6cc099c5-7e2e-4cf5-90a9-420294d6c548">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Riksområde</r:Name>
+                            <r:Name xml:lang="en">Riksområde</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="7829f9b5-8b88-4166-8d34-3349ac6f8645">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Socken</r:Name>
+                            <r:Name xml:lang="en">Parish</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                    <r:Geography id="f66028e9-cf53-4478-b0e0-1b3b8089c5f9">
+                        <r:Level>
+                            <r:Name xml:lang="sv">Odefinierad</r:Name>
+                            <r:Name xml:lang="en">Undefined</r:Name>
+                        </r:Level>
+                    </r:Geography>
+                </r:GeographicStructure>
+            </c:GeographicStructureScheme>
+            <c:GeographicLocationScheme id="2aafb137-ae31-486a-b91b-7615a2806b41" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+                <r:GeographicLocation id="b842bba8-81bc-4777-88b9-d037e89d1982" version="1.0.0" versionDate="2014-04-22">
+                    <r:Values>
+                        <r:GeographyValue>
+                            <r:GeographyCode>
+                                <r:Value codeListAgencyName="International Organization for Standardization" codeListID="ISO3166-1" codeListName="Codes for the representation of names of countries and their subdivisions – Part 1: Country codes">SE</r:Value>
+                            </r:GeographyCode>
+                            <r:GeographyName xml:lang="sv">Sverige</r:GeographyName>
+                            <r:GeographyName xml:lang="en">Sweden</r:GeographyName>
+                            <r:GeographicTime>
+                                <r:SimpleDate>2014-04-22</r:SimpleDate>
+                            </r:GeographicTime>
+                        </r:GeographyValue>
+                    </r:Values>
+                    <r:AuthorityOrganizationReference>
+                        <r:ID>07acb206-fc78-499a-bb13-0641e57e64b1</r:ID>
+                        <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                        <r:Version>1.0.0</r:Version>
+                    </r:AuthorityOrganizationReference>
+                    <r:GeographicLevelReference>
+                        <r:ID>b9a0669f-0ab0-473e-a16c-62935e37b6c1</r:ID>
+                        <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                        <r:Version>1.0.0</r:Version>
+                    </r:GeographicLevelReference>
+                </r:GeographicLocation>
+            </c:GeographicLocationScheme>
+        </c:ConceptualComponent>
+        <d:DataCollection id="7dda4819-3eaa-48d2-baf0-67577857635e" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+            <d:Methodology id="02121aed-d010-439d-95b7-a9505a2e27df" version="1.0.0" versionDate="2014-04-22">
+                <d:TimeMethod id="969f4b6d-e46f-4b45-9b6d-29950c7ea9d8">
+                    <r:Content xml:lang="sv">Longitudinell: Trend/Upprepat tvärsnitt</r:Content>
+                </d:TimeMethod>
+                <d:TimeMethod id="2cfd114e-f59b-458f-b74f-937f9860e021">
+                    <r:Content xml:lang="en">Longitudinal: Trend/Repeated cross-section</r:Content>
+                </d:TimeMethod>
+                <d:SamplingProcedure id="47988579-0322-474f-9f32-98b8fdeeef8b">
+                    <r:Content xml:lang="sv">Sannolikhetsurval: systematiskt urval
+
+Fyra parallella riksrepresentativa delundersökningar baserade på ett urval om vardera 3 000 personer</r:Content>
+                </d:SamplingProcedure>
+                <d:SamplingProcedure id="de2a4370-ea33-4dd1-85c6-c7a4a6c403b6">
+                    <r:Content xml:lang="en">Probability sample: Systematic sample
+
+Four parallel nationally representative sub-surveys based on a sample of 3000 individuals each</r:Content>
+                </d:SamplingProcedure>
+            </d:Methodology>
+            <d:CollectionEvent id="d714f9e6-11ab-486a-a6d0-30e87e10c9c3">
+                <d:DataCollectorOrganizationReference>
+                    <r:ID>532c21fb-a150-4ef8-926d-93e0872f5547</r:ID>
+                    <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                    <r:Version>1.0.0</r:Version>
+                </d:DataCollectorOrganizationReference>
+                <d:DataCollectionDate>
+                    <r:StartDate>2012-09-26</r:StartDate>
+                    <r:EndDate>2013-02-21</r:EndDate>
+                </d:DataCollectionDate>
+                <d:ModeOfCollection id="bb184248-7bc6-484e-8b4c-fefe8daa9730">
+                    <r:Content xml:lang="sv">Självadministrerat frågeformulär: Papper/penna</r:Content>
+                </d:ModeOfCollection>
+                <d:ModeOfCollection id="67c6703e-b18d-4745-a2ec-5f21269962c9">
+                    <r:Content xml:lang="en">Self-completed questionnaire: Paper/pencil</r:Content>
+                </d:ModeOfCollection>
+            </d:CollectionEvent>
+        </d:DataCollection>
+        <l:LogicalProduct id="9fa199e8-0595-4142-901f-eec847b1f484" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+            <l:DataRelationship id="0ae8f2c1-5b70-48a7-abc3-b55c4ed86e53" version="1.0.0" versionDate="2014-04-22">
+                <l:LogicalRecord id="d22d9f53-c519-45bf-afde-48aacef59fdb" hasLocator="false" variableQuantity="0">
+                    <l:VariablesInRecord allVariablesInLogicalProduct="true"/>
+                </l:LogicalRecord>
+            </l:DataRelationship>
+            <l:VariableScheme id="b5e15f52-f046-4420-b878-fe0529e0daef" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+                <r:UserID type="dataset_id">6e719c75-4d1f-4734-9ff4-a7992bef73f8</r:UserID>
+                <l:VariableSchemeName xml:lang="sv">Variabelschema</l:VariableSchemeName>
+                <l:VariableSchemeName xml:lang="en">Variable scheme</l:VariableSchemeName>
+                <r:Label xml:lang="sv">Variabelschema</r:Label>
+                <r:Label xml:lang="en">Variable scheme</r:Label>
+            </l:VariableScheme>
+        </l:LogicalProduct>
+        <p:PhysicalDataProduct id="0d9bcd3c-476e-4dc1-a997-0b8508f22480" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+            <r:UserID type="dataset_id">6e719c75-4d1f-4734-9ff4-a7992bef73f8</r:UserID>
+            <p:PhysicalStructureScheme id="f7d5071a-541a-43fa-a386-255a5d806522" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+                <p:PhysicalStructure id="555f9799-86e0-431e-835d-70bff3101e8a" version="1.0.0" versionDate="2014-04-22">
+                    <p:LogicalProductReference>
+                        <r:ID>9fa199e8-0595-4142-901f-eec847b1f484</r:ID>
+                        <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                        <r:Version>1.0.0</r:Version>
+                    </p:LogicalProductReference>
+                    <p:GrossRecordStructure id="71644d98-532a-4a87-a39a-9982e190c986">
+                        <p:LogicalRecordReference>
+                            <r:ID>d22d9f53-c519-45bf-afde-48aacef59fdb</r:ID>
+                            <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                            <r:Version>1.0.0</r:Version>
+                        </p:LogicalRecordReference>
+                        <p:PhysicalRecordSegment id="37e11b30-3240-4c6e-87da-bb237f41628a"/>
+                    </p:GrossRecordStructure>
+                </p:PhysicalStructure>
+            </p:PhysicalStructureScheme>
+            <p:RecordLayoutScheme id="51a9a368-1f49-450e-a7d4-fbd4f4ec0bff" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+                <p:RecordLayout id="0e14241e-0d27-4c43-a04c-058c0b563d09" version="1.0.0" versionDate="2014-04-22">
+                    <p:PhysicalStructureReference>
+                        <r:ID>555f9799-86e0-431e-835d-70bff3101e8a</r:ID>
+                        <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                        <r:Version>1.0.0</r:Version>
+                        <p:PhysicalRecordSegmentUsed>37e11b30-3240-4c6e-87da-bb237f41628a</p:PhysicalRecordSegmentUsed>
+                    </p:PhysicalStructureReference>
+                    <p:CharacterSet>unspecified</p:CharacterSet>
+                    <p:ArrayBase>1</p:ArrayBase>
+                    <p:DefaultVariableSchemeReference>
+                        <r:ID>b5e15f52-f046-4420-b878-fe0529e0daef</r:ID>
+                        <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                        <r:Version>1.0.0</r:Version>
+                    </p:DefaultVariableSchemeReference>
+                </p:RecordLayout>
+            </p:RecordLayoutScheme>
+        </p:PhysicalDataProduct>
+        <pi:PhysicalInstance id="6e719c75-4d1f-4734-9ff4-a7992bef73f8" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+            <r:Citation>
+                <r:Title xml:lang="sv">Riks-SOM 2012</r:Title>
+                <r:Title xml:lang="en">National SOM 2012</r:Title>
+                <r:PublicationDate>
+                    <r:SimpleDate>2014-04-01 08:47:09</r:SimpleDate>
+                </r:PublicationDate>
+                <dc:DCElements>
+                    <dc2:title xml:lang="sv">Riks-SOM 2012</dc2:title>
+                    <dc2:title xml:lang="en">National SOM 2012</dc2:title>
+                    <dc2:date>2014-04-01 08:47:09</dc2:date>
+                    <dc2:type>Dataset</dc2:type>
+                    <dc2:identifier>SND 0937-001</dc2:identifier>
+                </dc:DCElements>
+            </r:Citation>
+            <pi:RecordLayoutReference>
+                <r:ID>0e14241e-0d27-4c43-a04c-058c0b563d09</r:ID>
+                <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                <r:Version>1.0.0</r:Version>
+            </pi:RecordLayoutReference>
+            <pi:DataFileIdentification id="7895b8c8-62b6-432f-b44a-24de4893f976">
+                <pi:URI>http://www.snd.gu.se/catalogue/study/SND-0937</pi:URI>
+            </pi:DataFileIdentification>
+            <pi:GrossFileStructure id="ceb3331d-3ea8-4a32-8b89-af397b0e1fcc">
+                <pi:CaseQuantity>6289</pi:CaseQuantity>
+            </pi:GrossFileStructure>
+        </pi:PhysicalInstance>
+        <a:Archive id="ecfe6216-926d-477a-8d3f-89842c75adba" version="1.0.0" versionDate="2014-04-22" agency="se.snd">
+            <a:ArchiveSpecific>
+                <a:ArchiveOrganizationReference>
+                    <r:ID>07acb206-fc78-499a-bb13-0641e57e64b1</r:ID>
+                    <r:IdentifyingAgency>se.snd</r:IdentifyingAgency>
+                    <r:Version>1.0.0</r:Version>
+                </a:ArchiveOrganizationReference>
+                <a:Collection>
+                    <a:CallNumber>SND 0937</a:CallNumber>
+                    <a:URI>http://www.snd.gu.se/catalogue/study/SND-0937</a:URI>
+                    <a:ItemQuantity>0</a:ItemQuantity>
+                    <a:AvailabilityStatus xml:lang="sv">2b - Kräver alltid primärforskarens tillstånd</a:AvailabilityStatus>
+                    <a:AvailabilityStatus xml:lang="en">2b - Always requires permission from the principal investigator</a:AvailabilityStatus>
+                </a:Collection>
+            </a:ArchiveSpecific>
+            <a:OrganizationScheme agency="se.snd" id="615f0cd8-472b-461a-ab9a-6c5fc77e823b" version="1.0.0" versionDate="2014-04-22">
+                <a:Organization id="07acb206-fc78-499a-bb13-0641e57e64b1" version="1.0.0" versionDate="2014-04-22">
+                    <a:OrganizationName xml:lang="sv">Svensk nationell datatjänst</a:OrganizationName>
+                    <a:OrganizationName xml:lang="en">Swedish National Data Service</a:OrganizationName>
+                </a:Organization>
+                <a:Organization id="f7fdee1a-e877-4022-aa17-69455f9985a1" version="1.0.0" versionDate="2014-04-22">
+                    <a:OrganizationName xml:lang="sv">Göteborgs universitet, SOM-institutet</a:OrganizationName>
+                    <a:OrganizationName xml:lang="en">University of Gothenburg, SOM Institute</a:OrganizationName>
+                    <a:Keyword xml:lang="sv">Producent</a:Keyword>
+                    <a:Keyword xml:lang="en">Producer</a:Keyword>
+                </a:Organization>
+                <a:Organization id="532c21fb-a150-4ef8-926d-93e0872f5547" version="1.0.0" versionDate="2014-04-22">
+                    <a:OrganizationName xml:lang="sv">Kinnmark Information AB</a:OrganizationName>
+                    <a:OrganizationName xml:lang="en">Kinnmark Information AB</a:OrganizationName>
+                </a:Organization>
+            </a:OrganizationScheme>
+        </a:Archive>
+        <pr:DDIProfile id="c08361ea-6cb2-44db-a72e-c0b1eb297d05">
+            <pr:DDIProfileName xml:lang="sv">DDI Profile för Svensk Nationell Datatjänst</pr:DDIProfileName>
+            <pr:DDIProfileName xml:lang="en">DDI Profile for Swedish National Data Service</pr:DDIProfileName>
+            <r:Label xml:lang="sv">SND DDI Profile</r:Label>
+            <r:Label xml:lang="en">SND DDI Profile</r:Label>
+            <r:Description xml:lang="sv">DDI Profile för Svensk Nationell Datatjänst</r:Description>
+            <r:Description xml:lang="en">DDI Profile for Swedish National Data Service</r:Description>
+            <pr:XPathVersion>2</pr:XPathVersion>
+            <pr:DDINamespace>3.1</pr:DDINamespace>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>ddi</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:instance:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>dc</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:dcelements:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>dc2</pr:XMLPrefix>
+                <pr:XMLNamespace>http://purl.org/dc/elements/1.1/</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>g</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:group:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>d</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:datacollection:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>s</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:studyunit:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>c</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:conceptualcomponent:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>r</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:reusable:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>a</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:archive:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>pr</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:ddiprofile:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>p</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:physicaldataproduct:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>pi</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:physicalinstance:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:XMLPrefixMap>
+                <pr:XMLPrefix>l</pr:XMLPrefix>
+                <pr:XMLNamespace>ddi:logicalproduct:3_1</pr:XMLNamespace>
+            </pr:XMLPrefixMap>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:Title"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:AlternateTitle"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:Creator"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:Publisher"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:Contributor"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:PublicationDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:Language"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:InternationalIdentifier"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/r:Copyright"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/dc:DCElements/dc:title"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/dc:DCElements/dc:creator"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/dc:DCElements/dc:description"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/dc:DCElements/dc:date"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/dc:DCElements/dc:type"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Citation/dc:DCElements/dc:identifier"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/s:Abstract/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:UniverseReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:SeriesStatement/r:SeriesRepositoryLocation"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:SeriesStatement/r:SeriesName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:SeriesStatement/r:Abbreviation"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:SeriesStatement/r:SeriesDescription"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:FundingInformation/r:AgencyOrganisationReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:FundingInformation/r:GrantNumber"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/s:Purpose/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Keyword"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:BoundingBox/r:WestLongitude"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:BoundingBox/r:EastLongitude"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:BoundingBox/r:SouthLatitude"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:BoundingBox/r:NorthLatitude"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:Description"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:GeographicStructureReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:GeographicLocationReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:TopLevelReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:SpatialCoverage/r:LowestLevelReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:SimpleDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:StartDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:EndDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/s:AnalysisUnit"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/s:AnalysisUnitCovered"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/s:KindOfData"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/r:Title"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/r:AlternateTitle"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/r:Creator"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/r:Publisher"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/r:Language"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/r:InternationalIdentifier"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/dc:DCElements/dc:title"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/dc:DCElements/dc:creator"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/dc:DCElements/dc:type"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Citation/dc:DCElements/dc:identifier"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:ExternalURLReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:Relationship/r:RelatedToReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/r:OtherMaterial/r:MIMEType"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:ConceptScheme/c:Concept/c:ConceptName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:ConceptScheme/c:Concept/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:ConceptScheme/c:Concept/r:Description"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:GeographicStructureScheme/c:GeographicStructure/r:Geography/r:Level/r:Name"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation/r:Values/r:GeographyValue/r:GeographyCode"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation/r:Values/r:GeographyValue/r:GeographyName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation/r:Values/r:GeographyValue/r:GeographicTime"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation/r:Values/r:GeographyValue/r:BoundingPolygon"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation/r:AuthorityOrganizationReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation/r:GeographicLevelReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:UniverseScheme/c:Universe/c:UniverseName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:UniverseScheme/c:Universe/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/c:ConceptualComponent/c:UniverseScheme/c:Universe/r:Description"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:Methodology/d:TimeMethod/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:Methodology/d:SamplingProcedure/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:CollectionEvent/d:DataCollectorOrganizationReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:CollectionEvent/d:DataSource/d:SourceDescription"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:CollectionEvent/d:DataCollectionDate/r:SimpleDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:CollectionEvent/d:DataCollectionDate/r:StartDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:CollectionEvent/d:DataCollectionDate/r:EndDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:CollectionEvent/d:ModeOfCollection/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:CollectionEvent/d:CollectionSituation/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:CollectionEvent/d:ActionToMinimizeLosses/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionSchemeName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/d:QuestionItemName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/d:QuestionText/d:LiteralText/d:Text"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/d:CategoryDomain/d:CategorySchemeReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/d:CodeDomain/d:CodeSchemeReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/d:DateTimeDomain"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/d:NumericDomain"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/d:TextDomain"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:QuestionItem/d:ConceptReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:MultipleQuestionItemName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:QuestionText/d:LiteralText/d:Text"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:ConceptReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/d:QuestionItemName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/d:QuestionText/d:LiteralText/d:Text"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/d:CategoryDomain/d:CategorySchemeReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/d:CodeDomain/d:CodeSchemeReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/d:DateTimeDomain"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/d:NumericDomain"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/d:TextDomain"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:QuestionScheme/d:MultipleQuestionItem/d:SubQuestions/d:QuestionItem/d:ConceptReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:ControlConstructSchemeName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:QuestionConstruct/d:InterviewerInstructionReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:QuestionConstruct/d:QuestionReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:QuestionConstruct/d:ResponseSequence/d:ItemSequenceType"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:StatementItem/d:DisplayText"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:Sequence/d:ConstructName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:Sequence/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:Sequence/r:Description"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ControlConstructScheme/d:Sequence/d:ControlConstructReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:InterviewerInstructionScheme/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:InterviewerInstructionScheme/d:Instruction/d:Instructiontext"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:Instrument/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:Instrument/d:InstrumentName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:Instrument/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:Instrument/r:Description"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:Instrument/d:Type"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:Instrument/r:Software/r:Name"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ProcessingEvent/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ProcessingEvent/d:CleaningOperation/r:Description"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ProcessingEvent/d:Weighting/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ProcessingEvent/d:DataAppraisalInformation/d:ResponseRate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ProcessingEvent/d:DataAppraisalInformation/d:SamplingError"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/d:DataCollection/d:ProcessingEvent/d:DataAppraisalInformation/d:OtherAppraisalProcess"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:DataRelationship/l:LogicalRecord/l:VariablesInRecord"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:CategoryScheme/l:Category/l:CategoryName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:CategoryScheme/l:Category/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:CodeScheme/l:CodeSchemeName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:CodeScheme/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:CodeScheme/l:CategorySchemeReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:CodeScheme/l:Code/l:CategoryReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:CodeScheme/l:Code/l:Value"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:VariableSchemeName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/r:VariableName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/l:ConceptReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/l:QuestionReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/r:AnalysisUnit"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/l:Representation/l:CodeRepresentation/l:CodeSchemeReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/l:Representation/l:DateTimeRepresentation"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/l:Representation/l:NumericRepresentation"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:Variable/l:Representation/l:TextRepresentation"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:VariableGroup/l:GroupType"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:VariableGroup/l:VariableGroupName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:VariableGroup/r:Label"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:VariableGroup/r:Desription"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:VariableGroup/l:ConceptReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/l:LogicalProduct/l:VariableScheme/l:VariableGroup/l:VariableReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:PhysicalStructureScheme/p:PhysicalStructure/p:LogicalProductReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:PhysicalStructureScheme/p:PhysicalStructure/p:GrossRecordStructure/p:LogicalRecordReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:PhysicalStructureScheme/p:PhysicalStructure/p:GrossRecordStructure/p:PhysicalRecordSegment"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:PhysicalStructureReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:CharacterSet"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:ArrayBase"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:DefaultVariableSchemeReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:DataItem/p:VariableReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:DataItem/p:PhysicalLocation/p:StartPosition"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:DataItem/p:PhysicalLocation/p:EndPosition"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:DataItem/p:PhysicalLocation/p:Width"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/p:PhysicalDataProduct/p:RecordLayoutScheme/p:RecordLayout/p:DataItem/p:PhysicalLocation/p:DecimalPositions"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Citation/r:Title"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Citation/r:AlternateTitle"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Citation/r:PublicationDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Citation/r:Copyright"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Citation/dc:DCElements/dc:title"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Citation/dc:DCElements/dc:type"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Citation/dc:DCElements/dc:identifier"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:TopicalCoverage/r:Subject"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:TopicalCoverage/r:Keyword"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:SpatialCoverage/r:Description"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:SpatialCoverage/r:GeographicStructureReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:SpatialCoverage/r:GeographicLocationReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:SpatialCoverage/r:TopLevelReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:SpatialCoverage/r:LowestLevelReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:SimpleDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:StartDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:EndDate"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/r:Title"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/r:AlternateTitle"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/r:Creator"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/r:Publisher"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/r:Language"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/r:InternationalIdentifier"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/dc:DCElements/dc:title"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/dc:DCElements/dc:creator"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/dc:DCElements/dc:type"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Citation/dc:DCElements/dc:identifier"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:ExternalURLReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:Relationship/r:RelatedToReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/r:Coverage/r:OtherMaterial/r:MIMEType"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/pi:RecordLayoutReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/pi:DataFileIdentification/pi:URI"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/pi:PhysicalInstance/pi:GrossFileStructure/pi:CaseQuantity"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific/a:ArchiveOrganizationReference"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:CallNumber"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:URI"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:ItemQuantity"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:StudyClass/a:ClassDescription"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:DefaultAccess/a:Restrictions"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:DefaultAccess/a:CitationRequirement"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:DefaultAccess/a:DepositRequirement"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:DefaultAccess/a:AccessConditions"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:DefaultAccess/a:Disclaimer"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:AvailabilityStatus"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:CollectionCompleteness"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:Item/a:CallNumber"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:Item/a:Format"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:Item/a:Media"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:Item/a:OriginalArchiveOrganizationReference/r:ID"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:Item/a:OriginalArchiveOrganizationReference/r:IdentifyingAgency"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:Item/a:OriginalArchiveOrganizationReference/r:Version"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:Item/a:AvailabilityStatus"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:ArchiveSpecific//a:Collection/a:Item/a:CollectionCompleteness"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:OrganizationScheme/a:Organization/a:OrganizationName"/>
+            <pr:Used path="/ddi:DDIInstance//s:StudyUnit/a:Archive/a:OrganizationScheme/a:Organization/a:Keyword"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group/g:Purpose/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group/r:SeriesStatement/r:SeriesRepositoryLocation"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group/r:SeriesStatement/r:SeriesName"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group/r:SeriesStatement/r:Abbreviation"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group/r:SeriesStatement/r:SeriesDescription"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group/g:StudyUnit"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group//g:SubGroup/r:UserID"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group//g:SubGroup/g:Purpose/r:Content"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group//g:SubGroup/r:SeriesStatement/r:SeriesRepositoryLocation"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group//g:SubGroup/r:SeriesStatement/r:SeriesName"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group//g:SubGroup/r:SeriesStatement/r:Abbreviation"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group//g:SubGroup/r:SeriesStatement/r:SeriesDescription"/>
+            <pr:Used path="/ddi:DDIInstance/g:Group//g:SubGroup/g:StudyUnit"/>
+        </pr:DDIProfile>
+    </s:StudyUnit>
+</ddi:DDIInstance>

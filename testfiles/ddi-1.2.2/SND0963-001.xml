@@ -1,0 +1,12581 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codeBook version="1.2.2" ID="SND0963-001" xml-lang="sv" xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd">
+<docDscr>
+<citation>
+<titlStmt>
+<titl>
+Förtroendebarometer 2013
+</titl>
+<parTitl>
+xml codebook for Institutional Trust 2013
+</parTitl>
+<IDNo>
+SND0963-001
+</IDNo>
+</titlStmt>
+<rspStmt>
+<AuthEnty>
+Svensk nationell datatjänst
+</AuthEnty>
+</rspStmt>
+<prodStmt>
+<producer abbr="SND" affiliation="Göteborgs universitet" role="Distributör">
+Svensk nationell datatjänst
+</producer>
+<copyright>
+Copyright (c) Svensk nationell datatjänst 2014
+</copyright>
+<prodDate date="2014-04-02">
+2014-04-02
+</prodDate>
+<software version="4.0.9" date="2013-04-23">
+Nesstar Publisher
+</software>
+</prodStmt>
+<distStmt>
+<distrbtr abbr="SND" affiliation="Göteborgs universitet">
+Svensk nationell datatjänst
+</distrbtr>
+</distStmt>
+<verStmt>
+<version date="2014-04-02"/>
+</verStmt>
+<biblCit>
+xml-kodbok för Förtroendebarometer 2013, 1:a xml-editionen, Göteborg 2014
+</biblCit>
+</citation>
+<docSrc>
+<titlStmt>
+<titl>
+Förtroendebarometer 2013
+</titl>
+<IDNo>
+SND0963-001
+</IDNo>
+</titlStmt>
+<distStmt>
+<distrbtr abbr="SND">
+Svensk nationell datatjänst
+</distrbtr>
+</distStmt>
+</docSrc>
+</docDscr>
+<stdyDscr>
+<citation>
+<titlStmt>
+<titl>
+Förtroendebarometer 2013
+</titl>
+<parTitl>
+Institutional Trust 2013
+</parTitl>
+<IDNo>
+SND0963-001
+</IDNo>
+</titlStmt>
+<rspStmt>
+<AuthEnty affiliation="Göteborgs universitet, Statsvetenskapliga institutionen">
+Holmberg, Sören
+</AuthEnty>
+<AuthEnty affiliation="Göteborgs universitet, Institutionen för journalistik och masskommunikation">
+Weibull, Lennart
+</AuthEnty>
+</rspStmt>
+<prodStmt>
+<producer>
+Göteborgs universitet, Statsvetenskapliga institutionen
+</producer>
+<producer>
+MedieAkademin
+</producer>
+<producer>
+TNS Sifo
+</producer>
+<software version="4.0.9" date="2013-04-23">
+Nesstar Publisher
+</software>
+</prodStmt>
+<distStmt>
+<distrbtr abbr="SND">
+Svensk nationell datatjänst
+</distrbtr>
+<depDate date="2014-02-25"/>
+</distStmt>
+<verStmt/>
+</citation>
+<stdyInfo>
+<subject>
+<keyword vocab="ELSST" vocabURI="http://elsst.esds.ac.uk/">
+förtroende
+</keyword>
+<keyword vocab="ELSST" vocabURI="http://elsst.esds.ac.uk/">
+förtroende för regeringen
+</keyword>
+<keyword vocab="ELSST" vocabURI="http://elsst.esds.ac.uk/">
+politisk åsikt
+</keyword>
+<keyword vocab="ELSST" vocabURI="http://elsst.esds.ac.uk/">
+massmedia
+</keyword>
+<topcClas vocab="CESSDA topical classification">
+massmedia
+</topcClas>
+<topcClas vocab="CESSDA topical classification">
+POLITIK
+</topcClas>
+</subject>
+<abstract>
+MedieAkademins förtroendebarometer har genomförts årligen sedan 1997. Undersökningen har varje år dels avsett ett urval viktiga samhällsinstitutioner som exempelvis riksdagen, storföretagen, dagspressen och radio-TV, dels ett antal konkreta medier, bl.a Sveriges Television och TV4, och specifika företag, som t ex IKEA, Skandia och Volvo. Antalet bedömda institutioner har varierat något mellan enskilda år. Vissa av institutionerna/medierna/företagen har mätts varje år, andra har studerats mer oregelbundet. Undersökningen 2013 genomfördes av TNS Sifo och omfattade 1220 personer som besvarade en nätenkät. Studien genomfördes 7/2 - 17/2 2013 och innefattade 60 institutioner/företag/medier/partier. I 2013 års undersökning ingick även frågor om vilka personer som är mest uppskattade i mediesverige.
+</abstract>
+<sumDscr>
+<collDate date="2013-02-07" event="start"/>
+<collDate date="2013-02-17" event="end"/>
+<nation/>
+<anlyUnit>
+Individ
+</anlyUnit>
+<universe>
+Personer i åldrarna 16-74 år
+</universe>
+<dataKind>
+Surveydata: Oberoende undersökningar
+</dataKind>
+</sumDscr>
+</stdyInfo>
+<method>
+<dataColl>
+<timeMeth>
+Longitudinell: Trend/Upprepat tvärsnitt
+</timeMeth>
+<dataCollector>
+TNS Sifo
+</dataCollector>
+<sampProc>
+Sannolikhetsurval: obundet slumpmässigt urval (OSU)
+</sampProc>
+<collMode>
+Självadministrerat frågeformulär: Webb-baserat
+</collMode>
+<sources/>
+</dataColl>
+<stdyClas>
+SND-studie, bearbetad till nivå 1
+</stdyClas>
+</method>
+<dataAccs>
+<setAvail>
+<avlStatus>
+1a - Fritt tillgänglig utan registrering
+</avlStatus>
+</setAvail>
+</dataAccs>
+<othrStdyMat>
+<relMat>
+<citation>
+<titlStmt>
+<titl>
+Förtroendebarometer 2013 - Förtroende för samhällsinstitutioner, partier, massmedier och företag
+</titl>
+</titlStmt>
+<holdings URI="http://www.snd.gu.secatalogue/file/3480"/>
+</citation>
+</relMat>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relStdy/>
+<relPubl/>
+</othrStdyMat>
+</stdyDscr>
+<fileDscr URI="se.gu.snd.ddi.0963-001.Nesstar?Index=0&amp;Name=Förtroendebarometer 2013">
+<fileTxt>
+<fileName ID="F1">
+Förtroendebarometer 2013.NSDstat
+</fileName>
+<dimensns>
+<caseQnty>
+1220
+</caseQnty>
+<varQnty>
+84
+</varQnty>
+</dimensns>
+<fileType>
+Nesstar 200801
+</fileType>
+</fileTxt>
+</fileDscr>
+<dataDscr>
+<varGrp ID="VG1" type="subject" var="V84 V85 V86">
+<labl>
+Studieinformation
+</labl>
+</varGrp>
+<varGrp ID="VG2" type="subject" var="V1 V2 V6 V3 V4 V7 V88 V9">
+<labl>
+Bakgrundsvariabler/Konstruerade variabler
+</labl>
+</varGrp>
+<varGrp ID="VG3" type="subject" var="V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33 V34 V35 V36 V37 V38 V39 V40 V41 V42 V43 V44 V45 V46 V47 V48 V49 V50 V51 V52 V53 V54 V55 V56 V57 V58 V59 V60 V61 V62 V63 V64 V65 V66 V67 V68 V69 V70 V71 V72 V73 V74 V75 V76 V77 V78 V79 V92 V81 V82 V83">
+<labl>
+Frågor i webbenkät
+</labl>
+</varGrp>
+<var ID="V84" name="SND_studie" files="F1" dcml="2" intrvl="discrete">
+<location StartPos="1" EndPos="6" width="6" RecSegNo="1"/>
+<labl>
+SND-studie 0963
+</labl>
+<valrng>
+<range UNITS="REAL" min="963" max="963"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+SND-studie 0963: Förtroendebarometer 2013
+</txt>
+<catgry>
+<catValu>
+963
+</catValu>
+<labl>
+SND 0963
+</labl>
+<catStat type="freq">
+1220
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V85" name="SND_dataset" files="F1" dcml="2" intrvl="discrete">
+<location StartPos="7" EndPos="10" width="4" RecSegNo="1"/>
+<labl>
+SND-datatset 0963-001
+</labl>
+<valrng>
+<range UNITS="REAL" min="1" max="1"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+SND-dataset 0963-001: Förtroendebarometer 2013
+</txt>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+SND 0963-001
+</labl>
+<catStat type="freq">
+1220
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V86" name="SND_version" files="F1" dcml="2" intrvl="discrete">
+<location StartPos="11" EndPos="14" width="4" RecSegNo="1"/>
+<labl>
+SND version 2.1
+</labl>
+<valrng>
+<range UNITS="REAL" min="2" max="2"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+SND version 2.0 april 2014
+</txt>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Version 2.1
+</labl>
+<catStat type="freq">
+1220
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+<notes>
+Lablar, frågor och svarsalternativ översatta till engelska
+</notes>
+</var>
+<var ID="V1" name="RESPONSEID" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="15" EndPos="18" width="4" RecSegNo="1"/>
+<labl>
+responseid
+</labl>
+<valrng>
+<range UNITS="REAL" min="3" max="1329"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<sumStat type="min">
+3
+</sumStat>
+<sumStat type="max">
+1329
+</sumStat>
+<sumStat type="mean">
+654.17
+</sumStat>
+<sumStat type="stdev">
+379.458
+</sumStat>
+<txt>
+Respondent-ID
+</txt>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V2" name="RESPID" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="19" EndPos="22" width="4" RecSegNo="1"/>
+<labl>
+respid
+</labl>
+<valrng>
+<range UNITS="REAL" min="3" max="3499"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<sumStat type="min">
+3
+</sumStat>
+<sumStat type="max">
+3499
+</sumStat>
+<sumStat type="mean">
+1709.04
+</sumStat>
+<sumStat type="stdev">
+1038.877
+</sumStat>
+<txt>
+Respondent-ID
+</txt>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V6" name="IND_ID" files="F1" intrvl="discrete">
+<location StartPos="23" EndPos="30" width="8" RecSegNo="1"/>
+<labl>
+ind_id
+</labl>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+Respondent-ID
+</txt>
+<varFormat type="character" schema="other"/>
+</var>
+<var ID="V3" name="STATUS" files="F1" intrvl="discrete">
+<location StartPos="31" EndPos="38" width="8" RecSegNo="1"/>
+<labl>
+Status
+</labl>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+Status
+</txt>
+<catgry>
+<catValu>
+complete
+</catValu>
+<labl>
+complete
+</labl>
+<catStat type="freq">
+1220
+</catStat>
+</catgry>
+<varFormat type="character" schema="other"/>
+</var>
+<var ID="V4" name="WEIGHT" files="F1" dcml="5" intrvl="discrete">
+<location StartPos="39" EndPos="45" width="7" RecSegNo="1"/>
+<labl>
+Vikt
+</labl>
+<valrng>
+<range UNITS="REAL" min="0.53241" max="2.01511"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+Viktvariabel
+</txt>
+<catgry>
+<catValu>
+0.53241
+</catValu>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.53719
+</catValu>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.57984
+</catValu>
+<catStat type="freq">
+36
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.60151
+</catValu>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.60194
+</catValu>
+<catStat type="freq">
+20
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.60735
+</catValu>
+<catStat type="freq">
+15
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.6115
+</catValu>
+<catStat type="freq">
+26
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.61699
+</catValu>
+<catStat type="freq">
+16
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.62633
+</catValu>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.63196
+</catValu>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.65557
+</catValu>
+<catStat type="freq">
+31
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.66052
+</catValu>
+<catStat type="freq">
+22
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.66598
+</catValu>
+<catStat type="freq">
+29
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.66645
+</catValu>
+<catStat type="freq">
+25
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.67345
+</catValu>
+<catStat type="freq">
+25
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.6795
+</catValu>
+<catStat type="freq">
+29
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.68007
+</catValu>
+<catStat type="freq">
+35
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.68213
+</catValu>
+<catStat type="freq">
+24
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.69086
+</catValu>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.70762
+</catValu>
+<catStat type="freq">
+17
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.71532
+</catValu>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.71936
+</catValu>
+<catStat type="freq">
+48
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.72175
+</catValu>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.73345
+</catValu>
+<catStat type="freq">
+38
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.74624
+</catValu>
+<catStat type="freq">
+42
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.76086
+</catValu>
+<catStat type="freq">
+47
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.77905
+</catValu>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.80816
+</catValu>
+<catStat type="freq">
+21
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.88256
+</catValu>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0.99782
+</catValu>
+<catStat type="freq">
+33
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.01366
+</catValu>
+<catStat type="freq">
+24
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.03825
+</catValu>
+<catStat type="freq">
+21
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.05147
+</catValu>
+<catStat type="freq">
+19
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.09492
+</catValu>
+<catStat type="freq">
+26
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.11637
+</catValu>
+<catStat type="freq">
+33
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.18577
+</catValu>
+<catStat type="freq">
+16
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.18879
+</catValu>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.20766
+</catValu>
+<catStat type="freq">
+19
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.23696
+</catValu>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.30447
+</catValu>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.33002
+</catValu>
+<catStat type="freq">
+20
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.37079
+</catValu>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.37973
+</catValu>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.40415
+</catValu>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.41271
+</catValu>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.49983
+</catValu>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.54981
+</catValu>
+<catStat type="freq">
+14
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.55992
+</catValu>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.57441
+</catValu>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.58468
+</catValu>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.58753
+</catValu>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.6126
+</catValu>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.61273
+</catValu>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.62313
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.65185
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.6957
+</catValu>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.70062
+</catValu>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.71172
+</catValu>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.72262
+</catValu>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.73393
+</catValu>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.74201
+</catValu>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.74525
+</catValu>
+<catStat type="freq">
+17
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.76441
+</catValu>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.77613
+</catValu>
+<catStat type="freq">
+15
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.84173
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.85375
+</catValu>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.86071
+</catValu>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.88655
+</catValu>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1.89716
+</catValu>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2.01511
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V7" name="GENDER" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="46" EndPos="46" width="1" RecSegNo="1"/>
+<labl>
+Kön
+</labl>
+<valrng>
+<range UNITS="REAL" min="1" max="2"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+Kön
+</txt>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Man
+</labl>
+<catStat type="freq">
+629
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Kvinna
+</labl>
+<catStat type="freq">
+591
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V88" name="ACTUALAGE" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="47" EndPos="48" width="2" RecSegNo="1"/>
+<labl>
+Ålder
+</labl>
+<valrng>
+<range UNITS="REAL" min="17" max="74"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<sumStat type="min">
+17
+</sumStat>
+<sumStat type="max">
+74
+</sumStat>
+<txt>
+Ålder
+</txt>
+<catgry>
+<catValu>
+17
+</catValu>
+<labl>
+17
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+18
+</catValu>
+<labl>
+18
+</labl>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+19
+</catValu>
+<labl>
+19
+</labl>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+20
+</catValu>
+<labl>
+20
+</labl>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+21
+</catValu>
+<labl>
+21
+</labl>
+<catStat type="freq">
+14
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+22
+</catValu>
+<labl>
+22
+</labl>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+23
+</catValu>
+<labl>
+23
+</labl>
+<catStat type="freq">
+24
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+24
+</catValu>
+<labl>
+24
+</labl>
+<catStat type="freq">
+29
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+25
+</catValu>
+<labl>
+25
+</labl>
+<catStat type="freq">
+17
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+26
+</catValu>
+<labl>
+26
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+27
+</catValu>
+<labl>
+27
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+28
+</catValu>
+<labl>
+28
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+29
+</catValu>
+<labl>
+29
+</labl>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+30
+</catValu>
+<labl>
+30
+</labl>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+31
+</catValu>
+<labl>
+31
+</labl>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+32
+</catValu>
+<labl>
+32
+</labl>
+<catStat type="freq">
+18
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+33
+</catValu>
+<labl>
+33
+</labl>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+34
+</catValu>
+<labl>
+34
+</labl>
+<catStat type="freq">
+15
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+35
+</catValu>
+<labl>
+35
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+36
+</catValu>
+<labl>
+36
+</labl>
+<catStat type="freq">
+16
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+37
+</catValu>
+<labl>
+37
+</labl>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+38
+</catValu>
+<labl>
+38
+</labl>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+39
+</catValu>
+<labl>
+39
+</labl>
+<catStat type="freq">
+20
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+40
+</catValu>
+<labl>
+40
+</labl>
+<catStat type="freq">
+26
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+41
+</catValu>
+<labl>
+41
+</labl>
+<catStat type="freq">
+22
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+42
+</catValu>
+<labl>
+42
+</labl>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+43
+</catValu>
+<labl>
+43
+</labl>
+<catStat type="freq">
+20
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+44
+</catValu>
+<labl>
+44
+</labl>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+45
+</catValu>
+<labl>
+45
+</labl>
+<catStat type="freq">
+36
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+46
+</catValu>
+<labl>
+46
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+47
+</catValu>
+<labl>
+47
+</labl>
+<catStat type="freq">
+22
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+48
+</catValu>
+<labl>
+48
+</labl>
+<catStat type="freq">
+19
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+49
+</catValu>
+<labl>
+49
+</labl>
+<catStat type="freq">
+26
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+50
+</catValu>
+<labl>
+50
+</labl>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+51
+</catValu>
+<labl>
+51
+</labl>
+<catStat type="freq">
+25
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+52
+</catValu>
+<labl>
+52
+</labl>
+<catStat type="freq">
+37
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+53
+</catValu>
+<labl>
+53
+</labl>
+<catStat type="freq">
+25
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+54
+</catValu>
+<labl>
+54
+</labl>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+55
+</catValu>
+<labl>
+55
+</labl>
+<catStat type="freq">
+31
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+56
+</catValu>
+<labl>
+56
+</labl>
+<catStat type="freq">
+26
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+57
+</catValu>
+<labl>
+57
+</labl>
+<catStat type="freq">
+30
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+58
+</catValu>
+<labl>
+58
+</labl>
+<catStat type="freq">
+29
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+59
+</catValu>
+<labl>
+59
+</labl>
+<catStat type="freq">
+24
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+60
+</catValu>
+<labl>
+60
+</labl>
+<catStat type="freq">
+22
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+61
+</catValu>
+<labl>
+61
+</labl>
+<catStat type="freq">
+30
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+62
+</catValu>
+<labl>
+62
+</labl>
+<catStat type="freq">
+38
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+63
+</catValu>
+<labl>
+63
+</labl>
+<catStat type="freq">
+32
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+64
+</catValu>
+<labl>
+64
+</labl>
+<catStat type="freq">
+42
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+65
+</catValu>
+<labl>
+65
+</labl>
+<catStat type="freq">
+22
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+66
+</catValu>
+<labl>
+66
+</labl>
+<catStat type="freq">
+31
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+67
+</catValu>
+<labl>
+67
+</labl>
+<catStat type="freq">
+30
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+68
+</catValu>
+<labl>
+68
+</labl>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+69
+</catValu>
+<labl>
+69
+</labl>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+70
+</catValu>
+<labl>
+70
+</labl>
+<catStat type="freq">
+32
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+71
+</catValu>
+<labl>
+71
+</labl>
+<catStat type="freq">
+29
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+72
+</catValu>
+<labl>
+72
+</labl>
+<catStat type="freq">
+19
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+73
+</catValu>
+<labl>
+73
+</labl>
+<catStat type="freq">
+18
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+74
+</catValu>
+<labl>
+74
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V9" name="KOMMUN" files="F1" intrvl="discrete">
+<location StartPos="49" EndPos="52" width="4" RecSegNo="1"/>
+<labl>
+Kommunkod
+</labl>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+Kommunkod
+</txt>
+<catgry>
+<catValu>
+0000
+</catValu>
+<labl>
+0000
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0114
+</catValu>
+<labl>
+Upplands Väsby
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0115
+</catValu>
+<labl>
+Vallentuna
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0117
+</catValu>
+<labl>
+Österåker
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0120
+</catValu>
+<labl>
+Värmdö
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0123
+</catValu>
+<labl>
+Järfälla
+</labl>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0125
+</catValu>
+<labl>
+Ekerö
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0126
+</catValu>
+<labl>
+Huddinge
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0127
+</catValu>
+<labl>
+Botkyrka
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0128
+</catValu>
+<labl>
+Salem
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0136
+</catValu>
+<labl>
+Haninge
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0138
+</catValu>
+<labl>
+Tyresö
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0139
+</catValu>
+<labl>
+Upplands-Bro
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0140
+</catValu>
+<labl>
+Nykvarn
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0160
+</catValu>
+<labl>
+Täby
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0162
+</catValu>
+<labl>
+Danderyd
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0163
+</catValu>
+<labl>
+Sollentuna
+</labl>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0180
+</catValu>
+<labl>
+Stockholm
+</labl>
+<catStat type="freq">
+107
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0181
+</catValu>
+<labl>
+Södertälje
+</labl>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0182
+</catValu>
+<labl>
+Nacka
+</labl>
+<catStat type="freq">
+15
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0183
+</catValu>
+<labl>
+Sundbyberg
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0184
+</catValu>
+<labl>
+Solna
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0186
+</catValu>
+<labl>
+Lidingö
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0187
+</catValu>
+<labl>
+Vaxholm
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0188
+</catValu>
+<labl>
+Norrtälje
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0191
+</catValu>
+<labl>
+Sigtuna
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0192
+</catValu>
+<labl>
+Nynäshamn
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0305
+</catValu>
+<labl>
+Håbo
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0331
+</catValu>
+<labl>
+Heby
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0360
+</catValu>
+<labl>
+Tierp
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0380
+</catValu>
+<labl>
+Uppsala
+</labl>
+<catStat type="freq">
+35
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0381
+</catValu>
+<labl>
+Enköping
+</labl>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0382
+</catValu>
+<labl>
+Östhammar
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0428
+</catValu>
+<labl>
+Vingåker
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0461
+</catValu>
+<labl>
+Gnesta
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0480
+</catValu>
+<labl>
+Nyköping
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0481
+</catValu>
+<labl>
+Oxelösund
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0482
+</catValu>
+<labl>
+Flen
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0483
+</catValu>
+<labl>
+Katrineholm
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0484
+</catValu>
+<labl>
+Eskilstuna
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0486
+</catValu>
+<labl>
+Strängnäs
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0488
+</catValu>
+<labl>
+Trosa
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0512
+</catValu>
+<labl>
+Ydre
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0513
+</catValu>
+<labl>
+Kinda
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0561
+</catValu>
+<labl>
+Åtvidaberg
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0562
+</catValu>
+<labl>
+Finspång
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0563
+</catValu>
+<labl>
+Valdemarsvik
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0580
+</catValu>
+<labl>
+Linköping
+</labl>
+<catStat type="freq">
+29
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0581
+</catValu>
+<labl>
+Norrköping
+</labl>
+<catStat type="freq">
+15
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0582
+</catValu>
+<labl>
+Söderköping
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0583
+</catValu>
+<labl>
+Motala
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0584
+</catValu>
+<labl>
+Vadstena
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0586
+</catValu>
+<labl>
+Mjölby
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0604
+</catValu>
+<labl>
+Aneby
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0642
+</catValu>
+<labl>
+Mullsjö
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0643
+</catValu>
+<labl>
+Habo
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0662
+</catValu>
+<labl>
+Gislaved
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0665
+</catValu>
+<labl>
+Vaggeryd
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0680
+</catValu>
+<labl>
+Jönköping
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0682
+</catValu>
+<labl>
+Nässjö
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0683
+</catValu>
+<labl>
+Värnamo
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0684
+</catValu>
+<labl>
+Sävsjö
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0685
+</catValu>
+<labl>
+Vetlanda
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0686
+</catValu>
+<labl>
+Eksjö
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0687
+</catValu>
+<labl>
+Tranås
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0760
+</catValu>
+<labl>
+Uppvidinge
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0761
+</catValu>
+<labl>
+Lessebo
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0764
+</catValu>
+<labl>
+Alvesta
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0765
+</catValu>
+<labl>
+Älmhult
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0767
+</catValu>
+<labl>
+Markaryd
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0780
+</catValu>
+<labl>
+Växjö
+</labl>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0781
+</catValu>
+<labl>
+Ljungby
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0821
+</catValu>
+<labl>
+Högsby
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0834
+</catValu>
+<labl>
+Torsås
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0840
+</catValu>
+<labl>
+Mörbylånga
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0861
+</catValu>
+<labl>
+Mönsterås
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0880
+</catValu>
+<labl>
+Kalmar
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0881
+</catValu>
+<labl>
+Nybro
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0882
+</catValu>
+<labl>
+Oskarshamn
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0883
+</catValu>
+<labl>
+Västervik
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0884
+</catValu>
+<labl>
+Vimmerby
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0885
+</catValu>
+<labl>
+Borgholm
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+0980
+</catValu>
+<labl>
+Gotland
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1060
+</catValu>
+<labl>
+Olofström
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1080
+</catValu>
+<labl>
+Karlskrona
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1081
+</catValu>
+<labl>
+Ronneby
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1082
+</catValu>
+<labl>
+Karlshamn
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1214
+</catValu>
+<labl>
+Svalöv
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1230
+</catValu>
+<labl>
+Staffanstorp
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1233
+</catValu>
+<labl>
+Vellinge
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1256
+</catValu>
+<labl>
+Östra Göinge
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1257
+</catValu>
+<labl>
+Örkelljunga
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1261
+</catValu>
+<labl>
+Kävlinge
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1262
+</catValu>
+<labl>
+Lomma
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1263
+</catValu>
+<labl>
+Svedala
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1264
+</catValu>
+<labl>
+Skurup
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1265
+</catValu>
+<labl>
+Sjöbo
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1266
+</catValu>
+<labl>
+Hörby
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1267
+</catValu>
+<labl>
+Höör
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1270
+</catValu>
+<labl>
+Tomelilla
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1272
+</catValu>
+<labl>
+Bromölla
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1273
+</catValu>
+<labl>
+Osby
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1275
+</catValu>
+<labl>
+Perstorp
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1276
+</catValu>
+<labl>
+Klippan
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1277
+</catValu>
+<labl>
+Åstorp
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1278
+</catValu>
+<labl>
+Båstad
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1280
+</catValu>
+<labl>
+Malmö
+</labl>
+<catStat type="freq">
+29
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1281
+</catValu>
+<labl>
+Lund
+</labl>
+<catStat type="freq">
+25
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1282
+</catValu>
+<labl>
+Landskrona
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1283
+</catValu>
+<labl>
+Helsingborg
+</labl>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1284
+</catValu>
+<labl>
+Höganäs
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1285
+</catValu>
+<labl>
+Eslöv
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1286
+</catValu>
+<labl>
+Ystad
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1287
+</catValu>
+<labl>
+Trelleborg
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1290
+</catValu>
+<labl>
+Kristianstad
+</labl>
+<catStat type="freq">
+17
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1291
+</catValu>
+<labl>
+Simrishamn
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1292
+</catValu>
+<labl>
+Ängelholm
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1293
+</catValu>
+<labl>
+Hässleholm
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1380
+</catValu>
+<labl>
+Halmstad
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1381
+</catValu>
+<labl>
+Laholm
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1382
+</catValu>
+<labl>
+Falkenberg
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1383
+</catValu>
+<labl>
+Varberg
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1384
+</catValu>
+<labl>
+Kungsbacka
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1401
+</catValu>
+<labl>
+Härryda
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1402
+</catValu>
+<labl>
+Partille
+</labl>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1407
+</catValu>
+<labl>
+Öckerö
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1415
+</catValu>
+<labl>
+Stenungsund
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1421
+</catValu>
+<labl>
+Orust
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1427
+</catValu>
+<labl>
+Sotenäs
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1430
+</catValu>
+<labl>
+Munkedal
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1440
+</catValu>
+<labl>
+Ale
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1441
+</catValu>
+<labl>
+Lerum
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1442
+</catValu>
+<labl>
+Vårgårda
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1445
+</catValu>
+<labl>
+Essunga
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1452
+</catValu>
+<labl>
+Tranemo
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1461
+</catValu>
+<labl>
+Mellerud
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1462
+</catValu>
+<labl>
+Lilla Edet
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1463
+</catValu>
+<labl>
+Mark
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1465
+</catValu>
+<labl>
+Svenljunga
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1471
+</catValu>
+<labl>
+Götene
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1472
+</catValu>
+<labl>
+Tibro
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1473
+</catValu>
+<labl>
+Töreboda
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1480
+</catValu>
+<labl>
+Göteborg
+</labl>
+<catStat type="freq">
+67
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1481
+</catValu>
+<labl>
+Mölndal
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1482
+</catValu>
+<labl>
+Kungälv
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1484
+</catValu>
+<labl>
+Lysekil
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1485
+</catValu>
+<labl>
+Uddevalla
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1487
+</catValu>
+<labl>
+Vänersborg
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1488
+</catValu>
+<labl>
+Trollhättan
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1489
+</catValu>
+<labl>
+Alingsås
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1490
+</catValu>
+<labl>
+Borås
+</labl>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1491
+</catValu>
+<labl>
+Ulricehamn
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1493
+</catValu>
+<labl>
+Mariestad
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1494
+</catValu>
+<labl>
+Lidköping
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1495
+</catValu>
+<labl>
+Skara
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1496
+</catValu>
+<labl>
+Skövde
+</labl>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1497
+</catValu>
+<labl>
+Hjo
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1499
+</catValu>
+<labl>
+Falköping
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1715
+</catValu>
+<labl>
+Kil
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1730
+</catValu>
+<labl>
+Eda
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1737
+</catValu>
+<labl>
+Torsby
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1761
+</catValu>
+<labl>
+Hammarö
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1762
+</catValu>
+<labl>
+Munkfors
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1763
+</catValu>
+<labl>
+Forshaga
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1764
+</catValu>
+<labl>
+Grums
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1766
+</catValu>
+<labl>
+Sunne
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1780
+</catValu>
+<labl>
+Karlstad
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1781
+</catValu>
+<labl>
+Kristinehamn
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1782
+</catValu>
+<labl>
+Filipstad
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1783
+</catValu>
+<labl>
+Hagfors
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1784
+</catValu>
+<labl>
+Arvika
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1785
+</catValu>
+<labl>
+Säffle
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1814
+</catValu>
+<labl>
+Lekeberg
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1863
+</catValu>
+<labl>
+Hällefors
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1880
+</catValu>
+<labl>
+Örebro
+</labl>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1881
+</catValu>
+<labl>
+Kumla
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1883
+</catValu>
+<labl>
+Karlskoga
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1884
+</catValu>
+<labl>
+Nora
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1885
+</catValu>
+<labl>
+Lindesberg
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1904
+</catValu>
+<labl>
+Skinnskatteberg
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1907
+</catValu>
+<labl>
+Surahammar
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1961
+</catValu>
+<labl>
+Hallstahammar
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1962
+</catValu>
+<labl>
+Norberg
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1980
+</catValu>
+<labl>
+Västerås
+</labl>
+<catStat type="freq">
+19
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1981
+</catValu>
+<labl>
+Sala
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1983
+</catValu>
+<labl>
+Köping
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+1984
+</catValu>
+<labl>
+Arboga
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2021
+</catValu>
+<labl>
+Vansbro
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2023
+</catValu>
+<labl>
+Malung-Sälen
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2026
+</catValu>
+<labl>
+Gagnef
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2029
+</catValu>
+<labl>
+Leksand
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2031
+</catValu>
+<labl>
+Rättvik
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2039
+</catValu>
+<labl>
+Älvdalen
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2061
+</catValu>
+<labl>
+Smedjebacken
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2062
+</catValu>
+<labl>
+Mora
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2080
+</catValu>
+<labl>
+Falun
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2081
+</catValu>
+<labl>
+Borlänge
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2082
+</catValu>
+<labl>
+Säter
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2084
+</catValu>
+<labl>
+Avesta
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2085
+</catValu>
+<labl>
+Ludvika
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2101
+</catValu>
+<labl>
+Ockelbo
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2121
+</catValu>
+<labl>
+Ovanåker
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2161
+</catValu>
+<labl>
+Ljusdal
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2180
+</catValu>
+<labl>
+Gävle
+</labl>
+<catStat type="freq">
+16
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2181
+</catValu>
+<labl>
+Sandviken
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2182
+</catValu>
+<labl>
+Söderhamn
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2183
+</catValu>
+<labl>
+Bollnäs
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2184
+</catValu>
+<labl>
+Hudiksvall
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2262
+</catValu>
+<labl>
+Timrå
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2280
+</catValu>
+<labl>
+Härnösand
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2281
+</catValu>
+<labl>
+Sundsvall
+</labl>
+<catStat type="freq">
+14
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2282
+</catValu>
+<labl>
+Kramfors
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2283
+</catValu>
+<labl>
+Sollefteå
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2284
+</catValu>
+<labl>
+Örnsköldsvik
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2303
+</catValu>
+<labl>
+Ragunda
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2309
+</catValu>
+<labl>
+Krokom
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2313
+</catValu>
+<labl>
+Strömsund
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2380
+</catValu>
+<labl>
+Östersund
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2401
+</catValu>
+<labl>
+Nordmaling
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2409
+</catValu>
+<labl>
+Robertsfors
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2417
+</catValu>
+<labl>
+Norsjö
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2421
+</catValu>
+<labl>
+Storuman
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2460
+</catValu>
+<labl>
+Vännäs
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2480
+</catValu>
+<labl>
+Umeå
+</labl>
+<catStat type="freq">
+25
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2481
+</catValu>
+<labl>
+Lycksele
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2482
+</catValu>
+<labl>
+Skellefteå
+</labl>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2505
+</catValu>
+<labl>
+Arvidsjaur
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2513
+</catValu>
+<labl>
+Överkalix
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2514
+</catValu>
+<labl>
+Kalix
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2523
+</catValu>
+<labl>
+Gällivare
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2560
+</catValu>
+<labl>
+Älvsbyn
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2580
+</catValu>
+<labl>
+Luleå
+</labl>
+<catStat type="freq">
+14
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2581
+</catValu>
+<labl>
+Piteå
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2582
+</catValu>
+<labl>
+Boden
+</labl>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2584
+</catValu>
+<labl>
+Kiruna
+</labl>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<varFormat type="character" schema="other"/>
+</var>
+<var ID="V11" name="Q1A_10" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="53" EndPos="53" width="1" RecSegNo="1"/>
+<labl>
+F.1AA Förtroende för: Regeringen
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Regeringen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+117
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+492
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+342
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+185
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+84
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V12" name="Q1A_7" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="54" EndPos="54" width="1" RecSegNo="1"/>
+<labl>
+F.1AB Förtroende för: Dagspressen
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Dagspressen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+21
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+337
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+516
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+285
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+61
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V13" name="Q1A_1" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="55" EndPos="55" width="1" RecSegNo="1"/>
+<labl>
+F.1AC Förtroende för: Riksdagen
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Riksdagen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+73
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+475
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+483
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+161
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+28
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V14" name="Q1A_11" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="56" EndPos="56" width="1" RecSegNo="1"/>
+<labl>
+F.1AD Förtroende för: Bankerna
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Bankerna
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+28
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+307
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+474
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+322
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+89
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V15" name="Q1A_6" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="57" EndPos="57" width="1" RecSegNo="1"/>
+<labl>
+F.1AE Förtroende för: Radio-TV
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Radio/TV
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+71
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+519
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+502
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+103
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+25
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V16" name="Q1A_5" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="58" EndPos="58" width="1" RecSegNo="1"/>
+<labl>
+F.1AF Förtroende för: Storföretagen
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Storföretagen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+18
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+269
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+614
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+259
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+60
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V17" name="Q1A_4" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="59" EndPos="59" width="1" RecSegNo="1"/>
+<labl>
+F.1AG Förtroende för: Universitet och högskolor
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Universitet och högskolor
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+117
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+676
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+367
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+47
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V18" name="Q1A_8" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="60" EndPos="60" width="1" RecSegNo="1"/>
+<labl>
+F.1AH Förtroende för: De fackliga organisationerna
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - De fackliga organisationerna
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+48
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+353
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+505
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+248
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+66
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V19" name="Q1A_3" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="61" EndPos="61" width="1" RecSegNo="1"/>
+<labl>
+F.1AI Förtroende för: De politiska partierna
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - De politiska partierna
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+175
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+604
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+352
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+81
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V20" name="Q1A_9" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="62" EndPos="62" width="1" RecSegNo="1"/>
+<labl>
+F.1AJ Förtroende för: Svenska kyrkan
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Svenska kyrkan
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+86
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+329
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+512
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+196
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+97
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V21" name="Q1A_2" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="63" EndPos="63" width="1" RecSegNo="1"/>
+<labl>
+F.1AK Förtroende för: EU-kommissionen
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - EU-kommissionen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+14
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+182
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+536
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+317
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+171
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V22" name="Q1A_12" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="64" EndPos="64" width="1" RecSegNo="1"/>
+<labl>
+F.1AL Förtroende för: Riksbanken
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Riksbanken
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+123
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+510
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+455
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+102
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+30
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V23" name="Q1A_13" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="65" EndPos="65" width="1" RecSegNo="1"/>
+<labl>
+F.1AM Förtroende för: Kungahuset
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Kungahuset
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+97
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+351
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+414
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+193
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+165
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V24" name="Q1A_14" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="66" EndPos="66" width="1" RecSegNo="1"/>
+<labl>
+F.1AN Förtroende för: Sjukvården
+</labl>
+<qstn>
+<qstnLit>
+Hur stort förtroende har du för det sätt på vilket följande verksamheter sköter sitt arbete? - Sjukvården
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+119
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+571
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+335
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+150
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+45
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V25" name="Q1B_1" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="67" EndPos="67" width="1" RecSegNo="1"/>
+<labl>
+F.1BA Förtroende för: Socialdemokraterna
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande politiska partier? - Socialdemokraterna
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+67
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+349
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+438
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+263
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+103
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V26" name="Q1B_2" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="68" EndPos="68" width="1" RecSegNo="1"/>
+<labl>
+F.1BB Förtroende för: Moderaterna
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande politiska partier? - Moderaterna
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+106
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+407
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+339
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+209
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+159
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V27" name="Q1B_3" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="69" EndPos="69" width="1" RecSegNo="1"/>
+<labl>
+F.1BC Förtroende för: Sverigedemokraterna
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande politiska partier? - Sverigedemokraterna
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+24
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+83
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+199
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+200
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+714
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V28" name="Q1B_4" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="70" EndPos="70" width="1" RecSegNo="1"/>
+<labl>
+F.1BD Förtroende för: Kristdemokraterna
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande politiska partier? - Kristdemokraterna
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+17
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+166
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+389
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+352
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+296
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V29" name="Q1B_5" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="71" EndPos="71" width="1" RecSegNo="1"/>
+<labl>
+F.1BE Förtroende för: Centerpartiet
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande politiska partier? - Centerpartiet
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+112
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+408
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+385
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+309
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V30" name="Q1B_6" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="72" EndPos="72" width="1" RecSegNo="1"/>
+<labl>
+F.1BF Förtoende för: Vänsterpartiet
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande politiska partier? - Vänsterpartiet
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+22
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+184
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+392
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+322
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+300
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V31" name="Q1B_7" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="73" EndPos="73" width="1" RecSegNo="1"/>
+<labl>
+F.1BG Förtroende för: Miljöpartiet
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande politiska partier? - Miljöpartiet
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+46
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+311
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+436
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+240
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+187
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V32" name="Q1B_8" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="74" EndPos="74" width="1" RecSegNo="1"/>
+<labl>
+F.1BH Förtroende för: Folkpartiet
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande politiska partier? - Folkpartiet
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+21
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+218
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+487
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+306
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+188
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V33" name="Q1C_1" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="75" EndPos="75" width="1" RecSegNo="1"/>
+<labl>
+F.1CA Förtroende för: Sveriges Radio
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande medieföretag? - Sveriges Radio
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+302
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+632
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+239
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+24
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V34" name="Q1C_2" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="76" EndPos="76" width="1" RecSegNo="1"/>
+<labl>
+F.1CB Förtroende för: Sveriges Television
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande medieföretag? - Sveriges Television
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+249
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+640
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+262
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+43
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+26
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V35" name="Q1C_3" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="77" EndPos="77" width="1" RecSegNo="1"/>
+<labl>
+F.1CC Förtroende för: TV4
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande medieföretag? - TV4
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+39
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+376
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+556
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+179
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+70
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V36" name="Q1C_4" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="78" EndPos="78" width="1" RecSegNo="1"/>
+<labl>
+F.1CD Förtroende för: TV3
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande medieföretag? - TV3
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+154
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+538
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+389
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+131
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V37" name="Q1C_5" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="79" EndPos="79" width="1" RecSegNo="1"/>
+<labl>
+<![CDATA[F.1CE  Förtroende för: Dagens Nyheter]]>
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande medieföretag? - Dagens Nyheter
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+100
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+536
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+443
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+102
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+39
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V38" name="Q1C_6" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="80" EndPos="80" width="1" RecSegNo="1"/>
+<labl>
+<![CDATA[F.1CF  Förtroende för: Aftonbladet]]>
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande medieföretag? - Aftonbladet
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+11
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+147
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+445
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+402
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+215
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V39" name="Q1C_8" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="81" EndPos="81" width="1" RecSegNo="1"/>
+<labl>
+<![CDATA[F.1CG  Förtroende för: Expressen]]>
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande medieföretag? - Expressen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+121
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+440
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+426
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+228
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V40" name="Q1C_7" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="82" EndPos="82" width="1" RecSegNo="1"/>
+<labl>
+<![CDATA[F.1CH  Förtroende för: Den lokala morgontidningen]]>
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande medieföretag? - Den lokala morgontidningen på den ort där du bor
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+98
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+515
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+468
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+108
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+31
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V41" name="Q1D_1" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="83" EndPos="83" width="1" RecSegNo="1"/>
+<labl>
+F.1DA Förtroende för: IKEA
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - IKEA
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+102
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+587
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+433
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+79
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+19
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V42" name="Q1D_2" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="84" EndPos="84" width="1" RecSegNo="1"/>
+<labl>
+F.1DB Förtroende för: Volvo
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Volvo
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+115
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+558
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+475
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+58
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+14
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V43" name="Q1D_3" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="85" EndPos="85" width="1" RecSegNo="1"/>
+<labl>
+F.1DC Förtroende för: Ericsson
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Ericsson
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+53
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+434
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+605
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+101
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V44" name="Q1D_4" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="86" EndPos="86" width="1" RecSegNo="1"/>
+<labl>
+F.1DD Förtroende för: Coca Cola
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Coca Cola
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+39
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+187
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+554
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+302
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+138
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V45" name="Q1D_5" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="87" EndPos="87" width="1" RecSegNo="1"/>
+<labl>
+F.1DE Förtroende för: Skandia
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Skandia
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+24
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+203
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+676
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+245
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+72
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V46" name="Q1D_6" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="88" EndPos="88" width="1" RecSegNo="1"/>
+<labl>
+F.1DF Förtroende för: Astra Zeneca
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Astra Zeneca
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+35
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+278
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+672
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+190
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+45
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V47" name="Q1D_7" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="89" EndPos="89" width="1" RecSegNo="1"/>
+<labl>
+F.1DG Förtroende för: SAS
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - SAS
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+259
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+632
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+244
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+58
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V48" name="Q1D_8" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="90" EndPos="90" width="1" RecSegNo="1"/>
+<labl>
+F.1DH Förtroende för: H&amp;M
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - H&amp;M
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+36
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+244
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+574
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+280
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+86
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V49" name="Q1D_9" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="91" EndPos="91" width="1" RecSegNo="1"/>
+<labl>
+F.1DI Förtroende för: Saab
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Saab
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+20
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+178
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+549
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+294
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+179
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V50" name="Q1D_10" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="92" EndPos="92" width="1" RecSegNo="1"/>
+<labl>
+F.1DJ Förtroende för: Vattenfall
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Vattenfall
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+26
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+221
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+587
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+284
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+102
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V51" name="Q1D_11" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="93" EndPos="93" width="1" RecSegNo="1"/>
+<labl>
+F.1DK Förtroende för: SJ
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - SJ
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+20
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+150
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+422
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+413
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+215
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V52" name="Q1D_12" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="94" EndPos="94" width="1" RecSegNo="1"/>
+<labl>
+F.1DL Förtroende för: Telia Sonera
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Telia Sonera
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+21
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+183
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+513
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+329
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+174
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V53" name="Q1D_13" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="95" EndPos="95" width="1" RecSegNo="1"/>
+<labl>
+F.1DM Förtroende för: Volkswagen
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Volkswagen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+48
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+336
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+703
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+97
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+36
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V54" name="Q1D_14" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="96" EndPos="96" width="1" RecSegNo="1"/>
+<labl>
+F.1DN Förtroende för: Systembolaget
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Systembolaget
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+206
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+563
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+358
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+63
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+30
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V55" name="Q1D_15" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="97" EndPos="97" width="1" RecSegNo="1"/>
+<labl>
+F.1DO Förtroende för: Posten
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Posten
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+76
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+399
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+477
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+199
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+69
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V56" name="Q1D_16" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="98" EndPos="98" width="1" RecSegNo="1"/>
+<labl>
+F.1DP Förtroende för: HSB
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - HSB
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+34
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+270
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+737
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+151
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+28
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V57" name="Q1D_17" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="99" EndPos="99" width="1" RecSegNo="1"/>
+<labl>
+F.1DQ Förtroende för: COOP-Kooperationen
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - COOP-Kooperationen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+53
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+371
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+617
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+145
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+34
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V58" name="Q1D_18" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="100" EndPos="100" width="1" RecSegNo="1"/>
+<labl>
+F.1DR Förtroende för: ICA
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - ICA
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+62
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+520
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+522
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+93
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V59" name="Q1D_19" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="101" EndPos="101" width="1" RecSegNo="1"/>
+<labl>
+F.1DS Förtroende för: Frälsningsarmén
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Frälsningsarmén
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+149
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+396
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+483
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+132
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+60
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V60" name="Q1D_20" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="102" EndPos="102" width="1" RecSegNo="1"/>
+<labl>
+F.1DT Förtroende för: Röda Korset
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Röda Korset
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+117
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+399
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+416
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+195
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+93
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V61" name="Q1D_21" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="103" EndPos="103" width="1" RecSegNo="1"/>
+<labl>
+F.1DU Förtroende för: Amensty International
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande företag? - Amnesty International
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+190
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+452
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+420
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+114
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+44
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V62" name="Q1E_1" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="104" EndPos="104" width="1" RecSegNo="1"/>
+<labl>
+F.1EA Förtroende för: Arbetsförmedlingen
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande myndigheter? - Arbetsförmedlingen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+13
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+124
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+403
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+411
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+269
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V63" name="Q1E_2" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="105" EndPos="105" width="1" RecSegNo="1"/>
+<labl>
+F.1EB Förtroende för: Försäkringskassan
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande myndigheter? - Försäkringskassen
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+22
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+196
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+422
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+378
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+202
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V64" name="Q1E_3" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="106" EndPos="106" width="1" RecSegNo="1"/>
+<labl>
+F.1EC Förtroende för: Skatteverket
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande myndigheter? - Skatteverket
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+117
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+536
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+447
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+83
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+37
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V65" name="Q1E_4" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="107" EndPos="107" width="1" RecSegNo="1"/>
+<labl>
+F.1ED Förtroende för: Migrationsverket
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande myndigheter? - Migrationsverket
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+9
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+100
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+435
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+387
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+289
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V66" name="Q1C2_1" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="108" EndPos="108" width="1" RecSegNo="1"/>
+<labl>
+F.1FA Förtroende för: Aftonbladet.se
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande sajter på nätet? - Aftonbladet.se
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="9"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+17
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+160
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+430
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+256
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+210
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Ingen uppfattning
+</labl>
+<catStat type="freq">
+147
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V67" name="Q1C2_2" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="109" EndPos="109" width="1" RecSegNo="1"/>
+<labl>
+F.1FB Förtroende för: Google
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande sajter på nätet? - Google
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="9"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+85
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+455
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+477
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+99
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+43
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Ingen uppfattning
+</labl>
+<catStat type="freq">
+61
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V68" name="Q1C2_3" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="110" EndPos="110" width="1" RecSegNo="1"/>
+<labl>
+F.1FC Förtroende för: Facebook
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande sajter på nätet? - Facebook
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="9"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+135
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+415
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+260
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+209
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Ingen uppfattning
+</labl>
+<catStat type="freq">
+178
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V69" name="Q1C2_4" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="111" EndPos="111" width="1" RecSegNo="1"/>
+<labl>
+F.1FD Förtroende för: Wikipedia
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande sajter på nätet? - Wikipedia
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="9"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+63
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+333
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+467
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+146
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+66
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Ingen uppfattning
+</labl>
+<catStat type="freq">
+145
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V70" name="Q1C2_5" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="112" EndPos="112" width="1" RecSegNo="1"/>
+<labl>
+F.1FE Förtroende för: Twitter
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle använda samma skala för att bedöma några andra företeelser i Sverige, hur skulle du då placera följande sajter på nätet? - Twitter
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="9"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket stort förtroende
+</labl>
+<catStat type="freq">
+12
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska stort förtroende
+</labl>
+<catStat type="freq">
+66
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Varken stort eller litet förtroende
+</labl>
+<catStat type="freq">
+346
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Ganska litet förtroende
+</labl>
+<catStat type="freq">
+185
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Mycket litet förtroende
+</labl>
+<catStat type="freq">
+161
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Ingen uppfattning
+</labl>
+<catStat type="freq">
+450
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V71" name="Q2" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="113" EndPos="113" width="1" RecSegNo="1"/>
+<labl>
+F.2A Särskilt uppskattad mediaperson
+</labl>
+<qstn>
+<qstnLit>
+Finns det någon person verksam i svensk press, radio, tv eller i digitala medier som du särskilt uppskattar?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="2"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Ja v.g. ange namn
+</labl>
+<catStat type="freq">
+419
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Nej
+</labl>
+<catStat type="freq">
+801
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V72" name="Q2_1_OTHER" files="F1" intrvl="discrete">
+<location StartPos="114" EndPos="163" width="50" RecSegNo="1"/>
+<labl>
+F.2B Särskilt uppskattad mediaperson: Vem
+</labl>
+<qstn>
+<qstnLit>
+Finns det någon person verksam i svensk press, radio, tv eller i digitala medier som du särskilt uppskattar? - Vem?
+</qstnLit>
+</qstn>
+<sumStat type="vald">
+419
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+60 minutes, Andersson Cooper
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Agenda-tjejerna
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Amelia Adamo
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anders Eldeman
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Andre Pops
+</catValu>
+<catStat type="freq">
+5
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Andre pops
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Andree Pops
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Andrè Pops, Magdalena Forsberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+André Pops
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anja Kontor
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ann-Marie Rauer
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+<![CDATA[Anna Hedborg  SVT]]>
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anna Hedemo
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anna Hedenmarker
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anna Hedenmo
+</catValu>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anna Hedenmo, Janne Josefsson, Karin Mattisson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anna Hedlund
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anna barsk
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anna-Karin Bratt
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anne Lundberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Anne Lundberg SVT
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Annika Lantz
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+<![CDATA[Bengt  Magnusson]]>
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Bengt Frithiofsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Bengt Magnusson
+</catValu>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Bo Holmström
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Bo Knutsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Bosse Bildoktorn
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Bosse Jardler
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Britt-Marie Mattsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Carl Bildt
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Caroline af Ugglas
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Carsten Turfjäll
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Cecila Udén
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Cecilia Benkö
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Cecilia Hagen
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Cecilia Uddén
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Cecilia Udén
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Christer och Kodjo från P3. De två som pratar i sv
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Christian Luuk
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Claes Elfsberg
+</catValu>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Claes elfsberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Clas Elfb
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+DN
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+DN nya chef
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Damon Rasti
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Daniel Poohl
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Daniel Sjölin
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+De som läser nyheter
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Dilsa Demirbag-sten
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Elvsberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+En professor, kommer inte ihåg namnet
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Erik Fiktelius
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Erik Haag
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Erik Niva
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Erik Niva, Per Bjurman, Fredrik Wikingsson, Filip
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ernst Kirchstiger
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Folke Waxin
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Fredrik Lindström
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Fredrik Virtanen
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Fredrik Wikingsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Fridrik Lindström
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Fysiopodden
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+G.W Persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+GW Persson
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Grankvist c-moor
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Greidner
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Gry Forsell
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Gw Persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Gwpersson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Göran Greider
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Göran Rosenberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Göran Skytte
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Göran hegg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Hakelius, Niva, K. Karlsson, mfl
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Hanna Hellquist
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Hanne Kjöller
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Hanne Kjöller i DN
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Hanne Köller
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Hanne kjöller
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Hasse Aro
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Heidi Avellan
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Helge Skog
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Herman Lindqvist
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Horace Engdahl
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Hybinette
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Inge Henriksson, Hallandsposten
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+JP Linder, SvD
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ja men har inte namnet
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jack Werner
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jan Giliuo
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jan Gradvall
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jan Guillo
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jan Guillou
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jan Josefsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jan Mosander
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jan ghuillio
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Janne Josefsso
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Janne Josefsson
+</catValu>
+<catStat type="freq">
+23
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+<![CDATA[Janne Josefsson  Uppdrag granskning]]>
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Janne Josephsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Janne Olofsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Janne joesfsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Janne josefsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Janne josefsson SVT Ug
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+JanneJosefsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jenny Strömstedt
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jessica Gedin
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Johan Ehrenberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Johan Ehrenberg ETC
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Johan Glans
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Johanna Koljonen
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jonas Karlsson SVT
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Jonathan Nordin tv4
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Josefsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Josefsson Uppdrag granskning
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Josefsson uppdrag granskning
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Julia i UG
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+KARIN BOJS
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kajsa Boglind
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kanal 5
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Karin Bojs
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Karin Hübinette
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Karin Mattisson "uppdrag granskning"
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Karin Mattisson - Uppdrag Granskning
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Karl IV Gustav Bernattote
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Karpstryparn
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Katarina Mazetti
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Katarina Sand......
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Katarina Sandström
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kerstin Berggren på SR
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kjell Albin Abrahamsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Knut Stålberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Knutsson svt politisk reporter
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kodjo akolor
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kodjo i Morgonpasset P3
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kristian Luuk
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kristin Kaspersen
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kristina Edblom
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kristina Edlund Aftonbladet
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Kristoffer Triumf
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+LINDMARKER
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lars Adaktusson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lars Knutsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lars Lindström, Expressen
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lars Wilderäng, Cornucopia.
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lasse Granqvist
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lasse Kroné
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+<![CDATA[Leif  GW Persson]]>
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif G W Person
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif G W Persson
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif G. V Persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif G.W Persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif G.W. Persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif G.W.Persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif GW
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif GW Persson
+</catValu>
+<catStat type="freq">
+14
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif GW persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Leif GÁ
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lena Melin?
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lennart EKDAL
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lisa Röstlund
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lisbeth Åkerman
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lisbeth Åkerman, Nyhetsankare SVT
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Liv Strömquist
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotta Brohme
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotta Brohmé
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotta Brome
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotta Bromer
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotta Bromé
+</catValu>
+<catStat type="freq">
+8
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotta Bromé, Ulf Elving, Monica Saarinen, Cecilia
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotta Bromé,Jarl Alfredius
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotta brome
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Lotts Bromé
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Man på rapport
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Marcus Birro
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Maria Montazami
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Marianne rundkvist
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Mark Levengod
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Mark Levengood
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Mats Dagerlind
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Mats Knutsson
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Mats Knutsson (SVT)
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Mats Olsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Micke S, SVT
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Morgan Larsson
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Morgonpasset i p3
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Många, t ex Nina Björk
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Nike Nylander
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Niklas Ekdal
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Niklas Svensson, Fredrik Strömberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Nina Björk
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Nyhetsuppläsare SVT
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ola Wong
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Olle Häger
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+PJ Anders Linder
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Pekka Heino
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Pelle Fosshaug
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Pelle Westman
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Per Fontander
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Per Gudmundson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Per Ström
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Peter Setman
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Peter Settman
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Peter Wolodarski
+</catValu>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Peter Wolodarsky
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Peter wolodarski
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Pops, Zachrisson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Rix morgon zoo
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Rober aschberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Robert Achberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Robert Aschberg
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+SVT play
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Samir Abu Eid
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Samir Ebu-Aid
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Samir Eide
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Samir abdu(ngt)
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Samir abu Aid
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Samir på TV4 Syrienreporter just nu
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Sanna Rough
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Sara Damber
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Skavlan
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Soran Ismal
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Staffan Ander
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Stefan Jarl
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Stefan Wermelin
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Steffo Törnqvist
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Stig Fredriksson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Sven Börjesson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Sverker
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Sverker Olofson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Sverker Olofsson
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Sverker olofsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Svt
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ted Lundgren
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Thomas Nordegren
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Tilde De Paula
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Tina Nordström
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Tomas Ramberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ulf Blomgren
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ulf Larsson, Sveriges Radio Norrbotten
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ulf Nilsson, Expressen
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Ulf Stenberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+Vikegård
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+alex schulman
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+anders borg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+andre pop
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+anja kontor
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+annika lantz, anders jansson, martina tun, hanna h
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+carina berg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+cecilia uddén
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+dagens eko
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+elisabet sandlund
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+flera st.
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+fredrik lindström
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+g.w. persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+gina dirawi
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+gw persson
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+göran rosenberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+göran zachrisson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+hanne kjöller
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+hasse aro
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+hedemo
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+ja dom gamla i pilsner filmerna.
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+jakob wallenberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+jan Josefsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+jan gradvall, fredrik strage, bengt olsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+jan guillou, leif gw persson, alex schulman
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+jan josefsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+janne Josefsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+janne i uppdrag granskning
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+janne josefsson
+</catValu>
+<catStat type="freq">
+7
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+jonas fröberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+kakan (karin hermansson)
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+katarina sandström
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+kommer ej ihåg DDs chefredaktör
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+kronprinsessan victoria
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+kvinnlig utrikeskorr i Arabländerna
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+leif G.W persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+leif g.w persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+leif gw persson
+</catValu>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+leif wg persson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+lena melin
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+lotta brome
+</catValu>
+<catStat type="freq">
+4
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+malin olsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+martin Jönsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+mattias klum
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+nike nylander
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+niklas piensoho
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+per morberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+peter wolodarsky, Disa demirbag-steen, Per Nyberg,
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+philip o fredrik
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+pops
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+rainfelt
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+robert aschberg
+</catValu>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+robert collins
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+rolf porseryd
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+sanna rayman
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+soran ismail
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+sverker olofsson
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+svt
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+tilde
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+ulf elving
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+ulf elvsberg
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+uppdrag granskning
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+vd för sr
+</catValu>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<varFormat type="character" schema="other"/>
+</var>
+<var ID="V73" name="TW1" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="164" EndPos="164" width="1" RecSegNo="1"/>
+<labl>
+F.3A Känner till Twitter
+</labl>
+<qstn>
+<qstnLit>
+Hur väl känner du till det sociala medie-verktyget Twitter?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="9"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket väl
+</labl>
+<catStat type="freq">
+63
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska väl
+</labl>
+<catStat type="freq">
+180
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Inte särskilt väl
+</labl>
+<catStat type="freq">
+551
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Inte alls
+</labl>
+<catStat type="freq">
+398
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Tveksam, vet ej
+</labl>
+<catStat type="freq">
+28
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V74" name="TW2" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="165" EndPos="165" width="1" RecSegNo="1"/>
+<labl>
+F.3B Intresserad av vad som sker på Twitter
+</labl>
+<qstn>
+<qstnLit>
+Hur intresserad är du vad som sker på Twitter?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="9"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Mycket intresserad
+</labl>
+<catStat type="freq">
+18
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ganska intresserad
+</labl>
+<catStat type="freq">
+86
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Inte särskilt intresserad
+</labl>
+<catStat type="freq">
+326
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Inte alls intresserad
+</labl>
+<catStat type="freq">
+752
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Tveksam, vet ej
+</labl>
+<catStat type="freq">
+38
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V75" name="TW3" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="166" EndPos="166" width="1" RecSegNo="1"/>
+<labl>
+F.3C Åsikt om Twitters påverkan på medier och samhällsdebatt
+</labl>
+<qstn>
+<qstnLit>
+Tror du att det som sker på Twitter kan påverka vad som tas upp i medier och samhällsdebatt?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="9"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Ja, i stor utsträckning
+</labl>
+<catStat type="freq">
+159
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ja, viss utsträckning
+</labl>
+<catStat type="freq">
+737
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Nej, inte alls
+</labl>
+<catStat type="freq">
+80
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Tveksam, vet ej
+</labl>
+<catStat type="freq">
+244
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V76" name="TW4" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="167" EndPos="167" width="1" RecSegNo="1"/>
+<labl>
+F.3D Åsikt om Twitters påverkan på demokratin
+</labl>
+<qstn>
+<qstnLit>
+Hur tror du att Twitter påverkar demokratin? Tror du att den stärks, försvagas eller inte påverkas?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="4"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Stärks
+</labl>
+<catStat type="freq">
+163
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Ingen påverkan
+</labl>
+<catStat type="freq">
+287
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Försvagas
+</labl>
+<catStat type="freq">
+182
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Tveksam, vet ej
+</labl>
+<catStat type="freq">
+588
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V77" name="Q5A" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="168" EndPos="169" width="2" RecSegNo="1"/>
+<labl>
+F.4A Partisypati
+</labl>
+<qstn>
+<qstnLit>
+Vilket parti tycker du bäst om idag?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="11"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Socialdemokraterna
+</labl>
+<catStat type="freq">
+253
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Moderaterna
+</labl>
+<catStat type="freq">
+360
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Centerpartiet
+</labl>
+<catStat type="freq">
+25
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Folkpartiet
+</labl>
+<catStat type="freq">
+58
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Kristdemokraterna
+</labl>
+<catStat type="freq">
+47
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+6
+</catValu>
+<labl>
+Vänsterpartiet
+</labl>
+<catStat type="freq">
+78
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+7
+</catValu>
+<labl>
+Miljöpartiet
+</labl>
+<catStat type="freq">
+142
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+8
+</catValu>
+<labl>
+Sverigedemokraterna
+</labl>
+<catStat type="freq">
+99
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Annat parti
+</labl>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+10
+</catValu>
+<labl>
+Inget av ovanstående
+</labl>
+<catStat type="freq">
+134
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+11
+</catValu>
+<labl>
+Piratpartiet
+</labl>
+<catStat type="freq">
+14
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V78" name="Q5B" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="170" EndPos="171" width="2" RecSegNo="1"/>
+<labl>
+F.4B Närmaste parti
+</labl>
+<qstn>
+<qstnLit>
+Vilket parti lutar du närmast åt?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="11"/>
+</valrng>
+<sumStat type="vald">
+134
+</sumStat>
+<sumStat type="invd">
+1086
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Socialdemokraterna
+</labl>
+<catStat type="freq">
+27
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Moderaterna
+</labl>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Centerpartiet
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Folkpartiet
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+6
+</catValu>
+<labl>
+Vänsterpartiet
+</labl>
+<catStat type="freq">
+2
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+7
+</catValu>
+<labl>
+Miljöpartiet
+</labl>
+<catStat type="freq">
+10
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+8
+</catValu>
+<labl>
+Sverigedemokraterna
+</labl>
+<catStat type="freq">
+6
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Annat parti
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+10
+</catValu>
+<labl>
+Inget av ovanstående
+</labl>
+<catStat type="freq">
+64
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+11
+</catValu>
+<labl>
+Piratpartiet
+</labl>
+<catStat type="freq">
+3
+</catStat>
+</catgry>
+<catgry missing="Y">
+<catValu>
+Sysmiss
+</catValu>
+<catStat type="freq">
+1086
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V79" name="Q6" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="172" EndPos="172" width="1" RecSegNo="1"/>
+<labl>
+F.5 Subjektiv klass: Nuvarande familj
+</labl>
+<qstn>
+<qstnLit>
+Om du skulle beskriva din nuvarande familj vilken av följande kategorier anser du stämmer bäst?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="5"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Arbetarfamilj
+</labl>
+<catStat type="freq">
+388
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Jordbrukarfamilj
+</labl>
+<catStat type="freq">
+22
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Tjänstemannafamilj
+</labl>
+<catStat type="freq">
+577
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Högre tjänstemanna- /akademikerfamilj
+</labl>
+<catStat type="freq">
+153
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+Företagarfamilj
+</labl>
+<catStat type="freq">
+80
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V92" name="PNR" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="173" EndPos="173" width="1" RecSegNo="1"/>
+<labl>
+F.6 Postnummer
+</labl>
+<qstn>
+<preQTxt>
+Avslutningsvis ett par frågor för den statistiska sammanställningen.
+</preQTxt>
+<qstnLit>
+Vilket postnummer har du där du bor?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="0" max="0"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<txt>
+Respondentens svarsalternativ anges ej på grund av risk för bakvägsidentifikation.
+</txt>
+<catgry>
+<catValu>
+0
+</catValu>
+<labl>
+Ingen information
+</labl>
+<catStat type="freq">
+1220
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V81" name="UTB" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="174" EndPos="174" width="1" RecSegNo="1"/>
+<labl>
+F.7 Utbildningsnivå
+</labl>
+<qstn>
+<qstnLit>
+Vilken är din högsta avslutade utbildning?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="8"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+Grundskola/Folkskola
+</labl>
+<catStat type="freq">
+68
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+Grundskola/Folkskola - yrkesinriktad utbildning
+</labl>
+<catStat type="freq">
+50
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+Realskola/Flickskola
+</labl>
+<catStat type="freq">
+20
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+Realskola/Flickskola - gymnasieinriktad utbildning
+</labl>
+<catStat type="freq">
+15
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+2-årig gymnasieutbildning/studentexamen
+</labl>
+<catStat type="freq">
+153
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+6
+</catValu>
+<labl>
+3-årig eller 4-årig gymnasieutbildning/studentexamen
+</labl>
+<catStat type="freq">
+319
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+7
+</catValu>
+<labl>
+Eftergymnasial utbildning/universitet/högskola
+</labl>
+<catStat type="freq">
+594
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+8
+</catValu>
+<labl>
+Ingen skolutbildning
+</labl>
+<catStat type="freq">
+1
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+Ej svar
+</labl>
+<catStat type="freq">
+0
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V82" name="PERSINKOMST" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="175" EndPos="176" width="2" RecSegNo="1"/>
+<labl>
+F.8 Inkomst
+</labl>
+<qstn>
+<qstnLit>
+<![CDATA[Vilken är  din personliga  inkomst per månad?]]>
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="11"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+upp till 10000:-/månad
+</labl>
+<catStat type="freq">
+105
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+10001-15000:-/månad
+</labl>
+<catStat type="freq">
+92
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+15001-20000:-/månad
+</labl>
+<catStat type="freq">
+86
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+20001-25000:-/månad
+</labl>
+<catStat type="freq">
+159
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+25001-30000:-/månad
+</labl>
+<catStat type="freq">
+238
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+6
+</catValu>
+<labl>
+30001-35000:-/månad
+</labl>
+<catStat type="freq">
+153
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+7
+</catValu>
+<labl>
+35001-40000:-/månad
+</labl>
+<catStat type="freq">
+105
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+8
+</catValu>
+<labl>
+40001-45000:-/månad
+</labl>
+<catStat type="freq">
+65
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+45001-50000:-/månad
+</labl>
+<catStat type="freq">
+33
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+10
+</catValu>
+<labl>
+mer än 50000:-/månad
+</labl>
+<catStat type="freq">
+64
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+11
+</catValu>
+<catStat type="freq">
+120
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+99
+</catValu>
+<labl>
+Vet ej/vill ej uppge
+</labl>
+<catStat type="freq">
+0
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+<var ID="V83" name="HHINKOMST" files="F1" dcml="0" intrvl="discrete">
+<location StartPos="177" EndPos="178" width="2" RecSegNo="1"/>
+<labl>
+F.9 Hushållsinkomst
+</labl>
+<qstn>
+<qstnLit>
+Vilken är hushållets sammanlagda inkomst per månad?
+</qstnLit>
+</qstn>
+<valrng>
+<range UNITS="REAL" min="1" max="15"/>
+</valrng>
+<sumStat type="vald">
+1220
+</sumStat>
+<sumStat type="invd">
+0
+</sumStat>
+<catgry>
+<catValu>
+1
+</catValu>
+<labl>
+upp till 10000:-/månad
+</labl>
+<catStat type="freq">
+40
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+2
+</catValu>
+<labl>
+10001-15000:-/månad
+</labl>
+<catStat type="freq">
+42
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+3
+</catValu>
+<labl>
+15001-20000:-/månad
+</labl>
+<catStat type="freq">
+37
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+4
+</catValu>
+<labl>
+20001-25000:-/månad
+</labl>
+<catStat type="freq">
+77
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+5
+</catValu>
+<labl>
+25001-30000:-/månad
+</labl>
+<catStat type="freq">
+113
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+6
+</catValu>
+<labl>
+30001-35000:-/månad
+</labl>
+<catStat type="freq">
+78
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+7
+</catValu>
+<labl>
+35001-40000:-/månad
+</labl>
+<catStat type="freq">
+78
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+8
+</catValu>
+<labl>
+40001-45000:-/månad
+</labl>
+<catStat type="freq">
+95
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+9
+</catValu>
+<labl>
+45001-50000:-/månad
+</labl>
+<catStat type="freq">
+83
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+10
+</catValu>
+<labl>
+50001-55000:-
+</labl>
+<catStat type="freq">
+95
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+11
+</catValu>
+<labl>
+55001-60000:-
+</labl>
+<catStat type="freq">
+88
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+12
+</catValu>
+<labl>
+60001-65000:-
+</labl>
+<catStat type="freq">
+78
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+13
+</catValu>
+<labl>
+65001-70000:-
+</labl>
+<catStat type="freq">
+53
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+14
+</catValu>
+<labl>
+mer än 70000:-
+</labl>
+<catStat type="freq">
+129
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+15
+</catValu>
+<catStat type="freq">
+134
+</catStat>
+</catgry>
+<catgry>
+<catValu>
+99
+</catValu>
+<labl>
+Vet ej/vill ej uppge
+</labl>
+<catStat type="freq">
+0
+</catStat>
+</catgry>
+<varFormat type="numeric" schema="other"/>
+</var>
+</dataDscr>
+</codeBook>

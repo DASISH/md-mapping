@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd" xmlns="http://datacite.org/schema/kernel-3">
+  <identifier identifierType="DOI">10.5878/001559</identifier>
+  <creators>
+    <creator>
+      <creatorName>Hjerm, Mikael</creatorName>
+    </creator>
+    <creator>
+      <creatorName>Svallfors, Stefan</creatorName>
+    </creator>
+  </creators>
+  <titles>
+    <title xml:lang="en">ESS 2 - European Social Survey 2004, Sweden</title>
+    <title xml:lang="sv">ESS 2 - Den europeiska socialundersökningen 2004, Sverige</title>
+  </titles>
+  <publisher>Swedish National Data Service</publisher>
+  <publicationYear>2011</publicationYear>
+  <contributors>
+    <contributor contributorType="Distributor">
+      <contributorName>Swedish National Data Service</contributorName>
+    </contributor>
+    <contributor contributorType="Funder">
+      <contributorName>Swedish Council for Working Life and Social Research</contributorName>
+    </contributor>
+    <contributor contributorType="Funder">
+      <contributorName>Bank of Sweden Tercentenary Foundation</contributorName>
+    </contributor>
+    <contributor contributorType="Funder">
+      <contributorName>Swedish Research Council</contributorName>
+    </contributor>
+    <contributor contributorType="Producer">
+      <contributorName>Umeå University, Department of Sociology</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Collected">2004-09-04/2005-01-19</date>
+  </dates>
+  <language>swe</language>
+  <resourceType resourceTypeGeneral="Dataset">Survey data</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Internal">SND 0890-001</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsPartOf">10.5878/000481</relatedIdentifier>
+  </relatedIdentifiers>
+  <sizes>
+    <size>603 variables</size>
+    <size>1948 cases</size>
+    <size>1 file</size>
+  </sizes>
+  <version>1.0</version>
+  <rightsList>
+    <rights>1b - Freely available via ordering or Open data</rights>
+  </rightsList>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Sweden</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>

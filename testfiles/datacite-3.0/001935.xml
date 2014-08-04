@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd" xmlns="http://datacite.org/schema/kernel-3">
+  <identifier identifierType="DOI">10.5878/001935</identifier>
+  <creators>
+    <creator>
+      <creatorName>University of Gothenburg, SOM Institute</creatorName>
+    </creator>
+  </creators>
+  <titles>
+    <title xml:lang="en">The SOM Institute Cumulative Dataset 1986-2012</title>
+    <title xml:lang="sv">Super-Riks-SOM 1986-2012</title>
+  </titles>
+  <publisher>Swedish National Data Service</publisher>
+  <publicationYear>2013</publicationYear>
+  <subjects>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">general health</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">allmänhälsa</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">mass media</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">massmedia</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">information society</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">informationssamhälle</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">employment</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">sysselsättning</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">unemployment</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">arbetslöshet</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">environmental degradation/pollution and environmental protection</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">miljöförstörelse/förorening och miljöskydd</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">mass political behaviour, attitudes/opinion</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">politiskt beteende, attityder/åsikter</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">elections</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">val</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">domestic political issues</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">inrikespolitiska frågor</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">international politics and organisations</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">internationell politik och organisationer</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">social welfare policy</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">välfärdspolitik</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">leisure, tourism and sport</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">fritid, turism och sport</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">social behaviour and attitudes</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">socialt beteende och attityder</subject>
+    <subject xml:lang="en" subjectScheme="CESSDA topical classification">cultural activities and participation</subject>
+    <subject xml:lang="sv" subjectScheme="CESSDA topical classification">kulturaktiviteter och deltagande</subject>
+    <subject xml:lang="en" subjectScheme="Standard för svensk indelning av forskningsämnen 2011">Political Science</subject>
+    <subject xml:lang="sv" subjectScheme="Standard för svensk indelning av forskningsämnen 2011">Statsvetenskap</subject>
+    <subject xml:lang="en" subjectScheme="Standard för svensk indelning av forskningsämnen 2011">Media and Communications</subject>
+    <subject xml:lang="sv" subjectScheme="Standard för svensk indelning av forskningsämnen 2011">Medie- och kommunikationsvetenskap</subject>
+  </subjects>
+  <contributors>
+    <contributor contributorType="Distributor">
+      <contributorName>Swedish National Data Service</contributorName>
+    </contributor>
+    <contributor contributorType="Producer">
+      <contributorName>University of Gothenburg, SOM Institute</contributorName>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Collected">1986-10-14/1986-12-10</date>
+    <date dateType="Collected">1987-10-14/1988-02-10</date>
+    <date dateType="Collected">1988-10-12/1988-12-12</date>
+    <date dateType="Collected">1989-10-26/1990-02-08</date>
+    <date dateType="Collected">1990-10-16/1991-01-23</date>
+    <date dateType="Collected">1991-10-15/1992-01-28</date>
+    <date dateType="Collected">1992-10-20/1992-12-22</date>
+    <date dateType="Collected">1993-10-15/1994-01-20</date>
+  </dates>
+  <language>eng</language>
+  <resourceType resourceTypeGeneral="Dataset">Survey data: Independent surveys</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Internal">SND 0905-002</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsPartOf">10.5878/000492</relatedIdentifier>
+  </relatedIdentifiers>
+  <sizes>
+    <size>1326 variables</size>
+    <size>80046 cases</size>
+    <size>2 files</size>
+  </sizes>
+  <version>2.0</version>
+  <rightsList>
+    <rights>2b - Always requires permission from the principal investigator</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract" xml:lang="en">In order to identify how the evolution of society affects Swedes’ attitudes and behaviour, the SOM Institute started its National SOM study in 1986. National SOM addresses three areas – society, opinions and mass media – and consists of a large number of questions related to politics, society, media and social background, but their areas of focus differ. Every year, the questionnaires are complemented with questions related to current events. Data is collected through postal questionnaires, and each survey is conducted under conditions as identical as possible to make the results from the different years comparable.
+The SOM Institute Cumulative Dataset contains data from the National SOM surveys from 1986. The data contains a selection of questions frequently asked over the years, focusing on time series. A general rule is that questions should have been asked at least three times.</description>
+    <description descriptionType="Abstract" xml:lang="sv">SOM-institutet vid Göteborgs universitet genomför varje höst sedan 1986 en nationell frågeundersökning – Riks-SOM – i syfte att kartlägga den svenska allmänhetens vanor och attityder på temat samhälle, politik och medier (SOM står för Samhälle Opinion Medier). Data samlas in via postala enkäter, och varje undersökning genomförs under så identiska förutsättningar som möjligt för att resultaten från de olika åren ska vara jämförbara.
+Super-Riks-SOM innehåller data från Riks-SOM-undersökningarna från och med 1986. De frågor som inkluderas i superfilen är ett urval av de som ställts varje år i Riks-SOM, med fokus på tidsserier (i regel med fler än två mätpunkter).</description>
+  </descriptions>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Sweden</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>
