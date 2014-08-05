@@ -1,6 +1,6 @@
 A mapfile with xpath expressions for each field have the folowing structure
 
-```
+``` xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <mapping-table>
   <!-- Specify the namespaces used in this section -->
