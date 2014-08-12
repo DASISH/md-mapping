@@ -1,3 +1,4 @@
+#Mapfiles
 A mapfile with xpath expressions for each field have the folowing structure
 
 ``` xml
@@ -45,3 +46,47 @@ A mapfile with xpath expressions for each field have the folowing structure
 | TemporalCoverage | Yes           |            | 
 | Title            | No            |            | 
 | Url              | No            | Source Url for the landing page (e.g. catalouge) |
+
+
+#Used Metadata Standards
+##CMDI
+
+##DataCite 3.0
+
+##Dublin Core (dc)
+
+##DDI 1.2.2
+
+
+##DDI 3.1
+Main XSD: http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd
+
+
+| Module Name	   |  Namespace	   | Filename/Link  |
+| ---------------- | ------------- | -------------- |
+| Archive	| ddi:archive:3_1 |	archive.xsd |
+| Comparative	| ddi:comparative:3_1	| comparative.xsd |
+| Conceptual Component	| ddi:conceptualcomponent:3_1	| conceptualcomponent.xsd |
+| Data Collection	| ddi:datacollection:3_1	| datacollection.xsd |
+| Dataset	| ddi:dataset:3_1	| dataset.xsd |
+| Group	| ddi:group:3_1	| group.xsd |
+| Instance	| ddi:instance:3_1	| instance.xsd |
+| Logical Product	| ddi:logicalproduct:3_1	| logicalproduct.xsd |
+| Physical Data Product	| ddi:physicaldataproduct:3_1	| physicaldataproduct.xsd |
+| Physical Data Product - NCube - Inline	| ddi:physicaldataproduct_ncube_inline:3_1	| physicaldataproduct_ncube_inline.xsd |
+| Physical Data Product - NCube - Normal	| ddi:physicaldataproduct_ncube_normal:3_1	| physicaldataproduct_ncube_normal.xsd |
+| Physical Data Product - Proprietary	| ddi:physicaldataproduct_ncube_proprietary:3_1	| physicaldataproduct_proprietary.xsd |
+| Physical Data Product - NCube - Tabular	| ddi:physicaldataproduct_ncube_tabular:3_1	| physicaldataproduct_ncube_tabular.xsd |
+| Physical Instance	| ddi:physicalinstance:3_1	| physicalinstance.xsd |
+| DDI Profile	| ddi:profile:3_1	| ddiprofile.xsd |
+| [Reusable](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_reusable_3_1/namespace-summary.html)	| ddi:reusable:3_1	| [reusable.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/reusable.xsd) |
+| [Study Unit](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_studyunit_3_1/namespace-summary.html)	| ddi:studyunit:3_1	| [studyunit.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/studyunit.xsd) |
+
+Following modules provide an interface to Dublin Core and XHTML.
+
+| Module Name	   |Namespace	   |Filename/Link   |
+| ---------------- | ------------- | -------------- |
+| Dublin Core Elements	| ddi:dcelements:3_1	| dcelements.xsd | 
+| DDI XHTML 1.1 Model	| http://www.w3.org/1999/xhtml	| ddi-xhtml11-model-1.xsd |
+| DDI XHTML 1.1 Modules	| http://www.w3.org/1999/xhtml	| ddi-xhtml11-modules-1.xsd |
+| DDI XHMTL 1.1	| http://www.w3.org/1999/xhtml	| ddi-xhtml11.xsd |
