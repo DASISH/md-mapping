@@ -23,29 +23,7 @@ A mapfile with xpath expressions for each field have the folowing structure
 </mapping-table>  
 ```
 
-| Field            | Multiple      | Note       |
-| ---------------- | ------------- | ---------- |
-| Access           | No            |            | 
-| Collection       | No            |            | 
-| Community        | No            |            | 
-| Contributor      | Yes           |            | 
-| Country          | Yes           |            | 
-| CreationDate     | Yes           |            | 
-| Creator          | Yes           |            | 
-| DataFormat       | Yes           |            | 
-| DataProvider     | No            |            | 
-| Discipline       | Yes           |            | 
-| Fulltext         | No            |  Full text representation of the metadata (e.g. full xml source) | 
-| Language         | Yes           |            | 
-| MetadataSchema   | No            |            | 
-| MetadataSource   | No            |            | 
-| Notes            | Yes           |            | 
-| ResourceType     | Yes           |            | 
-| SpatialCoverage  | Yes           |            | 
-| Subject          | Yes           |            | 
-| TemporalCoverage | Yes           |            | 
-| Title            | No            |            | 
-| Url              | No            | Source Url for the landing page (e.g. catalouge) |
+[List of fields and definitions](https://github.com/DASISH/md-mapping/wiki/DASISH-metadata-catalog---metadata-reference)
 
 
 #Used Metadata Standards
