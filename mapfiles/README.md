@@ -62,23 +62,24 @@ A mapfile with xpath expressions for each field have the folowing structure
 Main XSD: http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd
 
 
+
 | Module Name	   |  Namespace	   | Filename/Link  |
 | ---------------- | ------------- | -------------- |
-| Archive	| ddi:archive:3_1 |	archive.xsd |
-| Comparative	| ddi:comparative:3_1	| comparative.xsd |
-| Conceptual Component	| ddi:conceptualcomponent:3_1	| conceptualcomponent.xsd |
-| Data Collection	| ddi:datacollection:3_1	| datacollection.xsd |
-| Dataset	| ddi:dataset:3_1	| dataset.xsd |
-| Group	| ddi:group:3_1	| group.xsd |
-| Instance	| ddi:instance:3_1	| instance.xsd |
-| Logical Product	| ddi:logicalproduct:3_1	| logicalproduct.xsd |
-| Physical Data Product	| ddi:physicaldataproduct:3_1	| physicaldataproduct.xsd |
-| Physical Data Product - NCube - Inline	| ddi:physicaldataproduct_ncube_inline:3_1	| physicaldataproduct_ncube_inline.xsd |
-| Physical Data Product - NCube - Normal	| ddi:physicaldataproduct_ncube_normal:3_1	| physicaldataproduct_ncube_normal.xsd |
-| Physical Data Product - Proprietary	| ddi:physicaldataproduct_ncube_proprietary:3_1	| physicaldataproduct_proprietary.xsd |
-| Physical Data Product - NCube - Tabular	| ddi:physicaldataproduct_ncube_tabular:3_1	| physicaldataproduct_ncube_tabular.xsd |
-| Physical Instance	| ddi:physicalinstance:3_1	| physicalinstance.xsd |
-| DDI Profile	| ddi:profile:3_1	| ddiprofile.xsd |
+| [Archive](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_archive_3_1/namespace-summary.html)	| ddi:archive:3_1 |	[archive.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/archive.xsd) |
+| [Comparative](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_comparative_3_1/namespace-summary.html)	| ddi:comparative:3_1	| [comparative.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/comparative.xsd) |
+| [Conceptual Component](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_conceptualcomponent_3_1/namespace-summary.html)	| ddi:conceptualcomponent:3_1	| [conceptualcomponent.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/conceptualcomponent.xsd) |
+| [Data Collection](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_datacollection_3_1/namespace-summary.html)	| ddi:datacollection:3_1	| [datacollection.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/datacollection.xsd) |
+| [Dataset](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_dataset_3_1/namespace-summary.html)	| ddi:dataset:3_1	| [dataset.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/dataset.xsd) |
+| [Group](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_group_3_1/namespace-summary.html)	| ddi:group:3_1	| [group.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/group.xsd) |
+| [Instance](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_instance_3_1/namespace-summary.html)	| ddi:instance:3_1	| [instance.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd) |
+| [Logical Product](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_logicalproduct_3_1/namespace-summary.html)	| ddi:logicalproduct:3_1	| [logicalproduct.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/logicalproduct.xsd) |
+| [Physical Data Product](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_physicaldataproduct_3_1/namespace-summary.html)	| ddi:physicaldataproduct:3_1	| [physicaldataproduct.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/physicaldataproduct.xsd) |
+| [Physical Data Product - NCube - Inline](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_physicaldataproduct_ncube_inline_3_1/namespace-summary.html)	| ddi:physicaldataproduct_ncube_inline:3_1	| [physicaldataproduct_ncube_inline.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/physicaldataproduct_ncube_inline.xsd) |
+| [Physical Data Product - NCube - Normal](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_physicaldataproduct_ncube_normal_3_1/namespace-summary.html)	| ddi:physicaldataproduct_ncube_normal:3_1	| [physicaldataproduct_ncube_normal.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/physicaldataproduct_ncube_normal.xsd) |
+| [Physical Data Product - Proprietary](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_physicaldataproduct_ncube_proprietary_3_1/namespace-summary.html)	| ddi:physicaldataproduct_ncube_proprietary:3_1	| [physicaldataproduct_proprietary.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/physicaldataproduct_proprietary.xsd) |
+| [Physical Data Product - NCube - Tabular](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_physicaldataproduct_ncube_tabular_3_1/namespace-summary.html)	| ddi:physicaldataproduct_ncube_tabular:3_1	| [physicaldataproduct_ncube_tabular.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/physicaldataproduct_ncube_tabular.xsd) |
+| [Physical Instance](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_physicalinstance_3_1/namespace-summary.html)	| ddi:physicalinstance:3_1	| [physicalinstance.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/reusable.xsd) |
+| [DDI Profile](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_profile_3_1/namespace-summary.html)	| ddi:profile:3_1	| [ddiprofile.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/ddiprofile.xsd) |
 | [Reusable](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_reusable_3_1/namespace-summary.html)	| ddi:reusable:3_1	| [reusable.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/reusable.xsd) |
 | [Study Unit](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/FieldLevelDocumentation/namespaces/ddi_studyunit_3_1/namespace-summary.html)	| ddi:studyunit:3_1	| [studyunit.xsd](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/studyunit.xsd) |
 
