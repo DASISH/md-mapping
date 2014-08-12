@@ -40,7 +40,9 @@
     <field name="Subject">
       <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text(), ';')</xpath>
     </field>    
-    <field name="Collection"> </field>
+    <field name="Collection"> 
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:SeriesStatement/r:SeriesName/text()</xpath>
+    </field>
     <field name="Country">
       <xpath>/ddi:DDIInstance/s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation[r:Values/r:GeographyValue/r:GeographyCode/r:Value/@codeListID="ISO3166-1"]/r:Values/r:GeographyValue/r:GeographyName[@xml:lang="en"]/text()</xpath>
       <xpath>/ddi:DDIInstance/s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation[r:Values/r:GeographyValue/r:GeographyCode/r:Value/@codeListID="ISO3166-1"]/r:Values/r:GeographyValue/r:GeographyName/text()</xpath>
