@@ -35,12 +35,10 @@
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:MIMEType[1]/text()</xpath>
     </field>
     <field name="Discipline">
-      <xpath>
-        /ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@codeListID="CESSDA
-        topical classification"][@xml:lang='en']/text() </xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@codeListID="CESSDA topical classification"][@xml:lang='en']/text()</xpath>
     </field>
     <field name="Subject">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text()</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text(), ';')</xpath>
     </field>    
     <field name="Collection"> </field>
     <field name="Country">

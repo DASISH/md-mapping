@@ -10,7 +10,7 @@
       <xpath>if (/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/@d:affiliation) then ( concat(/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text(), '(',/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/@d:affiliation,')') ) else (/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text())</xpath>
     </field>
     <field name="Contributor">
-      <xpath> //d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text() </xpath>
+      <xpath>string-join(distinct-values(//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text(), '; ')</xpath>
     </field>
     <field name="Language">
       <!-- There is no language element in DDI version 2.1. So "English" needs to be hard-coded as default language. -->
@@ -26,11 +26,13 @@
       <xpath>//d:codeBook/d:fileDscr//d:fileType/text()</xpath>
     </field>
     <field name="Discipline"> </field>
-    <field name="Collection"> </field>
+    <field name="Collection">//d:codeBook/d:stdyDscr/d:citation/d:serStmt/d:serName/text()</field>
     <field name="Country">
-      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:nation/text()</xpath>
+      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:nation/text(), '; ')</xpath>
     </field>
-
+    <field name="Subject">
+      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:subject/d:keyword/text(), '; ')</xpath>
+    </field>
     <field name="title">
       <xpath>//d:codeBook/d:docDscr/d:citation/d:titlStmt/d:titl/text()</xpath>
       <string>(untitled)</string>
