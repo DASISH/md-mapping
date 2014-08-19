@@ -41,6 +41,9 @@
         <field name="MetadataSource">
             <string expand="true">${filename}</string>
         </field>
+        <field name="MetadataSchema">
+            <string>http://schema.datacite.org/meta/kernel-3/metadata.xsd</string>
+        </field>        
         <field name="fulltext">
             <xpath>normalize-space(string(/))</xpath>
         </field>        

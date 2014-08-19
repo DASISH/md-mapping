@@ -61,6 +61,9 @@
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
     </field>
+    <field name="MetadataSchema">
+      <string>http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd</string>
+    </field>
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
     </field>

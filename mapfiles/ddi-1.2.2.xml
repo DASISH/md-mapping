@@ -47,6 +47,9 @@
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
     </field>
+    <field name="MetadataSchema">
+      <string>http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd</string>
+    </field>
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
     </field>
