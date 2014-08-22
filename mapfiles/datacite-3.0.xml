@@ -6,18 +6,20 @@
     </namespaces>
     <mappings>
         <field name="Creator">
-            <xpath>/d:resource/d:creators/d:creator/d:creatorName/text()</xpath>
+            <xpath>string-join(distinct-values(/d:resource/d:creators/d:creator/d:creatorName/text(), ';'))</xpath>
         </field>
         
         <field name="Contributor">
-            <xpath>/d:resource/d:contributors/d:contributor/d:contributorName/text()</xpath>
+            <xpath>string-join(distinct-values(/d:resource/d:contributors/d:contributor/d:contributorName/text(), ';'))</xpath>
         </field>
         
         <field name="Language">
             <xpath>/d:resource/d:language/text()</xpath>
         </field>
         
-        <field name="CreationDate"></field>
+        <field name="CreationDate">
+            <xpath>/d:resource/d:dates/d:date[dateType="Collected"]/text()</xpath>
+        </field>
         
         <field name="Format">
             <xpath>/d:resource/d:formats/d:format/text()</xpath>
@@ -39,7 +41,7 @@
         </field>
         
         <field name="Subject">
-            <xpath>/d:resource/d:subjects/d:subject/text()</xpath>
+            <xpath>string-join(distinct-values(/d:resource/d:subjects/d:subject/text(), ';'))</xpath>
         </field> 
         
         <field name="url">
@@ -54,11 +56,17 @@
             <xpath>normalize-space(string(/))</xpath>
         </field>
         
-        <field name="Rights"></field>   
+        <field name="Rights">
+            <xpath>/d:resource/d:rightsList/d:rights/text()</xpath>
+        </field>   
         
-        <field name="ResourceType"></field>     
+        <field name="ResourceType">
+            <xpath>/d:resource/d:resourceType/text()</xpath>
+        </field>     
         
-        <field name="SpacialCoverage"></field>    
+        <field name="SpacialCoverage">
+            <xpath>/d:resource/d:geoLocations/d:geoLocation/d:geoLocationPlace/text()</xpath>
+        </field>    
         
         <field name="TemporialCoverage"></field> 
         
