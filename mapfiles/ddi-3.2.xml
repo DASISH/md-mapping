@@ -16,41 +16,38 @@
     <namespace ns="pi" uri="ddi:physicalinstance:3_2"/>
   </namespaces>
   <mappings>
-    <field name="Creator">
-    </field>
-    <field name="Contributor">
-    </field>
-    <field name="Language">
-    </field>
+    <field name="Creator"></field>
+    
+    <field name="Contributor"></field>
+    
+    <field name="Language"></field>
 
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
-    <field name="CreationDate">
-    </field>
+    <field name="CreationDate"></field>
+    
     <field name="Format">
       <xpath>/ddi:DDIInstance//p:PhysicalStructureScheme/p:PhysicalStructure/p:PhysicalStructure/p:FileFormat/text()</xpath>
     </field>
-    <field name="Discipline">
-    </field>
-    <field name="Collection">
-    </field>
+    
+    <field name="Discipline"></field>
+    
+    <field name="Collection"></field>
+    
     <field name="Country">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage[./r:LowestLevelReference/r:LevelName/text() = 'Country']/r:Description[@xml:lang = 'en']/text()</xpath>
       <!-- fallback for missing lang -->
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage[./r:LowestLevelReference/r:LevelName/text() = 'Country']/r:Description/text()</xpath>
     </field>
 
-    <field name="title">
-    </field>
+    <field name="title"></field>
     
     <field name="notes">
       <xpath>/ddi:DDIInstance/s:StudyUnit/s:Abstract/r:Content[@xml:lang = 'en']/text()</xpath>
     </field>
     
-    <field name="Subject">
-    </field> 
+    <field name="Subject"></field>
     
-    <field name="url">
-    </field> 
+    <field name="url"></field>
     
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
