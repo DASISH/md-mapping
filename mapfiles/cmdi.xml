@@ -10,30 +10,37 @@
       <xpath>string-join(distinct-values(//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Actors/cmd:Actor[cmd:Role = 'Author' or cmd:Role = 'Collector' or cmd:Role = 'Researcher' or cmd:Role = 'Annotator' or cmd:Role = 'Filmer' or cmd:Role = 'Recorder']/cmd:Name/text()), ';')</xpath>
       <xpath>substring-before(substring-after(//cmd:CMD/cmd:Components/cmd:Session/cmd:Resources/cmd:Source[1]/cmd:descriptions/cmd:Description[@LanguageId = 'ISO639:eng' or @LanguageId = 'ISO639-2:eng' or @LanguageId = '']/text(), 'Author: '), '&#10;')</xpath>
     </field>
+    
     <field name="Contributor">
       <xpath>string-join(distinct-values(//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Actors/cmd:Actor/cmd:FullName/text()), ';')</xpath>
       <xpath>string-join(distinct-values(//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Actors/cmd:Actor/cmd:Name/text()), ';')</xpath>
     </field>
+    
     <field name="Language">
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Content/cmd:Content_Languages/cmd:Content_Language/cmd:Name/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:Song/cmd:Language/cmd:LanguageName/text()</xpath>
     </field>
+    
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
     <field name="CreationDate">
       <xpath>//cmd:CMD/cmd:Header/cmd:MdCreationDate/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Date/text()</xpath>
     </field>
+    
     <field name="Format">
       <xpath>string-join(distinct-values(//cmd:CMD/cmd:Resources/cmd:ResourceProxyList/cmd:ResourceProxy/cmd:ResourceType/@mimetype),';')</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Resources/cmd:WrittenResource/cmd:Format/text()</xpath>
     </field>
+    
     <field name="Discipline">
       <xpath>if (normalize-space(string(//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Content/cmd:Genre/text())) = '') then '' else concat('Linguistics;', string(//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Content/cmd:Genre/text()))</xpath>
       <string>Linguistics</string>
     </field>
+    
     <field name="Collection">
       <xpath>//cmd:CMD/cmd:Header/cmd:MdCollectionDisplayName/text()</xpath>
     </field>
+    
     <field name="Country">
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Location/cmd:Country/text()</xpath>
     </field>
@@ -44,17 +51,21 @@
       <xpath>//cmd:CMD/cmd:Components/cmd:imdi-corpus/cmd:Corpus/cmd:Title/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:imdi-corpus/cmd:Corpus/cmd:Name/text()</xpath>
     </field>
+    
     <field name="notes">
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:descriptions/cmd:Description[@LanguageId = 'ISO639:eng' or @LanguageId = 'ISO639-2:eng' or @LanguageId = '']/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Resources/cmd:Source/cmd:descriptions/cmd:Description[@LanguageId = 'ISO639:eng' or @LanguageId = 'ISO639-2:eng' or @LanguageId = '']/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:imdi-corpus/cmd:Corpus/cmd:descriptions/cmd:Description[@LanguageId = 'ISO639:eng' or @LanguageId = 'ISO639-2:eng' or @LanguageId = '']/text()</xpath>
     </field>
+    
+    <field name="Subject"></field>
 
     <field name="url">
       <xpath>if (contains(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(), 'http://') or contains(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(), 'https://')) then //cmd:CMD/cmd:Header/cmd:MdSelfLink/text() else ''</xpath>
       <xpath>if (contains(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(), 'hdl:')) then concat('http://hdl.handle.net/',replace(substring-after(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(), 'hdl:'),'@format=cmdi',''),'@view') else ''</xpath>
       <xpath>concat('http://hdl.handle.net/', replace(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(),'@format=cmdi',''),'@view')</xpath>
     </field> 
+    
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
     </field>
@@ -62,5 +73,15 @@
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
     </field>
+    
+    <field name="Rights"></field>   
+    
+    <field name="ResourceType"></field>     
+    
+    <field name="SpacialCoverage"></field>    
+    
+    <field name="TemporialCoverage"></field>       
+    
+    <field name="MetadataSchema"></field> 
   </mappings>
 </mapping-table>

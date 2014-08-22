@@ -9,9 +9,11 @@
       <!-- Concatenate attribute value of att "affiliation" to value of "Authoring Entity/Primary Investigator" element if applicable.  -->
       <xpath>if (/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/@d:affiliation) then ( concat(/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text(), '(',/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/@d:affiliation,')') ) else (/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text())</xpath>
     </field>
+    
     <field name="Contributor">
       <xpath>string-join(distinct-values(//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text(), '; ')</xpath>
     </field>
+    
     <field name="Language">
       <!-- There is no language element in DDI version 2.1. So "English" needs to be hard-coded as default language. -->
       <string>English</string>
@@ -22,38 +24,56 @@
       <xpath>//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:prodDate/@date</xpath>
       <xpath>//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:prodDate/text()</xpath>
     </field>
+    
     <field name="Format">
       <xpath>//d:codeBook/d:fileDscr//d:fileType/text()</xpath>
     </field>
-    <field name="Discipline"> </field>
+    
+    <field name="Discipline"></field>
+    
     <field name="Collection">
       <xpath>//d:codeBook/d:stdyDscr/d:citation/d:serStmt/d:serName/text()</xpath>
     </field>
+    
     <field name="Country">
       <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:nation/text(), '; ')</xpath>
     </field>
-    <field name="Subject">
-      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:subject/d:keyword/text(), '; ')</xpath>
-    </field>
+    
     <field name="title">
       <xpath>//d:codeBook/d:docDscr/d:citation/d:titlStmt/d:titl/text()</xpath>
       <string>(untitled)</string>
     </field>
+    
     <field name="notes">
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:abstract/text()</xpath>
     </field>
+    
+    <field name="Subject">
+      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:subject/d:keyword/text(), '; ')</xpath>
+    </field>    
 
     <field name="url">
       <xpath> //d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/@URI </xpath>
     </field>
+    
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
     </field>
-    <field name="MetadataSchema">
-      <string>http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd</string>
-    </field>
+    
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
+    </field>
+
+    <field name="Rights"></field>   
+    
+    <field name="ResourceType"></field>     
+    
+    <field name="SpacialCoverage"></field>    
+    
+    <field name="TemporialCoverage"></field>       
+    
+    <field name="MetadataSchema">
+      <string>http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd</string>
     </field>
   </mappings>
 </mapping-table>

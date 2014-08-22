@@ -21,7 +21,9 @@
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Creator/text()</xpath>
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator/text()</xpath>
     </field>
-    <field name="Contributor"> </field>
+    
+    <field name="Contributor"></field>
+    
     <field name="Language">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:Citation/r:Language[1]/text()</xpath>
       <string>English</string>
@@ -31,18 +33,19 @@
     <field name="CreationDate">
       <xpath>/ddi:DDIInstance/s:StudyUnit/@versionDate </xpath>
     </field>
+    
     <field name="Format">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:MIMEType[1]/text()</xpath>
     </field>
+    
     <field name="Discipline">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@codeListID="CESSDA topical classification"][@xml:lang='en']/text()</xpath>
     </field>
-    <field name="Subject">
-      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text(), ';')</xpath>
-    </field>    
+   
     <field name="Collection"> 
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:SeriesStatement/r:SeriesName/text()</xpath>
     </field>
+    
     <field name="Country">
       <xpath>/ddi:DDIInstance/s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation[r:Values/r:GeographyValue/r:GeographyCode/r:Value/@codeListID="ISO3166-1"]/r:Values/r:GeographyValue/r:GeographyName[@xml:lang="en"]/text()</xpath>
       <xpath>/ddi:DDIInstance/s:StudyUnit/c:ConceptualComponent/c:GeographicLocationScheme/r:GeographicLocation[r:Values/r:GeographyValue/r:GeographyCode/r:Value/@codeListID="ISO3166-1"]/r:Values/r:GeographyValue/r:GeographyName/text()</xpath>
@@ -51,21 +54,37 @@
     <field name="title">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator[@xml:lang='en']/text()</xpath>
     </field>
+    
     <field name="notes">
       <xpath>/ddi:DDIInstance/s:StudyUnit/s:Abstract/r:Content[@xml:lang = 'en']/text()</xpath>
     </field>
-
-    <field name="url">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:ExternalURLReference[1]/text()</xpath>
+    
+    <field name="Subject">
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text(), ';')</xpath>
     </field>
+    
     <field name="MetadataSource">
       <string expand="true">${filename}</string>
     </field>
-    <field name="MetadataSchema">
-      <string>http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd</string>
+    
+    <field name="url">
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:ExternalURLReference[1]/text()</xpath>
     </field>
+    
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
+    </field>
+    
+    <field name="Rights"></field>   
+    
+    <field name="ResourceType"></field>     
+    
+    <field name="SpacialCoverage"></field>    
+    
+    <field name="TemporialCoverage"></field>       
+    
+    <field name="MetadataSchema">
+      <string>http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd</string>
     </field>
   </mappings>
 </mapping-table>

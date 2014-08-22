@@ -8,44 +8,62 @@
         <field name="Creator">
             <xpath>/d:resource/d:creators/d:creator/d:creatorName/text()</xpath>
         </field>
+        
         <field name="Contributor">
             <xpath>/d:resource/d:contributors/d:contributor/d:contributorName/text()</xpath>
         </field>
+        
         <field name="Language">
             <xpath>/d:resource/d:language/text()</xpath>
         </field>
-        <field name="CreationDate">
-        </field>
+        
+        <field name="CreationDate"></field>
+        
         <field name="Format">
             <xpath>/d:resource/d:formats/d:format/text()</xpath>
         </field>
-        <field name="Discipline">
-        </field>
-        <field name="Collection">
-        </field>
-        <field name="Country">
-        </field>
+        
+        <field name="Discipline"></field>
+        
+        <field name="Collection"></field>
+        
+        <field name="Country"></field>
+        
         <field name="title">
             <xpath>/d:resource/d:titles/d:title[not(@titleType)]/text()</xpath>
             <xpath>/d:resource/d:titles/d:title/text()</xpath>
         </field>
+        
         <field name="notes">
             <xpath>/d:resource/d:descriptions/d:description/text()</xpath>
         </field>
+        
         <field name="Subject">
             <xpath>/d:resource/d:subjects/d:subject/text()</xpath>
-        </field>        
+        </field> 
+        
         <field name="url">
             <xpath>concat("http://doi.org/", /d:resource/d:identifier[@identifierType="DOI"]/text())</xpath>
         </field>
+        
         <field name="MetadataSource">
             <string expand="true">${filename}</string>
         </field>
-        <field name="MetadataSchema">
-            <string>http://schema.datacite.org/meta/kernel-3/metadata.xsd</string>
-        </field>        
+      
         <field name="fulltext">
             <xpath>normalize-space(string(/))</xpath>
-        </field>        
+        </field>
+        
+        <field name="Rights"></field>   
+        
+        <field name="ResourceType"></field>     
+        
+        <field name="SpacialCoverage"></field>    
+        
+        <field name="TemporialCoverage"></field> 
+        
+        <field name="MetadataSchema">
+            <string>http://schema.datacite.org/meta/kernel-3/metadata.xsd</string>
+        </field>  
     </mappings>
 </mapping-table>
