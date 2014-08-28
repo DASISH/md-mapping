@@ -22,7 +22,10 @@
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator/text()</xpath>
     </field>
     
-    <field name="Contributor"></field>
+    <field name="Contributor">
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor[@xml:lang='en']/text(), ';')</xpath>
+	  <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor/text(), ';')</xpath>
+	</field>
     
     <field name="Language">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:Citation/r:Language[1]/text()</xpath>
@@ -78,7 +81,7 @@
     <field name="Rights"></field>   
     
     <field name="ResourceType">
-		<xpath>/ddi:DDIInstance/s:StudyUnit/s:KindOfData/text()</xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/s:KindOfData/text()</xpath>
 	</field>
     
     <field name="SpacialCoverage"></field>
