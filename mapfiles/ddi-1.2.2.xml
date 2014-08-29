@@ -11,7 +11,7 @@
     </field>
     
     <field name="Contributor">
-      <xpath>string-join(distinct-values(//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text(), '; ')</xpath>
+      <xpath>string-join(distinct-values(//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text()), '; ')</xpath>
     </field>
     
     <field name="Language">
@@ -36,7 +36,7 @@
     </field>
     
     <field name="Country">
-      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:nation/text(), '; ')</xpath>
+      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:nation/text()), '; ')</xpath>
     </field>
     
     <field name="title">
@@ -49,7 +49,7 @@
     </field>
     
     <field name="Subject">
-      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:subject/d:keyword/text(), '; ')</xpath>
+      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:subject/d:keyword/text()), '; ')</xpath>
     </field>    
 
     <field name="url">
