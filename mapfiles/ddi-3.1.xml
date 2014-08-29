@@ -23,8 +23,8 @@
     </field>
     
     <field name="Contributor">
-      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor[@xml:lang='en']/text(), ';')</xpath>
-	  <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor/text(), ';')</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor[@xml:lang='en']/text()), ';')</xpath>
+	  <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor/text()), ';')</xpath>
 	</field>
     
     <field name="Language">
@@ -63,8 +63,8 @@
     </field>
     
     <field name="Subject">
-      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@xml:lang='en']/text(), ';')</xpath>  
-      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text(), ';')</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@xml:lang='en']/text()), ';')</xpath>  
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text()), ';')</xpath>
     </field>
     
     <field name="MetadataSource">

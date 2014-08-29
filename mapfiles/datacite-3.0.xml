@@ -6,11 +6,11 @@
     </namespaces>
     <mappings>
         <field name="Creator">
-            <xpath>string-join(distinct-values(/d:resource/d:creators/d:creator/d:creatorName/text(), ';'))</xpath>
+            <xpath>string-join(distinct-values(/d:resource/d:creators/d:creator/d:creatorName/text()), ';')</xpath>
         </field>
         
         <field name="Contributor">
-            <xpath>string-join(distinct-values(/d:resource/d:contributors/d:contributor/d:contributorName/text(), ';'))</xpath>
+            <xpath>string-join(distinct-values(/d:resource/d:contributors/d:contributor/d:contributorName/text()), ';')</xpath>
         </field>
         
         <field name="Language">
@@ -41,7 +41,7 @@
         </field>
         
         <field name="Subject">
-            <xpath>string-join(distinct-values(/d:resource/d:subjects/d:subject/text(), ';'))</xpath>
+            <xpath>string-join(distinct-values(/d:resource/d:subjects/d:subject/text()), ';')</xpath>
         </field> 
         
         <field name="url">
