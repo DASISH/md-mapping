@@ -72,7 +72,7 @@
     </field>
     
     <field name="url">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:ExternalURLReference[1]/text()</xpath>
+	  <xpath>/ddi:DDIInstance/s:StudyUnit/a:Archive/a:ArchiveSpecific/a:Collection/a:URI/text()</xpath>
     </field>
     
     <field name="fulltext">
