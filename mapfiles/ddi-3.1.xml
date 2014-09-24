@@ -34,7 +34,9 @@
 
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
     <field name="CreationDate">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/@versionDate </xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:PublicationDate/r:SimpleDate/text()</xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:PublicationDate/r:StartDate/text()</xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/@versionDate</xpath>
     </field>
     
     <field name="Format">
@@ -81,7 +83,9 @@
       <xpath>normalize-space(string(/))</xpath>
     </field>
     
-    <field name="Rights"></field>   
+    <field name="Rights">
+	  <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Copyright/text()</xpath>
+	</field>   
     
     <field name="ResourceType">
       <xpath>/ddi:DDIInstance/s:StudyUnit/s:KindOfData/text()</xpath>

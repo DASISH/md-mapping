@@ -26,7 +26,7 @@
     </field>
     
     <field name="Format">
-      <xpath>//d:codeBook/d:fileDscr//d:fileType/text()</xpath>
+      <xpath>//d:codeBook/d:fileDscr/d:fileType/text()</xpath>
     </field>
     
     <field name="Discipline"></field>
@@ -53,7 +53,7 @@
     </field>    
 
     <field name="url">
-      <xpath> //d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/@URI </xpath>
+      <xpath>//d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/@URI </xpath>
     </field>
     
     <field name="MetadataSource">
@@ -70,9 +70,15 @@
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:dataKind/text()</xpath>
     </field>     
     
-    <field name="SpacialCoverage"></field>    
+    <field name="SpacialCoverage">
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:geogCover/d:txt/text()</xpath>
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:geogCover/text()</xpath>
+    </field>    
     
-    <field name="TemporialCoverage"></field>       
+    <field name="TemporialCoverage">
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:timePrd/@date</xpath>
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:collDate/@date</xpath>
+    </field>       
     
     <field name="MetadataSchema">
       <string>http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd</string>
