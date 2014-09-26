@@ -53,7 +53,7 @@
     </field>    
 
     <field name="url">
-      <xpath>//d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/@URI </xpath>
+      <xpath>//d:codeBook/d:stdyDscr/d:dataAccs/d:setAvail/d:accsPlac/@URI</xpath>
     </field>
     
     <field name="MetadataSource">
