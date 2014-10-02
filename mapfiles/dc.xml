@@ -62,9 +62,13 @@
       <xpath>normalize-space(string(/))</xpath>
     </field>
     
-    <field name="Rights"></field>   
+    <field name="Rights">
+		<xpath>//dc:rights/text()</xpath>
+	</field>   
     
-    <field name="ResourceType"></field>     
+    <field name="ResourceType">
+		<xpath>//dc:type/text()</xpath>
+	</field>     
     
     <field name="SpacialCoverage"></field>    
     
