@@ -28,7 +28,7 @@
 	  </field>
     
     <field name="Language">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:Citation/r:Language[1]/text()</xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Language[1]/text()</xpath>
       <string>English</string>
     </field>
 
@@ -42,7 +42,6 @@
     <field name="Format">
 	    <xpath>/ddi:DDIInstance/s:StudyUnit/p:PhysicalDataProduct/p:PhysicalStructureScheme/p:PhysicalStructure/p:Format/text()</xpath>
 	    <xpath>/ddi:DDIInstance/s:StudyUnit/a:Archive/a:ArchiveSpecific/a:Item[1]/a:Format/text()</xpath>
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:OtherMaterial/r:MIMEType[1]/text()</xpath>
     </field>
     
     <field name="Discipline">
