@@ -44,9 +44,7 @@
 	    <xpath>/ddi:DDIInstance/s:StudyUnit/a:Archive/a:ArchiveSpecific/a:Item[1]/a:Format/text()</xpath>
     </field>
     
-    <field name="Discipline">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@codeListID="CESSDA topical classification"][@xml:lang='en']/text()</xpath>
-    </field>
+    <field name="Discipline"></field>
    
     <field name="Collection"> 
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:SeriesStatement/r:SeriesName/text()</xpath>
