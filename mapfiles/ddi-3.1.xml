@@ -24,7 +24,7 @@
     
     <field name="Contributor">
       <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor[@xml:lang='en']/text()), ';')</xpath>
-	    <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor/text()), ';')</xpath>
+	  <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Contributor/text()), ';')</xpath>
 	  </field>
     
     <field name="Language">
@@ -56,7 +56,9 @@
     </field>
 
     <field name="title">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator[@xml:lang='en']/text()</xpath>
+	  <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Title[@xml:lang='en']/text()</xpath>
+	  <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Title/text()</xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:title[@xml:lang='en']/text()</xpath>
     </field>
     
     <field name="notes">
