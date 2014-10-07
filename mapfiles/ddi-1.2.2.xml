@@ -15,8 +15,9 @@
     </field>
     
     <field name="Language">
-      <!-- There is no language element in DDI version 2.1. So "English" needs to be hard-coded as default language. -->
-      <string>English</string>
+	  <!-- No good filed to map language to in DDI 1.2.2 so we just grab the first xml:lang attribute -->
+      <xpath>/d:codeBook/@xml:lang</xpath>
+	  <xpath>/d:codeBook/@xml-lang</xpath>
     </field>
 
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
