@@ -18,7 +18,8 @@
         </field>
         
         <field name="CreationDate">
-            <xpath>/d:resource/d:dates/d:date[dateType="Collected"]/text()</xpath>
+		    <xpath>/d:resource/d:dates/d:date[@dateType="Created"]/text()</xpath>
+            <xpath>/d:resource/d:dates/d:date[@dateType="Collected"]/text()</xpath>
         </field>
         
         <field name="Format">
