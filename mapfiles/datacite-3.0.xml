@@ -75,6 +75,8 @@
         <field name="TemporialCoverage"></field> 
         
         <field name="DataProvider">
+			<xpath>/d:resource/d:contributors/d:contributor[@contributorType="HostingInstitution"]/d:contributorName/text()</xpath>
+			<xpath>/d:resource/d:contributors/d:contributor[@contributorType="Distributor"]/d:contributorName/text()</xpath>
             <xpath>/d:resource/d:contributors/d:contributor[@contributorType="Producer"]/d:contributorName/text()</xpath>
         </field>		
 		
