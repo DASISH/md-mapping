@@ -36,16 +36,19 @@
         <field name="Country"></field>
         
         <field name="title">
-            <xpath>/d:resource/d:titles/d:title[not(@titleType)]/text()</xpath>
+            <xpath>/d:resource/d:titles/d:title[not(@titleType)) and @xml:lang="en"]/text()</xpath>
+			<xpath>/d:resource/d:titles/d:title[not(@titleType))][1]/text()</xpath>
             <xpath>/d:resource/d:titles/d:title/text()</xpath>
         </field>
         
         <field name="notes">
-            <xpath>/d:resource/d:descriptions/d:description/text()</xpath>
+            <xpath>/d:resource/d:descriptions/d:description[@xml:lang="en"]/text()</xpath>
+			<xpath>/d:resource/d:descriptions/d:description/text()</xpath>
         </field>
         
         <field name="Subject">
-            <xpath>string-join(distinct-values(/d:resource/d:subjects/d:subject/text()), ';')</xpath>
+            <xpath>string-join(distinct-values(/d:resource/d:subjects/d:subject[@xml:lang="en"]/text()), ';')</xpath>
+			<xpath>string-join(distinct-values(/d:resource/d:subjects/d:subject/text()), ';')</xpath>
         </field> 
         
         <field name="url">
