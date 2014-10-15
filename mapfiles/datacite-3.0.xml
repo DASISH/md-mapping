@@ -70,10 +70,14 @@
         
         <field name="SpacialCoverage">
             <xpath>/d:resource/d:geoLocations/d:geoLocation/d:geoLocationPlace/text()</xpath>
-        </field>    
+        </field> 
         
         <field name="TemporialCoverage"></field> 
         
+        <field name="DataProvider">
+            <xpath>/d:resource/d:contributors/d:contributor[@contributorType="Producer"]/d:contributorName/text()</xpath>
+        </field>		
+		
         <field name="MetadataSchema">
             <string>http://schema.datacite.org/meta/kernel-3/metadata.xsd</string>
         </field>  
