@@ -28,7 +28,10 @@
         
         <field name="Discipline"></field>
         
-        <field name="Collection"></field>
+        <field name="Collection">
+			<xpath>/d:resource/d:resourceType[@resourceTypeGeneral="Collection"]/text()</xpath>
+			<xpath>/d:resource/d:resourceType[@resourceType="Collection"]/text()</xpath>
+		</field>
         
         <field name="Country"></field>
         
