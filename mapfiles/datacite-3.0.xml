@@ -75,8 +75,8 @@
         </field>   
         
         <field name="ResourceType">
-            <xpath>/d:resource/d:resourceType/text()</xpath>
-			<xpath>/d:resource/d:resourceTypeGeneral/text()</xpath>
+			<xpath>string-join(distinct-values(/d:resource/d:resourceType/@resourceTypeGeneral/text(), ';'))</xpath>
+            <xpath>string-join(distinct-values(/d:resource/d:resourceType/text(), ';'))</xpath>
         </field>     
         
         <field name="SpacialCoverage">
