@@ -36,10 +36,12 @@
 
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
     <field name="CreationDate">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:PublicationDate/r:SimpleDate/text()</xpath>
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:PublicationDate/r:StartDate/text()</xpath>
-      <xpath>/ddi:DDIInstance/s:StudyUnit/@versionDate</xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/d:DataCollection[1]/d:CollectionEvent/d:DataCollectionDate/r:StartDate/text()</xpath>
     </field>
+    
+    <field name="PublicationDate">
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:PublicationDate/r:SimpleDate/text()</xpath>
+    </field>   
     
     <field name="Format">
 	    <xpath>/ddi:DDIInstance/s:StudyUnit/p:PhysicalDataProduct/p:PhysicalStructureScheme/p:PhysicalStructure/p:Format/text()</xpath>

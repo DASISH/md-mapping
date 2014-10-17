@@ -78,7 +78,8 @@
     </field>
 
     <field name="Rights">
-      <xpath>//d:codeBook/d:stdyDscr/d:dataAccs/d:setAvail/d:avlStatus/text()</xpath>
+      <xpath>/d:codeBook/d:stdyInfo/d:citation/d:prodStmt/d:copyright/text()</xpath>
+      <xpath>/d:codeBook/d:stdyDscr/d:dataAccs/d:setAvail/d:avlStatus/text()</xpath>
     </field>
 
     <field name="ResourceType">
@@ -91,12 +92,13 @@
     </field>
 
     <field name="TemporialCoverage">
+      <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:timePrd/text()</xpath>
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:timePrd/@date</xpath>
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:collDate/@date</xpath>
     </field>
 
     <field name="DataProvider">
-      <xpath>string-join(distinct-values(//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:producer/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(/d:codeBook/d:stdyInfo/d:citation/d:prodStmt/d:producer/text()), '; ')</xpath>
     </field>
 
     <field name="MetadataSchema">
