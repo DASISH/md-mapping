@@ -16,10 +16,12 @@
   </namespaces>
   <mappings>
     <field name="Creator">
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Creator[@xml:lang='en']/text()</xpath>
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator[@xml:lang='en']/text()</xpath>
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Creator/text()</xpath>
-      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator/text()</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Creator[@xml:lang='en']/text()), ';')</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator[@xml:lang='en']/text()), ';')</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Creator/text()), ';')</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/a:Archive/a:OrganizationScheme/a:Individual/a:IndividualName/text()), ';')</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/a:Archive/a:OrganizationScheme/a:Organization/a:Individual/a:IndividualName/text()), ';')</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Citation/dc:DCElements/dc2:creator/text()), ';')</xpath>
     </field>
     
     <field name="Contributor">
@@ -70,8 +72,8 @@
 	</field>	
 	
     <field name="Subject">
-      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@xml:lang='en']/text()), ';')</xpath>  
-      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text()), ';')</xpath>
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject[@xml:lang='en']/text() | /ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Keyword[@xml:lang='en']/text()), ';')</xpath>  
+      <xpath>string-join(distinct-values(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Subject/text() | /ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TopicalCoverage/r:Keyword/text()), ';')</xpath>  
     </field>
     
     <field name="MetadataSource">
@@ -87,6 +89,7 @@
     </field>
     
     <field name="Rights">
+      <xpath>/s:StudyUnit/a:Archive/a:Access/a:AccessConditions/text()</xpath>
 	    <xpath>/ddi:DDIInstance/s:StudyUnit/r:Citation/r:Copyright/text()</xpath>
 	  </field>   
     
@@ -96,6 +99,7 @@
     
     <field name="SpacialCoverage">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage/r:Description[@xml:lang='en']/text()</xpath>
+      <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage/r:Description/text()</xpath>
     </field>
     
     <field name="TemporialCoverage">
