@@ -13,7 +13,9 @@
         (/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:AuthEnty/text())</xpath>
     </field>
 
-    <field name="Contributor"/>
+    <field name="Contributor">
+      <xpath>/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:othId/text()</xpath>
+    </field>
 
     <field name="Language">
       <!-- No good filed to map language to in DDI 1.2.2 so we just grab the first xml:lang attribute -->
@@ -51,7 +53,6 @@
     </field>
 
     <field name="PID">
-      <xpath>string-join(distinct-values(/d:codeBook/d:docDscr/d:citation/d:rspStmt/d:othId[@type="DOI"]/text()), '; ')</xpath>
       <xpath>string-join(distinct-values(/d:codeBook/d:docDscr/d:citation/d:titlStmt/d:IDNo/text()), '; ')</xpath>
     </field>
     
