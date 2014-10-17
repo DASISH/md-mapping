@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <mapping-table>
-    <!-- Mappings for DataCite version 3.0 -->
-    <namespaces>
-        <namespace ns="d" uri="http://datacite.org/schema/kernel-3"/>
-    </namespaces>
-    <mappings>
+	<!-- Mappings for DataCite version 3.0 -->
+	<namespaces>
+		<namespace ns="d" uri="http://datacite.org/schema/kernel-3"/>
+	</namespaces>
+	<mappings>
 		<field name="Creator">
 			<xpath>string-join(distinct-values(/d:resource/d:creators/d:creator/d:creatorName/text()), ';')</xpath>
 		</field>
@@ -30,9 +30,10 @@
 			<xpath>/d:resource/d:formats/d:format/text()</xpath>
 		</field>
 
-		<field name="Discipline"></field>
+		<field name="Discipline"/>
 
 		<field name="Collection">
+			<xpath>/d:resource/d:descriptions/d:description[@descriptionType="seriesInformation"]/text()</xpath>
 			<xpath>/d:resource/d:resourceType/[@resourceTypeGeneral="Collection"]/text()</xpath>
 		</field>
 
@@ -50,13 +51,13 @@
 		</field>
 
 		<field name="PID">
-		<xpath>/d:resource/d:descriptions[@identifierType="DOI"]/text()</xpath>
+			<xpath>/d:resource/d:descriptions[@identifierType="DOI"]/text()</xpath>
 		</field>
 
 		<field name="Subject">
 			<xpath>string-join(distinct-values(/d:resource/d:subjects/d:subject[@xml:lang="en"]/text()), ';')</xpath>
 			<xpath>string-join(distinct-values(/d:resource/d:subjects/d:subject/text()), ';')</xpath>
-		</field> 
+		</field>
 
 		<field name="url">
 			<xpath>concat("http://doi.org/", /d:resource/d:identifier[@identifierType="DOI"]/text())</xpath>
@@ -72,28 +73,30 @@
 
 		<field name="Rights">
 			<xpath>/d:resource/d:rightsList/d:rights/text()</xpath>
-		</field>   
+		</field>
 
 		<field name="ResourceType">
 			<xpath>string-join(distinct-values(/d:resource/d:resourceType/@resourceTypeGeneral/text(), ';'))</xpath>
 			<xpath>string-join(distinct-values(/d:resource/d:resourceType/text(), ';'))</xpath>
-		</field>     
+		</field>
 
 		<field name="SpacialCoverage">
-		<xpath>/d:resource/d:geoLocations/d:geoLocation/d:geoLocationPlace/text()</xpath>
-		</field> 
+			<xpath>/d:resource/d:geoLocations/d:geoLocation/d:geoLocationPlace/text()</xpath>
+		</field>
 
-		<field name="TemporialCoverage"></field> 
+		<field name="TemporialCoverage">
+			<xpath>/d:resource/d:dates/d:date[@dateType="Collected"]/text()</xpath>
+		</field>
 
 		<field name="DataProvider">
 			<xpath>/d:resource/d:publisher/text()</xpath>
 			<xpath>/d:resource/d:contributors/d:contributor[@contributorType="HostingInstitution"]/d:contributorName/text()</xpath>
 			<xpath>/d:resource/d:contributors/d:contributor[@contributorType="Distributor"]/d:contributorName/text()</xpath>
 			<xpath>/d:resource/d:contributors/d:contributor[@contributorType="Producer"]/d:contributorName/text()</xpath>
-		</field>		
+		</field>
 
 		<field name="MetadataSchema">
 			<string>http://schema.datacite.org/meta/kernel-3/metadata.xsd</string>
-		</field>  
-    </mappings>
+		</field>
+	</mappings>
 </mapping-table>
