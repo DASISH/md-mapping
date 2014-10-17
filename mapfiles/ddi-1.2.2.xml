@@ -53,7 +53,8 @@
     </field>
 
     <field name="PID">
-      <xpath>string-join(distinct-values(/d:codeBook/d:docDscr/d:citation/d:titlStmt/d:IDNo/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(/d:codeBook/d:stdyDscr/d:citation/d:titlStmt/d:IDNo/text()), '; ')</xpath>
+      <xpath>/d:codeBook/d:stdyDscr/d:citation/d:rspStmt/d:othId[@type="DOI"]/text()</xpath>
     </field>
     
     <field name="PublicationDate">
@@ -61,8 +62,7 @@
     </field>
 
     <field name="Subject">
-      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:subject/d:topcClas/text()), '; ')</xpath>
-      <xpath>string-join(distinct-values(//d:codeBook/d:stdyDscr/d:stdyInfo/d:subject/d:keyword/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(codeBook/stdyDscr/stdyInfo/subject/keyword/text()  | codeBook/stdyDscr/stdyInfo/subject/topcClas/text() ), '; ')</xpath>
     </field>
 
     <field name="url">
