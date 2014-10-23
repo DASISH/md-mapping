@@ -36,17 +36,20 @@
     <field name="Country"></field>
 
     <field name="title">
-      <xpath>//dc:title/text()</xpath>
+      <xpath>//dc:title[@xml:lang="en"]/text()</xpath>
+	  <xpath>//dc:title/text()</xpath>
       <xpath>//dc:identifier/text()</xpath>
       <string>(untitled)</string>
     </field>
     
     <field name="notes">
-      <xpath>string-join(distinct-values(//dc:description/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(//dc:description[@xml:lang="en"]/text()), '; ')</xpath>
+	  <xpath>string-join(distinct-values(//dc:description/text()), '; ')</xpath>
     </field>
     
     <field name="Subject">
-      <xpath>string-join(distinct-values(//dc:subject/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(//dc:subject[@xml:lang="en"]/text()), '; ')</xpath>
+	  <xpath>string-join(distinct-values(//dc:subject/text()), '; ')</xpath>
     </field>    
 
     <field name="url">
@@ -67,7 +70,7 @@
 	</field>   
     
     <field name="ResourceType">
-		<xpath>//dc:type/text()</xpath>
+		<xpath>string-join(distinct-values(//dc:type/text()), '; ')</xpath>
 	</field>     
     
     <field name="SpacialCoverage"></field>    
