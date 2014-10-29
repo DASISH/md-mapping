@@ -78,7 +78,7 @@
     <field name="TemporialCoverage"></field>    
     
     <field name="DataProvider">
-	<xpath>//dc:publisher/text() </xpath>
+	<xpath>//dc:publisher/text()</xpath>
     </field>
     <field name="MetadataSchema"></field>
   </mappings>
