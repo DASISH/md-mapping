@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<mapping-table>
+  <!--
+      Mapping from Eurpeana Semantic Elements definition 3.4 to JMD semantics
+  -->
+  <namespaces>
+    <namespace ns="dc" uri="http://purl.org/dc/elements/1.1/"/>
+    <namespace ns="dcterms" uri="http://purl.org/dc/terms/"/>
+    <namespace ns="europeana" uri="http://www.europeana.eu/schemas/ese/"/>
+  </namespaces>
+
+  <mappings>
+
+    <field name="Creator"><!-- Check if this is intended to be empty --></field>
+
+    <field name="Collection">
+      <xpath>string-join(distinct-values(//dcterms:isPartOf/text()), '; ')</xpath>
+    </field>
+
+    <field name="Contributor">
+      <xpath>string-join(distinct-values(//dc:contributor/text()), '; ')</xpath>
+    </field>
+
+    <field name="Country">
+      <xpath>string-join(distinct-values(//dcterms:spatial/text()), '; ')</xpath>
+    </field>
+
+    <field name="CreationDate">
+      <!-- Dash or nothing at all? -->
+    </field>
+
+    <field name="DataProvider">
+      <xpath>string-join(distinct-values(//europeana:dataProvider/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(//europeana:provider/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(//dc:publisher/text()), '; ')</xpath>
+    </field>
+
+    <field name="Discipline">
+      <!-- Dash or nothing at all? -->
+    </field>
+
+    <field name="Format">
+      <!-- Dash or nothing at all? -->
+    </field>
+
+    <field name="Language">
+      <xpath>string-join(distinct-values(//dc:language/text()), '; ')</xpath>
+    </field>
+
+    <field name="MetadataSchema">
+      <string>http://www.europeana.eu/schemas/ese/ESE-V3.4.xsd</string>
+    </field>
+
+    <field name="notes"></field>
+
+    <field name="PID">
+      <xpath>//dc:identifier/text()</xpath>
+    </field>
+
+    <field name="PublicationDate">
+      <!-- Dash or nothing at all? -->
+    </field>
+
+    <field name="ResourceType">
+      <!-- check the second xpath expression -->
+      <xpath>string-join(distinct-values(//dc:type/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(//europeana:type/text()), '; ')</xpath>
+    </field>
+
+    <field name="Rights">
+      <xpath>string-join(distinct-values(//europeana:rights/text()), '; ')</xpath>
+    </field>
+
+    <field name="SpacialCoverage">
+      <xpath>string-join(distinct-values(//dcterms:spatial/text()), '; ')</xpath>
+    </field>
+
+    <field name="Subject">
+      <!-- Dash or nothing at all? -->
+    </field>
+
+    <field name="TemporialCoverage">
+      <xpath>string-join(distinct-values(//dcterms:temporal/text()), '; ')</xpath>
+    </field>
+
+    <field name="title">
+      <xpath>//dc:title[@xml:lang="en"]/text()</xpath>
+      <xpath>//dc:title/text()</xpath>
+      <xpath>//dc:identifier/text()</xpath>
+      <string>(untitled)</string>
+      <!-- Taken from the DC mapping, different from Matej's suggestion however-->
+    </field>
+
+    <field name="url">
+      <xpath>string-join(distinct-values(//europeana:isShownAt/text()), '; ')</xpath>
+      <xpath>string-join(distinct-values(//europeana:object/text()), '; ')</xpath>
+    </field>
+
+    <field name="MetadataSource">
+      <string expand="true">${filename}</string>
+    </field>
+
+    <field name="fulltext">
+      <xpath>normalize-space(string(/))</xpath>
+    </field>
+
+  </mappings>
+</mapping-table>
