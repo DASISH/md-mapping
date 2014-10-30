@@ -16,9 +16,12 @@
       <xpath>string-join(distinct-values(//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Actors/cmd:Actor/cmd:Name/text()), ';')</xpath>
     </field>
     
-  	<field name="Language" cmd:facetConcepts="language languageCode languages">
+  	<field name="Language">
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Content/cmd:Content_Languages/cmd:Content_Language/cmd:Name/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:Song/cmd:Language/cmd:LanguageName/text()</xpath>
+      <cmd:facet>language</cmd:facet>
+      <cmd:facet>languageCode</cmd:facet>
+      <cmd:facet>languages</cmd:facet>
     </field>
     
     <!-- The date field is unstructured. A date unifying function will be implemented later. -->
@@ -27,9 +30,10 @@
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Date/text()</xpath>
     </field>
     
-  	<field name="Format" cmd:facetConcepts="format">
+  	<field name="Format">
       <xpath>string-join(distinct-values(//cmd:CMD/cmd:Resources/cmd:ResourceProxyList/cmd:ResourceProxy/cmd:ResourceType/@mimetype),';')</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Resources/cmd:WrittenResource/cmd:Format/text()</xpath>
+      <cmd:facet>format</cmd:facet>
     </field>
     
     <field name="Discipline">
@@ -37,28 +41,34 @@
       <string>Linguistics</string>
     </field>
     
-  	<field name="Collection" cmd:facetConcepts="collection">
+  	<field name="Collection">
       <xpath>//cmd:CMD/cmd:Header/cmd:MdCollectionDisplayName/text()</xpath>
+      <cmd:facet>collection</cmd:facet>
     </field>
     
-    <field name="Country" cmd:facetConcepts="country">
+    <field name="Country">
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Location/cmd:Country/text()</xpath>
+      <cmd:facet>country</cmd:facet>
     </field>
 
-  	<field name="title" cmd:facetConcepts="name">
+  	<field name="title">
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Title/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Name/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:imdi-corpus/cmd:Corpus/cmd:Title/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:imdi-corpus/cmd:Corpus/cmd:Name/text()</xpath>
+  	  <cmd:facet>name</cmd:facet>
     </field>
     
     <field name="notes">
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:descriptions/cmd:Description[@LanguageId = 'ISO639:eng' or @LanguageId = 'ISO639-2:eng' or @LanguageId = '']/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Resources/cmd:Source/cmd:descriptions/cmd:Description[@LanguageId = 'ISO639:eng' or @LanguageId = 'ISO639-2:eng' or @LanguageId = '']/text()</xpath>
       <xpath>//cmd:CMD/cmd:Components/cmd:imdi-corpus/cmd:Corpus/cmd:descriptions/cmd:Description[@LanguageId = 'ISO639:eng' or @LanguageId = 'ISO639-2:eng' or @LanguageId = '']/text()</xpath>
+      <cmd:facet>description</cmd:facet>
     </field>
     
-  	<field name="Subject" cmd:facetConcepts="subject"></field>
+  	<field name="Subject">
+      <cmd:facet>subject</cmd:facet>
+  	</field>
 
     <field name="url">
       <xpath>if (contains(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(), 'http://') or contains(//cmd:CMD/cmd:Header/cmd:MdSelfLink/text(), 'https://')) then //cmd:CMD/cmd:Header/cmd:MdSelfLink/text() else ''</xpath>
@@ -70,18 +80,21 @@
       <string expand="true">${filename}</string>
     </field>
 
-  	<field name="fulltext" cmd:facetConcepts="text">
+  	<field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
+      <cmd:facet>text</cmd:facet>
     </field>
     
-    <field name="Rights"></field>   
+    <field name="Rights"/>   
     
-  	<field name="ResourceType" cmd:facetConcepts="resourceClass"></field>     
+  	<field name="ResourceType">
+      <cmd:facet>resourceClass</cmd:facet>
+  	</field>
     
-    <field name="SpacialCoverage"></field>    
+    <field name="SpacialCoverage"/>    
     
-    <field name="TemporialCoverage"></field>       
+    <field name="TemporialCoverage"/>       
     
-    <field name="MetadataSchema"></field> 
+    <field name="MetadataSchema"/> 
   </mappings>
 </mapping-table>
