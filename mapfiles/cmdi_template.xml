@@ -94,6 +94,21 @@
     <field name="SpacialCoverage"/>    
     
     <field name="TemporialCoverage"/>       
+
+    <field name="DataProvider">
+        <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Project/cmd:Contact/cmd:Organisation/text()</xpath>
+        <cmd:facet>organisation</cmd:facet>
+    </field>
+
+    <field name="PublicationDate">
+        <!-- works for CLARIN_Centre_Vienna_Language_Resources_Portal -->
+        <xpath>//cmd:CMD/cmd:Components/cmd:LexicalResourceProfile/cmd:GeneralInfo/cmd:PublicationDate/text()</xpath>
+       
+        <!-- fire creation date if publication date is not found -->
+        <xpath>//cmd:CMD/cmd:Header/cmd:MdCreationDate/text()</xpath>
+       <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:Date/text()</xpath>        
+        <!-- <cmd:facet>date</cmd:facet> -->
+    </field>
     
     <field name="MetadataSchema"/> 
   </mappings>
