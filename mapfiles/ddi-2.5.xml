@@ -9,7 +9,7 @@
        <xpath> //d:codeBook/d:stdyDscr/d:citation/d:rspStmt/d:AuthEnty/text()  </xpath>
     </field>
     <field name="Contributor">
-       <xpath> //d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/text() </xpath>
+       <xpath> //d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:depositr/text() </xpath>
     </field>
     <field name="Language">
     <string>English</string>
@@ -41,6 +41,16 @@
     </field>
     <field name="fulltext">
       <xpath>normalize-space(string(/))</xpath>
+    </field>
+    
+    <field name="DataProvider">
+      <xpath>//d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distrbtr/text()</xpath>
+    </field>
+    
+    <field name="PublicationDate">
+      <xpath>//d:codeBook/d:stdyDscr/d:citation/d:distStmt/d:distDate/text()</xpath>
+      <xpath>//d:codeBook/d:docDscr/d:citation/d:prodStmt/d:prodDate/text()</xpath>
+
     </field>
   </mappings>
 </mapping-table>
