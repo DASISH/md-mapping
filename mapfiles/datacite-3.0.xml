@@ -34,14 +34,14 @@
 
 		<field name="Collection">
 			<xpath>/d:resource/d:descriptions/d:description[@descriptionType="seriesInformation"]/text()</xpath>
-			<xpath>/d:resource/d:resourceType/[@resourceTypeGeneral="Collection"]/text()</xpath>
+			<xpath>/d:resource/d:resourceType[@resourceTypeGeneral="Collection"]/text()</xpath>
 		</field>
 
 		<field name="Country"></field>
 
 		<field name="title">
-			<xpath>/d:resource/d:titles/d:title[not(@titleType)) and @xml:lang="en"]/text()</xpath>
-			<xpath>/d:resource/d:titles/d:title[not(@titleType))][1]/text()</xpath>
+			<xpath>/d:resource/d:titles/d:title[not(@titleType) and @xml:lang="en"]/text()</xpath>
+			<xpath>/d:resource/d:titles/d:title[not(@titleType)][1]/text()</xpath>
 			<xpath>/d:resource/d:titles/d:title/text()</xpath>
 		</field>
 
@@ -76,8 +76,8 @@
 		</field>
 
 		<field name="ResourceType">
-			<xpath>string-join(distinct-values(/d:resource/d:resourceType/@resourceTypeGeneral/text(), ';'))</xpath>
-			<xpath>string-join(distinct-values(/d:resource/d:resourceType/text(), ';'))</xpath>
+			<xpath>string-join(distinct-values(/d:resource/d:resourceType/@resourceTypeGeneral), ';')</xpath>
+			<xpath>string-join(distinct-values(/d:resource/d:resourceType/text()), ';')</xpath>
 		</field>
 
 		<field name="SpacialCoverage">
