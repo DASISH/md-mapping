@@ -71,7 +71,7 @@
       <xpath>string-join(distinct-values(//europeana:rights/text()), '; ')</xpath>
     </field>
 
-    <field name="SpacialCoverage">
+    <field name="SpatialCoverage">
       <xpath>string-join(distinct-values(//dcterms:spatial/text()), '; ')</xpath>
     </field>
 
@@ -79,7 +79,7 @@
       <!-- Dash or nothing at all? -->
     </field>
 
-    <field name="TemporialCoverage">
+    <field name="TemporalCoverage">
       <xpath>string-join(distinct-values(//dcterms:temporal/text()), '; ')</xpath>
     </field>
 
