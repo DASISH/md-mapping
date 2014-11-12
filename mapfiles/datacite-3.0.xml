@@ -80,11 +80,11 @@
 			<xpath>string-join(distinct-values(/d:resource/d:resourceType/text()), ';')</xpath>
 		</field>
 
-		<field name="SpacialCoverage">
+		<field name="SpatialCoverage">
 			<xpath>/d:resource/d:geoLocations/d:geoLocation/d:geoLocationPlace/text()</xpath>
 		</field>
 
-		<field name="TemporialCoverage">
+		<field name="TemporalCoverage">
 			<xpath>/d:resource/d:dates/d:date[@dateType="Collected"]/text()</xpath>
 		</field>
 
