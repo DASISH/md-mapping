@@ -78,9 +78,9 @@
     
     <field name="ResourceType"><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1361876010597')])]/cmd:Components/(cmd:VK-semantic/cmd:dc-terms/cmd:type/text())),';')</xpath><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1288172614023')])]/cmd:Components/(cmd:DcmiTerms/cmd:type/text())),';')</xpath><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1360230992145')])]/cmd:Components/(cmd:OLAC-DcmiTerms/cmd:type/text())),';')</xpath><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1361876010653')])]/cmd:Components/(cmd:DiscAn_TextCorpus/cmd:GeneralInfo/cmd:ResourceClass/text())),';')</xpath><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1357720977514')])]/cmd:Components/(cmd:BilingualDictionaryProfile/cmd:GeneralInfo/cmd:ResourceClass/text())),';')</xpath><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1290431694579')])]/cmd:Components/(cmd:LexicalResourceProfile/cmd:GeneralInfo/cmd:ResourceClass/text())),';')</xpath><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1311927752306')])]/cmd:Components/(cmd:ToolService/cmd:applicationType/text())),';')</xpath><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1361876010548')])]/cmd:Components/(cmd:VK-book/cmd:dc-terms/cmd:type/text())),';')</xpath><xpath>string-join(distinct-values(/cmd:CMD[exists(cmd:Header/cmd:MdProfile[contains(.,'clarin.eu:cr1:p_1290431694580')])]/cmd:Components/(cmd:TextCorpusProfile/cmd:GeneralInfo/cmd:ResourceClass/text())),';')</xpath><xpath>/cmd:CMD/cmd:Components/cmd:LrtInventoryResource/cmd:LrtCommon/cmd:ResourceType/text()</xpath><xpath>/cmd:CMD/cmd:Components/cmd:OLAC-DcmiTerms/cmd:type/text()</xpath><xpath>/cmd:CMD/cmd:Components/cmd:mods/cmd:typeOfResource/text()</xpath></field>     
     
-    <field name="SpacialCoverage"/>    
+    <field name="SpatialCoverage"/>    
     
-    <field name="TemporialCoverage"/>       
+    <field name="TemporalCoverage"/>       
     
     <field name="MetadataSchema"/> 
   </mappings>
