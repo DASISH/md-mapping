@@ -99,12 +99,12 @@
       <xpath>/ddi:DDIInstance/s:StudyUnit/s:KindOfData/text()</xpath>
 	  </field>
     
-    <field name="SpacialCoverage">
+    <field name="SpatialCoverage">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage/r:Description[@xml:lang='en']/text()</xpath>
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:SpatialCoverage/r:Description/text()</xpath>
     </field>
     
-    <field name="TemporialCoverage">
+    <field name="TemporalCoverage">
       <xpath>/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:SimpleDate/text()</xpath>
       <xpath>string-join(/ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:StartDate/text(), '-', /ddi:DDIInstance/s:StudyUnit/r:Coverage/r:TemporalCoverage/r:ReferenceDate/r:EndDate/text())</xpath>
     </field>
