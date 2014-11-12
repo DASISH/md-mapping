@@ -73,9 +73,9 @@
 		<xpath>string-join(distinct-values(//dc:type/text()), '; ')</xpath>
 	</field>     
     
-    <field name="SpacialCoverage"></field>    
+    <field name="SpatialCoverage"></field>    
     
-    <field name="TemporialCoverage"></field>    
+    <field name="TemporalCoverage"></field>    
     
     <field name="DataProvider">
 	    <xpath>//dc:publisher/text()</xpath>
