@@ -86,12 +86,12 @@
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:dataKind/text()</xpath>
     </field>
 
-    <field name="SpacialCoverage">
+    <field name="SpatialCoverage">
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:geogCover/d:txt/text()</xpath>
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:geogCover/text()</xpath>
     </field>
 
-    <field name="TemporialCoverage">
+    <field name="TemporalCoverage">
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:timePrd/text()</xpath>
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:timePrd/@date</xpath>
       <xpath>//d:codeBook/d:stdyDscr/d:stdyInfo/d:sumDscr/d:collDate/@date</xpath>
