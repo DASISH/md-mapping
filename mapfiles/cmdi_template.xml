@@ -91,9 +91,9 @@
       <cmd:facet>resourceClass</cmd:facet>
   	</field>
     
-    <field name="SpacialCoverage"/>    
+    <field name="SpatialCoverage"/>    
     
-    <field name="TemporialCoverage"/>       
+    <field name="TemporalCoverage"/>       
 
     <field name="DataProvider">
         <xpath>//cmd:CMD/cmd:Components/cmd:Session/cmd:MDGroup/cmd:Project/cmd:Contact/cmd:Organisation/text()</xpath>
