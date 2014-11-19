@@ -44,6 +44,7 @@
     </field>
 
     <field name="title">
+      <xpath>//d:codeBook/d:stdyDscr/d:citation/d:titlStmt/d:titl/text()</xpath>
       <xpath>//d:codeBook/d:docDscr/d:citation/d:titlStmt/d:titl/text()</xpath>
       <string>(untitled)</string>
     </field>
